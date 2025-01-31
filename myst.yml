@@ -10,7 +10,7 @@ project:
   github: https://github.com/schnaitter/Selbstlernkurs_Python
   toc:
     - file: introduction.md
-    
+  exports:
 site:
   template: book-theme
   # options:
