@@ -10,5 +10,5 @@ In diesem Selbstlernkurs erlernen Sie:
 - wie Sie mit Personen Ihrer IT-Abteilung über Programmieraufgaben sprechen.
 :::
 
-# Aufbau des Kurses
+# Inhaltsverzeichnis
 _table of contents_
