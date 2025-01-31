@@ -2,12 +2,15 @@
 version: 1
 project:
   id: 009c9d71-a4fc-4438-8118-31289551ac9b
-  # title:
-  # description:
+  title: Selbstlernkurs Python
+  description: |
+    Dieser Selbstlernkurs soll angehende Bibliotheks- und Informationswissenschaftler\*innen (insbesondere im weiterbildenden Masterstudiengang an der Humboldt-Universität zu Berlin) befähigen kleinere Programmieraufgaben mit bibliothekarischen Daten umzusetzen.
   # keywords: []
-  # authors: []
-  # github:
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  authors: ["Hannes Schnaitter"]
+  github: https://github.com/schnaitter/Selbstlernkurs_Python
+  toc:
+    - file: introduction.md
+    
 site:
   template: book-theme
   # options:
