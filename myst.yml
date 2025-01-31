@@ -46,7 +46,6 @@ project:
       children:
         - file: Hinterwerk/Glossar.md
         - file: Hinterwerk/Index.md
-        - file: Hinterwerk/Autor_innen.md
         - file: Hinterwerk/Impressum.md
   exports:
 site:
