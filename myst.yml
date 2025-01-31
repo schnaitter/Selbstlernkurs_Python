@@ -8,6 +8,12 @@ project:
   # keywords: []
   authors:
     - name: "Hannes Schnaitter"
+      affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+      orcid: 0000-0002-1602-6032
+      corresponding: true
+      email: hannes.schnaitter.1@ibi.hu-berlin.de
+      roles:
+        - Writing
   github: https://github.com/schnaitter/Selbstlernkurs_Python
   exclude:
     - _build
