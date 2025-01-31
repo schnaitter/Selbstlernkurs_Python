@@ -14,7 +14,7 @@ project:
     - README.md
     - LICENSE.md
   toc:
-    - file: index.md
+    - file: intro.md
     - title: Einleitung
       children:
         - file: Einleitung/Kursinhalte.md
@@ -37,7 +37,11 @@ project:
     - title: "Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei"
       children: []
     - title: Hinterwerk
-      children: []
+      children:
+        - file: Hinterwerk/Glossar.md
+        - file: Hinterwerk/Index.md
+        - file: Hinterwerk/Autor_innen.md
+        - file: Hinterwerk/Impressum.md
   exports:
 site:
   template: book-theme
