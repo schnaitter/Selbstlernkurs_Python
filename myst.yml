@@ -12,6 +12,7 @@ project:
       orcid: 0000-0002-1602-6032
       corresponding: true
       email: hannes.schnaitter.1@ibi.hu-berlin.de
+      github: schnaitter
       roles:
         - Writing
   github: https://github.com/schnaitter/Selbstlernkurs_Python
