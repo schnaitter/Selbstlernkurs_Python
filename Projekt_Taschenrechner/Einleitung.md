@@ -1,4 +1,4 @@
 ---
 lang: de-DE
-title: "Projekt: Taschenrechner"
+title: Projektbeschreibung
 ---

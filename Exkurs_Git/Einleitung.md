@@ -1,4 +1,4 @@
 ---
 lang: de-DE
-title: "Exkurs: Git"
+title: Einleitung
 ---
