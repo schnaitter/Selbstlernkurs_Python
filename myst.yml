@@ -40,21 +40,29 @@ project:
         - file: Einleitung/Spezifika_Fernstudium.md
         - file: Einleitung/Nutzung_des_Kurses.md
     - title: Installation und technische Voraussetzungen
-      children: []
+      children:
+        - file: Installation_Technik/Einleitung.md
     - title: "Exkurs: Unix"
-      children: []
+      children:
+        - file: Exkurs_Unix/Einleitung.md
     - title: "Projekt: Python als Taschenrechner"
-      children: []
+      children:
+        - file: Projekt_Taschenrechner/Einleitung.md
     - title: "Projekt: Zählen einer ISBN in einem Datensatz (CSV)"
-      children: []
+      children:
+        - file: Projekt_CSV_I/Einleitung.md
     - title: "Exkurs: Git"
-      children: []
+      children:
+        - file: Exkurs_Git/Einleitung.md
     - title: "Projekt: Statistiken eines Datensatzes (CSV)"
-      children: []
+      children:
+        - file: Projekt_CSV_II/Einleitung.md
     - title: "Projekt: MARC-XML lesen, filtern und in Bibtex-Datei überführen"
-      children: []
+      children:
+        - file: Projekt_MARC-XML/Einleitung.md
     - title: "Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei"
-      children: []
+      children:
+        - file: Projekt_Excel/Einleitung.md
     - title: Hinterwerk
       children:
         - file: Hinterwerk/Glossar.md
