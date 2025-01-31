@@ -1,10 +1,6 @@
 ---
 lang: de-DE
 title: Einführung
-exports:
-  - format: pdf
-    template: springer
-    output: _build/exports/Einführung.pdf
 ---
 # Einführung
 
@@ -15,4 +11,4 @@ In diesem Selbstlernkurs erlernen Sie:
 :::
 
 # Aufbau des Kurses
-:::{toc}
+_table of contents_
