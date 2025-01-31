@@ -22,6 +22,9 @@ project:
     - _build
     - README.md
     - LICENSE.md
+  license: 
+    content: CC-BY-4.0
+    code: MIT
   toc:
     - file: intro.md
     - title: Einleitung
