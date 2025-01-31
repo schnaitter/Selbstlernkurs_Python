@@ -6,13 +6,42 @@ project:
   description: |
     Dieser Selbstlernkurs soll angehende Bibliotheks- und Informationswissenschaftler\*innen (insbesondere im weiterbildenden Masterstudiengang an der Humboldt-Universität zu Berlin) befähigen kleinere Programmieraufgaben mit bibliothekarischen Daten umzusetzen.
   # keywords: []
-  authors: ["Hannes Schnaitter"]
+  authors:
+    - name: "Hannes Schnaitter"
   github: https://github.com/schnaitter/Selbstlernkurs_Python
+  exclude:
+    - _build
+    - README.md
+    - LICENSE.md
   toc:
-    - file: introduction.md
+    - file: index.md
+    - title: Einleitung
+      children:
+        - file: Einleitung/Kursinhalte.md
+        - file: Einleitung/Spezifika_Fernstudium.md
+        - file: Einleitung/Nutzung_des_Kurses.md
+    - title: Jupyter Notebooks
+      children: []
+    - title: "Exkurs: Unix"
+      children: []
+    - title: "Projekt: Python als Taschenrechner"
+      children: []
+    - title: "Projekt: Zählen einer ISBN in einem Datensatz (CSV)"
+      children: []
+    - title: "Exkurs: Git"
+      children: []
+    - title: "Projekt: Statistiken eines Datensatzes (CSV)"
+      children: []
+    - title: "Projekt: MARC-XML lesen, filtern und in Bibtex-Datei überführen"
+      children: []
+    - title: "Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei"
+      children: []
+    - title: Hinterwerk
+      children: []
   exports:
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: favicon.ico
+    logo: site_logo.png
+    folders: true
