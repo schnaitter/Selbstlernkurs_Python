@@ -1,7 +1,6 @@
 ---
 lang: de-DE
 title: Einführung
-abstract: test
 exports:
   - format: pdf
     template: springer
