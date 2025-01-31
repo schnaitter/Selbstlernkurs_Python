@@ -39,7 +39,7 @@ project:
         - file: Einleitung/Kursinhalte.md
         - file: Einleitung/Spezifika_Fernstudium.md
         - file: Einleitung/Nutzung_des_Kurses.md
-    - title: Jupyter Notebooks
+    - title: Installation und technische Voraussetzungen
       children: []
     - title: "Exkurs: Unix"
       children: []
