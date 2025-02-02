@@ -75,5 +75,3 @@ site:
     favicon: favicon.ico
     logo: site_logo.png
     folders: true
-  parts:
-    footer: Testfooter
