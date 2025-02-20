@@ -32,43 +32,9 @@ project:
   license: 
     content: CC-BY-4.0
     code: MIT
-  toc:
-    - file: intro.md
-    - title: Einleitung
-      children:
-        - file: Einleitung/Kursinhalte.md
-        - file: Einleitung/Spezifika_Fernstudium.md
-        - file: Einleitung/Nutzung_des_Kurses.md
-    - title: Installation und technische Voraussetzungen
-      children:
-        - file: Installation_Technik/Einleitung.md
-    - title: "Exkurs: Unix"
-      children:
-        - file: Exkurs_Unix/Einleitung.md
-    - title: "Projekt: Python als Taschenrechner"
-      children:
-        - file: Projekt_Taschenrechner/Einleitung.md
-    - title: "Projekt: Zählen einer ISBN in einem Datensatz (CSV)"
-      children:
-        - file: Projekt_CSV_I/Einleitung.md
-    - title: "Exkurs: Git"
-      children:
-        - file: Exkurs_Git/Einleitung.md
-    - title: "Projekt: Statistiken eines Datensatzes (CSV)"
-      children:
-        - file: Projekt_CSV_II/Einleitung.md
-    - title: "Projekt: MARC-XML lesen, filtern und in Bibtex-Datei überführen"
-      children:
-        - file: Projekt_MARC-XML/Einleitung.md
-    - title: "Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei"
-      children:
-        - file: Projekt_Excel/Einleitung.md
-    - title: Hinterwerk
-      children:
-        - file: Hinterwerk/Glossar.md
-        - file: Hinterwerk/Index.md
-        - file: Hinterwerk/Impressum.md
   exports:
+extends:
+  - toc.yml
 site:
   template: book-theme
   options:
