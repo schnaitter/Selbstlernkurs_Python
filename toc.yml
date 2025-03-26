@@ -32,8 +32,8 @@ project:
     - title: "Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei"
       children:
         - file: Projekt_Excel/Einleitung.md
-    - title: Hinterwerk
+    - title: Epilog
       children:
-        - file: Hinterwerk/Glossar.md
-        - file: Hinterwerk/Index.md
-        - file: Hinterwerk/Impressum.md
+        - file: Epilog/Glossar.md
+        - file: Epilog/Index.md
+        - file: Epilog/Impressum.md
