@@ -125,3 +125,7 @@ dmypy.json
 
 # Jupyter Book (via myst) build outputs
 _build
+
+
+# VS Code
+.vscode
