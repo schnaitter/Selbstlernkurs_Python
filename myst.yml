@@ -38,6 +38,6 @@ extends:
 site:
   template: book-theme
   options:
-    favicon: favicon.ico
-    logo: site_logo.png
+    favicon: assets/favicon.ico
+    logo: assets/logo.png
     folders: true
