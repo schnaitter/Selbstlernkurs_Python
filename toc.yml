@@ -5,35 +5,34 @@ project:
     - file: intro.md
     - title: Einleitung
       children:
-        - file: Einleitung/Kursinhalte.md
-        - file: Einleitung/Spezifika_Fernstudium.md
-        - file: Einleitung/Nutzung_des_Kurses.md
+        - file: 000-Einleitung/Kursinhalte.md
+        - file: 000-Einleitung/Spezifika_Fernstudium.md
+        - file: 000-Einleitung/Nutzung_des_Kurses.md
     - title: Installation und technische Voraussetzungen
-      children:
-        - file: Installation_Technik/Einleitung.md
-    - title: "Exkurs: Unix"
-      children:
-        - file: Exkurs_Unix/Einleitung.md
+      file: 010-Installation_Technik/Einleitung.md
     - title: "Projekt: Python als Taschenrechner"
       children:
-        - file: Projekt_Taschenrechner/Einleitung.md
+        - file: 020-Projekt_Taschenrechner/Einleitung.md
+    - title: "Exkurs: Unix"
+      children:
+        - file: 030-Exkurs_Unix/Einleitung.md
     - title: "Projekt: Zählen einer ISBN in einem Datensatz (CSV)"
       children:
-        - file: Projekt_CSV_I/Einleitung.md
+        - file: 040-Projekt_CSV_I/Einleitung.md
     - title: "Exkurs: Git"
       children:
-        - file: Exkurs_Git/Einleitung.md
+        - file: 050-Exkurs_Git/Einleitung.md
     - title: "Projekt: Statistiken eines Datensatzes (CSV)"
       children:
-        - file: Projekt_CSV_II/Einleitung.md
+        - file: 060-Projekt_CSV_II/Einleitung.md
     - title: "Projekt: MARC-XML lesen, filtern und in Bibtex-Datei überführen"
       children:
-        - file: Projekt_MARC-XML/Einleitung.md
+        - file: 070-Projekt_MARC-XML/Einleitung.md
     - title: "Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei"
       children:
-        - file: Projekt_Excel/Einleitung.md
+        - file: 080-Projekt_Excel/Einleitung.md
     - title: Epilog
       children:
-        - file: Epilog/Glossar.md
-        - file: Epilog/Index.md
-        - file: Epilog/Impressum.md
+        - file: 999-Epilog/Glossar.md
+        - file: 999-Epilog/Index.md
+        - file: 999-Epilog/Impressum.md
