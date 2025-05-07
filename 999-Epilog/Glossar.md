@@ -1,7 +1,7 @@
 ---
 lang: de-DE
-title: Glossar
 ---
+# Glossar
 :::{glossary}
 Jupyter
 : Das [_project jupyter_](https://jupyter.org) ist eine Sammlung von Standards, Projekten und Dienstleistungen zur programmiersprachenübergreifenden Entwicklung interaktiver Rechenumgebungen.

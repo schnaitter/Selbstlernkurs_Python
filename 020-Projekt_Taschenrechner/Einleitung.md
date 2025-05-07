@@ -1,8 +1,13 @@
 ---
 lang: de-DE
-title: Projektbeschreibung
+numbering:
+  heading_1: true
+  heading_2: true
+  title: true
+  figure:
+    template: Abb. %s
 ---
-
+# Projekt: Python als Taschenrechner
 :::{important} Lernziele
 In diesem Kapitel erlernen Sie, …
 - … welche mathematischen Operationen in Python unterstützt werden.

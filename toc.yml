@@ -2,35 +2,20 @@ version: 1
 project:
   id: 009c9d71-a4fc-4438-8118-31289551ac9
   toc:
-    - file: intro.md
-    - title: Einleitung
+    - file: index.md
+    - file: 000-Einleitung/Einleitung.md
       children:
         - file: 000-Einleitung/Kursinhalte.md
         - file: 000-Einleitung/Spezifika_Fernstudium.md
         - file: 000-Einleitung/Nutzung_des_Kurses.md
-    - title: Installation und technische Voraussetzungen
-      file: 010-Installation_Technik/Einleitung.md
-    - title: "Projekt: Python als Taschenrechner"
-      children:
-        - file: 020-Projekt_Taschenrechner/Einleitung.md
-    - title: "Exkurs: Unix"
-      children:
-        - file: 030-Exkurs_Unix/Einleitung.md
-    - title: "Projekt: Zählen einer ISBN in einem Datensatz (CSV)"
-      children:
-        - file: 040-Projekt_CSV_I/Einleitung.md
-    - title: "Exkurs: Git"
-      children:
-        - file: 050-Exkurs_Git/Einleitung.md
-    - title: "Projekt: Statistiken eines Datensatzes (CSV)"
-      children:
-        - file: 060-Projekt_CSV_II/Einleitung.md
-    - title: "Projekt: MARC-XML lesen, filtern und in Bibtex-Datei überführen"
-      children:
-        - file: 070-Projekt_MARC-XML/Einleitung.md
-    - title: "Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei"
-      children:
-        - file: 080-Projekt_Excel/Einleitung.md
+    - file: 010-Installation_Technik/Einleitung.md
+    - file: 020-Projekt_Taschenrechner/Einleitung.md
+    - file: 030-Exkurs_Unix/Einleitung.md
+    - file: 040-Projekt_CSV_I/Einleitung.md
+    - file: 050-Exkurs_Git/Einleitung.md
+    - file: 060-Projekt_CSV_II/Einleitung.md
+    - file: 070-Projekt_MARC-XML/Einleitung.md
+    - file: 080-Projekt_Excel/Einleitung.md
     - title: Epilog
       children:
         - file: 999-Epilog/Glossar.md
