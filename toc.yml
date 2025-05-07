@@ -20,4 +20,5 @@ project:
       children:
         - file: 999-Epilog/Glossar.md
         - file: 999-Epilog/Index.md
+        - file: 999-Epilog/Literatur.md
         - file: 999-Epilog/Impressum.md
