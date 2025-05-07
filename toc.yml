@@ -10,6 +10,9 @@ project:
         - file: 000-Einleitung/Nutzung_des_Kurses.md
     - file: 010-Installation_Technik/Einleitung.md
     - file: 020-Projekt_Taschenrechner/Einleitung.md
+      children:
+        - file: 020-Projekt_Taschenrechner/test.ipynb
+        - file: 020-Projekt_Taschenrechner/test2.md
     - file: 030-Exkurs_Unix/Einleitung.md
     - file: 040-Projekt_CSV_I/Einleitung.md
     - file: 050-Exkurs_Git/Einleitung.md
