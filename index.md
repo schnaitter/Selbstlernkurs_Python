@@ -1,9 +1,9 @@
 ---
 lang: de-DE
-title: Selbstlernkurs Python
 subtitle: entwickelt für die Lehrgebiete 1.5/7.5 im weiterbildenden Masterstudiengang Bibliotheks- und Informationswissenschaft im Fernstudium an der Humboldt-Universität zu Berlin
 ---
-# Einführung
+# Selbstlernkurs Python
+## Einführung
 
 :::{important} Lernziele
 In diesem Selbstlernkurs erlernen Sie:
@@ -15,9 +15,9 @@ Dieser Selbstlernkurs richtet sich an angehende Bibliotheks- und Informationswis
 
 Als Lernende\*r erarbeiten Sie sich die Inhalte dieses Kurses selbstbestimmt. Haben Sie schon Erfahrungen mit dem Programmieren und ggf. sogar schon in Python, so können Sie Teile des Kurses überspringen und Inhalte nach Bedarf auswählen. Starten Sie jedoch ganz neu, so sollten Sie den Kurs in der vorgegebenen Reihenfolge durcharbeiten.
 
-Die einzelnen Kapitel des Kurses werden auf der nächsten Seite kurz beschrieben. Als Lernende\*r können Sie die Inhalte zur [Nutzung des Kurses](Einleitung/Nutzung_des_Kurses.md) überspringen. Sie richten sich vor allem an Personen, die den Kurs in Ihren eigenen Lehrveranstaltungen einsetzen wollen.
+Die einzelnen Kapitel des Kurses werden auf der nächsten Seite kurz beschrieben. Als Lernende\*r können Sie die Inhalte zur [Nutzung des Kurses](000-Einleitung/Nutzung_des_Kurses.md) überspringen. Sie richten sich vor allem an Personen, die den Kurs in Ihren eigenen Lehrveranstaltungen einsetzen wollen.
 
-# Inhaltsverzeichnis
+## Inhaltsverzeichnis
 ```{table-of-contents}
 :depth: 2
 ```

@@ -1,6 +1,7 @@
 ---
 lang: de-DE
-title: Index
 ---
+# Index
+
 ```{show-index}
 ```

@@ -41,7 +41,5 @@ site:
     favicon: assets/favicon.ico
     logo: assets/logo.png
     folders: true
-    numbering:
-      headings: true
-      title: true
+    
 
