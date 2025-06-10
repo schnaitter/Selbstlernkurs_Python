@@ -35,9 +35,6 @@ project:
   exports:
   bibliography:
     - bibliography.bib
-    
-  plugins:
-    - src/learning-objective-admonition.mjs
 extends:
   - toc.yml
 site:
