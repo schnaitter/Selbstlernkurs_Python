@@ -6,7 +6,7 @@ numbering:
   title: true
   figure:
     template: Abb. %s
-    
+
 ---
 
 # Installation und technische Voraussetzungen

@@ -6,7 +6,7 @@ numbering:
   title: true
   figure:
     template: Abb. %s
-    
+
 ---
 
 # Spezifika für Studierende des Fernstudiums
