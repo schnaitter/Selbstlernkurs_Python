@@ -6,7 +6,9 @@ numbering:
   title: true
   figure:
     template: Abb. %s
+    
 ---
+
 # Einleitung
 
 **Kapitelinhalt:**

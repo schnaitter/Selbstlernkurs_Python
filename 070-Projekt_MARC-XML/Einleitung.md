@@ -6,5 +6,7 @@ numbering:
   title: true
   figure:
     template: Abb. %s
+    
 ---
+
 # Projekt: MARC-XML lesen, filtern und in Bibtex-Datei überführen

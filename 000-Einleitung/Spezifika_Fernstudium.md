@@ -6,7 +6,9 @@ numbering:
   title: true
   figure:
     template: Abb. %s
+    
 ---
+
 # Spezifika für Studierende des Fernstudiums
 
 ## Struktur der Lehrgebiete 01.05 und 07.05

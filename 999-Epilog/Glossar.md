@@ -1,6 +1,8 @@
 ---
 lang: de-DE
+
 ---
+
 # Glossar
 :::{glossary}
 Jupyter

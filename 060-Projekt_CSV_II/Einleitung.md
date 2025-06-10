@@ -6,5 +6,7 @@ numbering:
   title: true
   figure:
     template: Abb. %s
+    
 ---
+
 # Projekt: Statistiken eines Datensatzes (CSV)

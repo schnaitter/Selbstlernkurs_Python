@@ -1,7 +1,9 @@
 ---
 lang: de-DE
 subtitle: entwickelt für die Lehrgebiete 1.5/7.5 im weiterbildenden Masterstudiengang Bibliotheks- und Informationswissenschaft im Fernstudium an der Humboldt-Universität zu Berlin
+
 ---
+
 # Selbstlernkurs Python
 ## Einführung
 
