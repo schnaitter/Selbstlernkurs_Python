@@ -7,11 +7,12 @@ subtitle: entwickelt für die Lehrgebiete 1.5/7.5 im weiterbildenden Masterstudi
 # Selbstlernkurs Python
 ## Einführung
 
-:::{learning-objective} Lernziele
+```{caution} 🎓 Lernziele
+:icon: false
 In diesem Selbstlernkurs erlernen Sie:
 - wie Sie kleinere Programmieraufgaben im Kontext der Bibliotheks- und Informationswissenschaft selbstständig bewältigen können.
 - wie Sie mit Personen Ihrer IT-Abteilung über Programmieraufgaben sprechen.
-:::
+```
 
 Dieser Selbstlernkurs richtet sich an angehende Bibliotheks- und Informationswissenschaftler\*innen (insbesondere im [weiterbildenden Masterstudiengang Bibliotheks- und Informationswissenschaft im Fernstudium an der Humboldt-Universität zu Berlin](https://www.ibi.hu-berlin.de/de/studium/studiengaenge/fernstudium)).
 
