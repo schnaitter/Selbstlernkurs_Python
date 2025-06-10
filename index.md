@@ -7,7 +7,7 @@ subtitle: entwickelt für die Lehrgebiete 1.5/7.5 im weiterbildenden Masterstudi
 # Selbstlernkurs Python
 ## Einführung
 
-:::{important} Lernziele
+:::{learning-objective} Lernziele
 In diesem Selbstlernkurs erlernen Sie:
 - wie Sie kleinere Programmieraufgaben im Kontext der Bibliotheks- und Informationswissenschaft selbstständig bewältigen können.
 - wie Sie mit Personen Ihrer IT-Abteilung über Programmieraufgaben sprechen.
