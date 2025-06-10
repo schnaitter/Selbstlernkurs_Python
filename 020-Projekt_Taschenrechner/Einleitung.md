@@ -10,7 +10,8 @@ numbering:
 ---
 
 # Projekt: Python als Taschenrechner
-:::{important} Lernziele
+:::{caution} 🎓 Lernziele
+:icon: false
 In diesem Kapitel erlernen Sie, …
 - … welche mathematischen Operationen in Python unterstützt werden.
 - … wie Zahlen in Python repräsentiert werden.
