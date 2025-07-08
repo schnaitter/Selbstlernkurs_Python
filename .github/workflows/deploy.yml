@@ -1,6 +1,4 @@
-# This file was created automatically with `myst init --gh-pages` 🪄 💚
-
-name: MyST GitHub Pages Deploy
+name: Jupyter Book GitHub Pages Deploy
 on:
   push:
     # Runs on pushes targeting the default branch
