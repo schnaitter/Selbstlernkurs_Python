@@ -1,10 +1,10 @@
 ---
 lang: de-DE
-
 ---
 
 # Glossar
-:::{glossary}
+
+```{glossary}
 Jupyter
 : Das [_project jupyter_](https://jupyter.org) ist eine Sammlung von Standards, Projekten und Dienstleistungen zur programmiersprachenübergreifenden Entwicklung interaktiver Rechenumgebungen.
 
@@ -16,4 +16,5 @@ Jupyter Notebook
 
 REPL
 : **R**ead-**E**val-**P**rint-**L**oop. Ein Programm, in das Programmcode (bspw. in Python) eingegeben und dann ausgeführt werden kann. Besonders nützlich, um interaktiv kleinere Skripte auszutesten oder auszuführen.
-:::
+```
+
