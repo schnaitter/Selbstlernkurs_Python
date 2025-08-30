@@ -8,4 +8,4 @@ numbering:
         template: Abb. %s
 ---
 
-# Die **R**ead-**E**val-**P**-rint-**L**oop
+# **R**ead-**E**val-**P**rint-**L**oop
