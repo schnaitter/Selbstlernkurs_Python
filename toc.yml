@@ -11,7 +11,13 @@ project:
     - file: 010-Installation_Technik/Einleitung.md
     - file: 020-Projekt_Taschenrechner/Einleitung.md
       children:
+        - file: 020-Projekt_Taschenrechner/Python_REPL.md
         - file: 020-Projekt_Taschenrechner/Grundlegende_Mathematik.md
+        - file: 020-Projekt_Taschenrechner/Python_Code_Dateien.md
+        - file: 020-Projekt_Taschenrechner/Jupyter_Notebooks.md
+        - file: 020-Projekt_Taschenrechner/Ausführbare_Skripte.md
+        - file: 020-Projekt_Taschenrechner/Taschenrechner.md
+        - file: 020-Projekt_Taschenrechner/Aufgabe_Erweiterung.md
     - file: 030-Exkurs_Unix/Einleitung.md
     - file: 040-Projekt_CSV_I/Einleitung.md
     - file: 050-Exkurs_Git/Einleitung.md
@@ -24,3 +30,4 @@ project:
         - file: 999-Epilog/Index.md
         - file: 999-Epilog/Literatur.md
         - file: 999-Epilog/Impressum.md
+
