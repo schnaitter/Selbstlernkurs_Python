@@ -34,6 +34,8 @@ einfache arithmetische Operationen unterstützen.
 
 ```
 
+In diesem Kapitel machen Sie Ihre ersten Schritte mit Python. Sie erlernen den Umgang mit der sog. REPL, nutzen Python für grundlegende Berechnungen und schreiben Python-Code in zwei Dateiformaten (und Ausführungsumgebungen). Dann erlernen Sie die Erstellung eines ausführbaren Skripts in Python und bringen dann alles gelernte im Taschenrechner-Projekt zusammen. Das Kapitel schließt mit einer Aufgabe zur Erweiterung des Taschenrechners um verschiedene Funktionalitäten.
+
 - Mathematische Operationen
     - `+`, `-`, `*`, `/`
     - `%`, `//`
