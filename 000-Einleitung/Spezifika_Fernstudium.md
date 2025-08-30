@@ -1,11 +1,11 @@
 ---
 lang: de-DE
 numbering:
-  heading_1: true
-  heading_2: true
-  title: true
-  figure:
-    template: Abb. %s
+    heading_1: true
+    heading_2: true
+    title: true
+    figure:
+        template: Abb. %s
 ---
 
 # Spezifika für Studierende des Fernstudiums
@@ -52,3 +52,8 @@ Lehrgebiet in Modul 2 (07.05). Sie selbst entscheiden am Ende des Studiums bei
 der Abgabe der Nachweise der Kleinen Aufgaben, in welchem Modul Sie die in
 diesem Kurs erlangten Nachweise geltend machen.
 
+## Setup
+
+- Einloggen in JupyterHub (auswahl DataScience "Profil")
+- Clone des Repositoriums
+- danach kann in der Website der JuypterHub um direkt auf die Unterseite weitergeleitet zu werden
