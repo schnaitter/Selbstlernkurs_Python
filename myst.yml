@@ -6,7 +6,7 @@ project:
   description: |
     Dieser Selbstlernkurs soll angehende Bibliotheks- und Informationswissenschaftler\*innen (insbesondere im weiterbildenden Masterstudiengang an der Humboldt-Universität zu Berlin) befähigen kleinere Programmieraufgaben mit bibliothekarischen Daten umzusetzen.
   keywords:
-    ["Open Educational Resource", "Python", "Bibliothek", "Selb stlernkurs"]
+    ["Open Educational Resource", "Python", "Bibliothek", "Selbstlernkurs"]
   authors:
     - name: "Hannes Schnaitter"
       affiliations:
