@@ -34,7 +34,18 @@ einfache arithmetische Operationen unterstützen.
 
 ```
 
-In diesem Kapitel machen Sie Ihre ersten Schritte mit Python. Sie erlernen den Umgang mit der sog. REPL, nutzen Python für grundlegende Berechnungen und schreiben Python-Code in zwei Dateiformaten (und Ausführungsumgebungen). Dann erlernen Sie die Erstellung eines ausführbaren Skripts in Python und bringen dann alles gelernte im Taschenrechner-Projekt zusammen. Das Kapitel schließt mit einer Aufgabe zur Erweiterung des Taschenrechners um verschiedene Funktionalitäten.
+In diesem Kapitel machen Sie Ihre ersten Schritte mit Python. Sie erlernen den
+Umgang mit der sog. [REPL](./010-Python_REPL.md), nutzen Python für
+grundlegende Berechnungen und schreiben Python-Code in
+[`.py`-Dateien](./030-Python_Code_Dateien.md) und [Juypter Notebooks
+(`.ipynb`)](./040-Jupyter_Notebooks.md) und lernen die damit verbundenen
+unterschiedlichen Ausführungsformen von Python-Code. Dann erlernen Sie die
+Erstellung eines [ausführbaren Skripts](./050-Ausführbare_Skripte.md) in Python
+und bringen dann alles gelernte im
+[Taschenrechner](./060-Taschenrechner.md)-Programm zusammen. Das Kapitel
+schließt mit einer Aufgabe zur [Erweiterung des
+Taschenrechners](./070-Aufgabe_Erweiterung.md) um verschiedene
+Funktionalitäten.
 
 - Mathematische Operationen
     - `+`, `-`, `*`, `/`
