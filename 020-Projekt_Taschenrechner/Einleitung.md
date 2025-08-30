@@ -1,17 +1,18 @@
 ---
 lang: de-DE
 numbering:
-  heading_1: true
-  heading_2: true
-  title: true
-  figure:
-    template: Abb. %s
+    heading_1: true
+    heading_2: true
+    title: true
+    figure:
+        template: Abb. %s
 ---
 
 # Projekt: Python als Taschenrechner
 
 ```{caution} 🎓 Lernziele
 :icon: false
+
 In diesem Kapitel erlernen Sie, …
 
 - … welche mathematischen Operationen in Python unterstützt werden.
@@ -21,21 +22,25 @@ In diesem Kapitel erlernen Sie, …
 - … wie Sie lokale Python-Dateien importieren.
 - … wie Sie Programmbibliotheken ("libraries", "packages") per `pip`
   installieren und in Ihrem Notebook nutzen.
+- … wie Sie Nutzereingaben einlesen und Ergebnisse ausgeben.
+
 ```
 
 ```{note} Projektziel
-Ziel des Projekts ist es, eine Python-Datei zu erstellen, in welcher Sie
-mathematische Funktionen umsetzten und bereitstellten. Diese Fuunktionen werden
-am Ende in ein Notebook importiert und stehen dort für die Nutzung bereit.
+
+Ziel des Projekts ist es, einen Taschenrechner zu entwickeln, der Berechnungen
+per Standardeingabe einliest und die Berechnungsergebnisse ausgibt. Er soll
+einfache arithmetische Operationen unterstützen.
+
 ```
 
 - Mathematische Operationen
-  - `+`, `-`, `*`, `/`
-  - `%`, `//`
-  - `**`
+    - `+`, `-`, `*`, `/`
+    - `%`, `//`
+    - `**`
 - Zahlen
-  - `int()`
-  - `float()`
+    - `int()`
+    - `float()`
 - `def`
 - `import`
 - `pip`
