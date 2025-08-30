@@ -5,11 +5,12 @@ project:
   title: Selbstlernkurs Python
   description: |
     Dieser Selbstlernkurs soll angehende Bibliotheks- und Informationswissenschaftler\*innen (insbesondere im weiterbildenden Masterstudiengang an der Humboldt-Universität zu Berlin) befähigen kleinere Programmieraufgaben mit bibliothekarischen Daten umzusetzen.
-  keywords: ["Open Educational Resource", "Python", "Bibliothek", "Selb stlernkurs"]
+  keywords:
+    ["Open Educational Resource", "Python", "Bibliothek", "Selb stlernkurs"]
   authors:
     - name: "Hannes Schnaitter"
       affiliations:
-       - Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+        - Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
       orcid: 0000-0002-1602-6032
       corresponding: true
       email: hannes.schnaitter.1@ibi.hu-berlin.de
@@ -19,17 +20,17 @@ project:
       id: schnaitter
   github: https://github.com/schnaitter/Selbstlernkurs_Python
   jupyter:
-    #binder:
-    #  url: https://mybinder.org
-    #  repo: schnaitter/Selbstlernkurs_Python
-    #  ref: main
-    #  provider: github
+    binder:
+      url: https://jupyterhub.cms.hu-berlin.de
+      repo: schnaitter/Selbstlernkurs_Python
+      ref: main
+      provider: github
     lite: true
   exclude:
     - _build
     - README.md
     - LICENSE.md
-  license: 
+  license:
     content: CC-BY-4.0
     code: MIT
   exports:
@@ -43,5 +44,3 @@ site:
     favicon: assets/favicon.ico
     logo: assets/logo.png
     folders: true
-    
-
