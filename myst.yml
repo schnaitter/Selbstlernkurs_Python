@@ -21,7 +21,7 @@ project:
   github: https://github.com/schnaitter/Selbstlernkurs_Python
   jupyter:
     binder:
-      url: https://jupyterhub.cms.hu-berlin.de
+      url: https://mybinder.org
       repo: schnaitter/Selbstlernkurs_Python
       ref: main
       provider: github
