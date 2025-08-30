@@ -24,7 +24,8 @@ project:
     repo: schnaitter/Selbstlernkurs_Python
     ref: main
     provider: github
-  jupyter: true
+  jupyter:
+    lite: true
   exclude:
     - _build
     - README.md
