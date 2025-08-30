@@ -19,13 +19,12 @@ project:
         - Writing
       id: schnaitter
   github: https://github.com/schnaitter/Selbstlernkurs_Python
-  jupyter:
-    binder:
-      url: https://mybinder.org
-      repo: schnaitter/Selbstlernkurs_Python
-      ref: main
-      provider: github
-    lite: true
+  binder:
+    url: https://mybinder.org
+    repo: schnaitter/Selbstlernkurs_Python
+    ref: main
+    provider: github
+  jupyter: true
   exclude:
     - _build
     - README.md
