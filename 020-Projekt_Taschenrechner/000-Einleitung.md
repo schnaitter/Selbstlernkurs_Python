@@ -16,12 +16,11 @@ In diesem Kapitel erlernen Sie, …
 
 - … welche mathematischen Operationen in Python unterstützt werden.
 - … wie Zahlen in Python repräsentiert werden.
+- … wie Sie Code in einer Datei speichern.
 - … wie Sie einfache Funktionen in Python schreiben.
-- … wie Sie Code in einer Datei speichern, um ihn später zu importieren.
-- … wie Sie lokale Python-Dateien importieren.
-- … wie Sie Programmbibliotheken ("libraries", "packages") per `pip`
-  installieren und in Ihrem Notebook nutzen.
 - … wie Sie Nutzereingaben einlesen und Ergebnisse ausgeben.
+- … wie Sie lokale Python-Dateien importieren, um sie in anderem Code
+  wiederzuverwenden.
 
 ```
 
@@ -55,5 +54,4 @@ Funktionalitäten.
     - `float()`
 - `def`
 - `import`
-- `pip`
 - `if __name__=="__main__":`
