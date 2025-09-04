@@ -1,11 +1,10 @@
 ---
-lang: de-DE
 numbering:
-  heading_1: true
-  heading_2: true
-  title: true
-  figure:
-    template: Abb. %s
+    heading_1: true
+    heading_2: true
+    title: true
+    figure:
+        template: Abb. %s
 ---
 
 # Kursinhalte
@@ -65,4 +64,3 @@ Im Abschlussprojekt werden noch unaufbereitete Daten in einer Excel-Datei
 bereinigt, für die weitere Verarbeitung aufbereitet und dann statistisch
 beschrieben. Das Projekt schließt mit Visualisierungen der interessantesten
 Ergebnisse.
-

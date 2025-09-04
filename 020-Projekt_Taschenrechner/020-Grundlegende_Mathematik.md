@@ -1,14 +1,13 @@
 ---
-lang: de-DE
 numbering:
-  heading_1: true
-  heading_2: true
-  title: true
-  figure:
-    template: Abb. %s
+    heading_1: true
+    heading_2: true
+    title: true
+    figure:
+        template: Abb. %s
 kernelspec:
-  name: python3
-  display_name: "Python 3"
+    name: python3
+    display_name: "Python 3"
 ---
 
 # Grundlegende Mathematik in Python
@@ -105,9 +104,9 @@ Da so große Zahlen schnell unübersichtlich werden erlaubt Python die Nutzung v
 ```
 
 - Mathematische Operationen
-  - `+`, `-`, `*`, `/`
-  - `%`, `//`
-  - `**`
+    - `+`, `-`, `*`, `/`
+    - `%`, `//`
+    - `**`
 - Zahlen
-  - `int()`
-  - `float()`
+    - `int()`
+    - `float()`
