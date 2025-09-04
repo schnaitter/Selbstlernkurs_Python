@@ -1,5 +1,4 @@
 ---
-lang: de-DE
 ---
 
 # Glossar
@@ -17,4 +16,3 @@ Jupyter Notebook
 REPL
 : **R**ead-**E**val-**P**rint-**L**oop. Ein Programm, in das Programmcode (bspw. in Python) eingegeben und dann ausgeführt werden kann. Besonders nützlich, um interaktiv kleinere Skripte auszutesten oder auszuführen.
 ```
-

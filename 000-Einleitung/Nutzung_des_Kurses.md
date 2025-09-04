@@ -1,11 +1,10 @@
 ---
-lang: de-DE
 numbering:
-  heading_1: true
-  heading_2: true
-  title: true
-  figure:
-    template: Abb. %s
+    heading_1: true
+    heading_2: true
+    title: true
+    figure:
+        template: Abb. %s
 ---
 
 # Nutzung des Kurses
@@ -36,4 +35,3 @@ wiederholen? Können Sie das gelernte auf ein ähnliches Problem anwenden?
 ## Übungsprojekte
 
 ## Auswahl der Inhalte für das Selbststudium
-

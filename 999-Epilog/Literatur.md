@@ -1,6 +1,4 @@
 ---
-lang: de-DE
-
 ---
 
 # Literatur
