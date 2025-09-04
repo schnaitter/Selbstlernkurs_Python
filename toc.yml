@@ -14,7 +14,7 @@ project:
         - file: 020-Projekt_Taschenrechner/010-Python_REPL.md
         - file: 020-Projekt_Taschenrechner/020-Grundlegende_Mathematik.md
         - file: 020-Projekt_Taschenrechner/030-Python_Code_Dateien.md
-        - file: 020-Projekt_Taschenrechner/040-Jupyter_Notebooks.md
+        - file: 020-Projekt_Taschenrechner/040-Jupyter_Notebooks.ipynb
         - file: 020-Projekt_Taschenrechner/050-Ausführbare_Skripte.md
         - file: 020-Projekt_Taschenrechner/060-Taschenrechner.md
         - file: 020-Projekt_Taschenrechner/070-Aufgabe_Erweiterung.md
