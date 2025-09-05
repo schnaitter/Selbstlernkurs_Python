@@ -91,6 +91,12 @@ Eine REPL ist ein Programm, welches:
 3. _**P**rint_: Das Ergebnis des ausgeführten Codes zurück gibt.
 4. _**L**oop_: Und das solange wiederholt, bis es beendet wird (bei Python via `quit()`).
 
+TODO: Abbildung REPL
+
+TODO: genauere Erklärung des Ablaufs von bspw. `print("Hallo")`.
+
+## Lernstandskontrolle
+
 ```{code-cell}
 :tags: [remove-cell]
 from jupyterquiz import display_quiz
@@ -109,12 +115,6 @@ c = { '--jq-multiple-choice-bg': '#202080',
       '--jq-text-color': '#fafafa',
       '--jq-link-color': '#9abafa' }
 ```
-
-TODO: Abbildung REPL
-
-TODO: genauere Erklärung des Ablaufs von bspw. `print("Hallo")`.
-
-## Lernstandskontrolle
 
 ```{code-cell}
 :tags: [remove-input]
