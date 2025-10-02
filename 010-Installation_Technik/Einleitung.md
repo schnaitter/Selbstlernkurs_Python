@@ -45,4 +45,12 @@ Sie `python3`. Das funktioniert immer.
 ```
 ````
 
-Python ist eine Programmiersprache, welche
+Python ist eine Programmiersprache, welche sich besonders gut für den Einstieg
+in die Programmierung eignet. Die Syntax ist klar und verständlich, was es
+Anfänger\*innen ermöglicht, sich auf die Konzepte des Programmierens zu
+konzentrieren, anstatt sich in komplexer Syntax zu verlieren. Gleichzeitig ist
+Python eine vollwertige, professionelle Programmiersprache, die in vielen
+Bereichen der Wissenschaft, Datenanalyse und Softwareentwicklung eingesetzt
+wird. Durch die große Community und umfangreiche Bibliothekslandschaft können
+Sie mit Python sowohl einfache Skripte als auch komplexe Anwendungen
+entwickeln.
