@@ -273,16 +273,11 @@ Detaillierte Informationen finden Sie in der [offiziellen
 ### Option B: conda (Anaconda)
 
 Conda bietet erweiterte Paketverwaltung und kann auch nicht-Python-Pakete
-installieren.
+installieren. Dies kann die Installation von bestimmten Paketen bspw. für
+Machine Learning erleichtern. Wir benötigen diese Funktionalität nicht für den
+vorliegenden Kurs.
 
-**Environment aus environment.yml erstellen (falls vorhanden):**
-
-```bash
-$ conda env create -f environment.yml
-$ conda activate selbstlernkurs-python
-```
-
-**Manuelles Environment erstellen:**
+**Environment erstellen:**
 
 ```bash
 # Neues Environment mit Python 3.13 erstellen
