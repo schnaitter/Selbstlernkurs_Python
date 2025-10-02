@@ -9,6 +9,10 @@ project:
         - file: 000-Einleitung/Spezifika_Fernstudium.md
         - file: 000-Einleitung/Nutzung_des_Kurses.md
     - file: 010-Installation_Technik/Einleitung.md
+      children:
+        - file: 010-Installation_Technik/Jupyter_Hub.md
+        - file: 010-Installation_Technik/Lokale_Installation.md
+        - file: 010-Installation_Technik/Jupyter_Lab.md
     - file: 020-Projekt_Taschenrechner/000-Einleitung.md
       children:
         - file: 020-Projekt_Taschenrechner/010-Python_REPL.ipynb
@@ -30,4 +34,3 @@ project:
         - file: 999-Epilog/Index.md
         - file: 999-Epilog/Literatur.md
         - file: 999-Epilog/Impressum.md
-
