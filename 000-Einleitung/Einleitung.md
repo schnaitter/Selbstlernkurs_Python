@@ -9,7 +9,7 @@ numbering:
 
 # Einleitung
 
-```{caution} 🎓 Lernziele:w
+```{seealso} 🎓 Lernziele
 :icon: false
 Nach lesen der Einleitung …
 1. … kennen Sie die Inhalte des Kurses.

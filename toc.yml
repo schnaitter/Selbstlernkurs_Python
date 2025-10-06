@@ -18,6 +18,7 @@ project:
       children:
         - file: 020-Projekt_Taschenrechner/010-Python_REPL.ipynb
         - file: 020-Projekt_Taschenrechner/020-Grundlegende_Mathematik.ipynb
+        - file: 020-Projekt_Taschenrechner/025-Kontrollstrukturen.ipynb
         - file: 020-Projekt_Taschenrechner/030-Python_Code_Dateien.ipynb
         - file: 020-Projekt_Taschenrechner/040-Jupyter_Notebooks.ipynb
         - file: 020-Projekt_Taschenrechner/050-Ausführbare_Skripte.md
