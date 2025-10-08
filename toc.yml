@@ -23,6 +23,9 @@ project:
         - file: 020-Projekt_Taschenrechner/040-Jupyter_Notebooks.ipynb
         - file: 020-Projekt_Taschenrechner/050-Ausführbare_Skripte.md
         - file: 020-Projekt_Taschenrechner/060-Taschenrechner.ipynb
+          children:
+            - file: 020-Projekt_Taschenrechner/061-Nutzerinneneingabe.ipynb
+            - file: 020-Projekt_Taschenrechner/062-Schleifen.ipynb
         - file: 020-Projekt_Taschenrechner/070-Aufgabe_Erweiterung.md
     - file: 030-Exkurs_Unix/Einleitung.md
     - file: 040-Projekt_CSV_I/Einleitung.md

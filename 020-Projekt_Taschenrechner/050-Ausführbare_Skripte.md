@@ -79,7 +79,7 @@ Hallo, da draußen!
 Auf diese Lösung kommen wir hier nicht ganz (um mehr zu erfahren recherchieren Sie `$PATH`-Variablen), aber wir werden die folgende Option hinbekommen. Im Ordner, in dem ein Skript liegt soll folgende Nutzung möglich sein:
 
 ```console
-$ ./skript3
+$ ./skript3.py
 Hallo, da draußen!
 5
 ```
