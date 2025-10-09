@@ -25,27 +25,35 @@ In diesem Kapitel erlernen Sie, …
 ```{hint} 📝 Kleine Aufgabe 1
 :icon: false
 
-Die [Aufgabe am Ende des Kapitels](./070-Aufgabe_Erweiterung) kann als Kleine Aufgabe abgegeben werden.
+Die [Aufgabe am Ende des Kapitels](./070-Aufgabe_Erweiterung) kann als Kleine
+Aufgabe abgegeben werden.
+
 ```
 
 ```{hint} 📝 Kleine Aufgabe 2
 :icon: false
 
-Protokollieren Sie Ihre Nutzung des Kurses. Formulieren Sie, wie Sie an Aufgaben herangegangen sind und wo Sie Probleme hatten.
+Protokollieren Sie Ihre Nutzung des Kurses. Formulieren Sie, wie Sie an
+Aufgaben herangegangen sind und wo Sie Probleme hatten.
 
 - Welche Informationen haben Ihnen wo gefehlt?
-- Haben Sie die Informationen selbst recherchieren können oder sind Sie "stecken geblieben"?
+- Haben Sie die Informationen selbst recherchieren können oder sind Sie
+  "stecken geblieben"?
 - Wo ging es Ihrer Meinung nach zu schnell? Wo zu langsam?
-- Der Kurs übergeht (teilw. absichtlich) bestimmte Details. Sind Ihnen diese Sprünge aufgefallen und war das schlimm?
+- Der Kurs übergeht (teilw. absichtlich) bestimmte Details. Sind Ihnen diese
+  Sprünge aufgefallen und war das schlimm?
 
-Arbeiten Sie die ersten Kapitel des Kurses für insg. mindestens 3 Stunden durch und geben Sie Feedback.
+Arbeiten Sie die ersten Kapitel des Kurses für insg. mindestens 3 Stunden durch
+und geben Sie Feedback.
+
 ```
 
 ```{note} Projektziel
 
-Ziel des Projekts ist es, einen Taschenrechner zu entwickeln, der Berechnungen
-per Standardeingabe einliest und die Berechnungsergebnisse ausgibt. Er soll
-einfache arithmetische Operationen unterstützen.
+Ziel des Projekts ist es, einen Taschenrechner zu entwickeln, in den die
+Nutzer\*in Operatoren und Operanden eingeben kann und welcher dann die
+jeweiligen Berechnungsergebnisse ausgibt. Er soll einfache arithmetische
+Operationen unterstützen.
 
 ```
 
@@ -61,14 +69,3 @@ und bringen dann alles gelernte im
 schließt mit einer Aufgabe zur [Erweiterung des
 Taschenrechners](./070-Aufgabe_Erweiterung.md) um verschiedene
 Funktionalitäten.
-
-- Mathematische Operationen
-    - `+`, `-`, `*`, `/`
-    - `%`, `//`
-    - `**`
-- Zahlen
-    - `int()`
-    - `float()`
-- `def`
-- `import`
-- `if __name__=="__main__":`
