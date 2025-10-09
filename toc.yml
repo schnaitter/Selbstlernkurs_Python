@@ -33,6 +33,7 @@ project:
     - file: 060-Projekt_CSV_II/Einleitung.md
     - file: 070-Projekt_MARC-XML/Einleitung.md
     - file: 080-Projekt_Excel/Einleitung.md
+    - file: 900-Cheatsheet.md
     - title: Epilog
       children:
         - file: 999-Epilog/Glossar.md
