@@ -34,7 +34,7 @@ project:
             - file: 045-Projekt_Taschenrechner_II/040-Implementierung.ipynb
             - file: 045-Projekt_Taschenrechner_II/050-Aufgabe_Erweiterung.md
     - file: 050-Exkurs_Git/Einleitung.md
-    - file: 060-Projekt_CSV_II/Einleitung.md
+    - file: 060-Projekt_CSV_II/000-Einleitung.md
     - file: 070-Projekt_MARC-XML/Einleitung.md
     - file: 080-Projekt_Excel/Einleitung.md
     - file: 900-Cheatsheet.md
