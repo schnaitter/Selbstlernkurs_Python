@@ -23,13 +23,16 @@ project:
         - file: 020-Projekt_Taschenrechner_I/040-Jupyter_Notebooks.ipynb
         - file: 020-Projekt_Taschenrechner_I/050-Ausführbare_Skripte.md
     - file: 030-Exkurs_Unix/Einleitung.md
+    - file: 040-Projekt_CSV_I/000-Einleitung.md
+      children:
+        - file: 040-Projekt_CSV_I/010-Dateiformat.md
+        - file: 040-Projekt_CSV_I/020-Dateien_öffnen.ipynb
     - file: 045-Projekt_Taschenrechner_II/010-Taschenrechner.ipynb
       children:
             - file: 045-Projekt_Taschenrechner_II/020-Nutzerinneneingabe.ipynb
             - file: 045-Projekt_Taschenrechner_II/030-Schleifen.ipynb
             - file: 045-Projekt_Taschenrechner_II/040-Implementierung.ipynb
             - file: 045-Projekt_Taschenrechner_II/050-Aufgabe_Erweiterung.md
-    - file: 040-Projekt_CSV_I/Einleitung.md
     - file: 050-Exkurs_Git/Einleitung.md
     - file: 060-Projekt_CSV_II/Einleitung.md
     - file: 070-Projekt_MARC-XML/Einleitung.md
