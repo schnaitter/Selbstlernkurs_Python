@@ -14,21 +14,21 @@ project:
         - file: 010-Installation_Technik/Jupyter_Hub.md
         - file: 010-Installation_Technik/Lokale_Installation.md
         - file: 010-Installation_Technik/Jupyter_Lab.md
-    - file: 020-Projekt_Taschenrechner/000-Einleitung.md
+    - file: 020-Projekt_Taschenrechner_I/000-Einleitung.md
       children:
-        - file: 020-Projekt_Taschenrechner/010-Python_REPL.ipynb
-        - file: 020-Projekt_Taschenrechner/020-Grundlegende_Mathematik.ipynb
-        - file: 020-Projekt_Taschenrechner/025-Kontrollstrukturen.ipynb
-        - file: 020-Projekt_Taschenrechner/030-Python_Code_Dateien.ipynb
-        - file: 020-Projekt_Taschenrechner/040-Jupyter_Notebooks.ipynb
-        - file: 020-Projekt_Taschenrechner/050-Ausführbare_Skripte.md
-        - file: 020-Projekt_Taschenrechner/060-Taschenrechner.ipynb
-          children:
-            - file: 020-Projekt_Taschenrechner/061-Nutzerinneneingabe.ipynb
-            - file: 020-Projekt_Taschenrechner/062-Schleifen.ipynb
-            - file: 020-Projekt_Taschenrechner/063-Implementierung.ipynb
-        - file: 020-Projekt_Taschenrechner/070-Aufgabe_Erweiterung.md
+        - file: 020-Projekt_Taschenrechner_I/010-Python_REPL.ipynb
+        - file: 020-Projekt_Taschenrechner_I/020-Grundlegende_Mathematik.ipynb
+        - file: 020-Projekt_Taschenrechner_I/025-Kontrollstrukturen.ipynb
+        - file: 020-Projekt_Taschenrechner_I/030-Python_Code_Dateien.ipynb
+        - file: 020-Projekt_Taschenrechner_I/040-Jupyter_Notebooks.ipynb
+        - file: 020-Projekt_Taschenrechner_I/050-Ausführbare_Skripte.md
     - file: 030-Exkurs_Unix/Einleitung.md
+    - file: 045-Projekt_Taschenrechner_II/010-Taschenrechner.ipynb
+      children:
+            - file: 045-Projekt_Taschenrechner_II/020-Nutzerinneneingabe.ipynb
+            - file: 045-Projekt_Taschenrechner_II/030-Schleifen.ipynb
+            - file: 045-Projekt_Taschenrechner_II/040-Implementierung.ipynb
+            - file: 045-Projekt_Taschenrechner_II/050-Aufgabe_Erweiterung.md
     - file: 040-Projekt_CSV_I/Einleitung.md
     - file: 050-Exkurs_Git/Einleitung.md
     - file: 060-Projekt_CSV_II/Einleitung.md

@@ -5,7 +5,7 @@ numbering:
     title: true
 ---
 
-# Projekt: Python als Taschenrechner
+# Projekt: Taschenrechner I
 
 ```{seealso} 🎓 Lernziele
 :icon: false
@@ -16,21 +16,12 @@ In diesem Kapitel erlernen Sie, …
 - … wie Zahlen in Python repräsentiert werden.
 - … wie Sie Code in einer Datei speichern.
 - … wie Sie einfache Funktionen in Python schreiben.
-- … wie Sie Nutzereingaben einlesen und Ergebnisse ausgeben.
 - … wie Sie lokale Python-Dateien importieren, um sie in anderem Code
   wiederzuverwenden.
 
 ```
 
-```{hint} 📝 Kleine Aufgabe 1
-:icon: false
-
-Die [Aufgabe am Ende des Kapitels](./070-Aufgabe_Erweiterung) kann als Kleine
-Aufgabe abgegeben werden.
-
-```
-
-```{hint} 📝 Kleine Aufgabe 2
+```{hint} 📝 Kleine Aufgabe
 :icon: false
 
 Protokollieren Sie Ihre Nutzung des Kurses. Formulieren Sie, wie Sie an
@@ -43,7 +34,7 @@ Aufgaben herangegangen sind und wo Sie Probleme hatten.
 - Der Kurs übergeht (teilw. absichtlich) bestimmte Details. Sind Ihnen diese
   Sprünge aufgefallen und war das schlimm?
 
-Arbeiten Sie die ersten Kapitel des Kurses für insg. mindestens 3 Stunden durch
+Arbeiten Sie die ersten Kapitel des Kurses für insg. (mindestens) 3 Stunden durch
 und geben Sie Feedback.
 
 ```
