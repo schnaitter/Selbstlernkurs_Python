@@ -8,10 +8,10 @@ numbering:
 
 # Dateiformat CSV
 
-Das Dateiformat CSV (_comma separated values_, `.csv`) ist ein gängiges Format für den
-Austausch tabellarischer Daten. Wie der Name sagt nutzt eine "klassische"
-CSV-Datei Kommata für die Trennung von einzelnen Werten (Spalten). Oft wird
-aber auch ein Semikolon genutzt.
+Das Dateiformat CSV (_comma separated values_, `.csv`) ist ein gängiges Format
+für den Austausch tabellarischer Daten. Wie der Name sagt nutzt eine
+"klassische" CSV-Datei Kommata für die Trennung von einzelnen Werten (Spalten).
+Oft wird aber auch ein Semikolon genutzt.
 
 ## Struktur einer CSV-Datei
 
@@ -52,7 +52,16 @@ index;date;time;temp
 7;2025-10-10;11:57:20;21.6
 ```
 
-Es gibt auch das verwandte Dateiformat TSV (_tabulator separated values_, `.tsv`), welches einen Tabulator (`\t`) als Trennzeichen nutzt.
+```csv
+"Matrikel Nr.", "Nachname", "Vorname", "Adresse", "HZB"
+"123456", "Aa-Bb", "Ccc", "Muster Str. 7b", "2,4"
+"234567", "Aa", "Ddd", "Deppendorf 12", "1,0"
+"345678", "Bb", "Eee", "Alexanderplatz 4", "1,3"
+
+```
+
+Es gibt auch das verwandte Dateiformat TSV (_tabulator separated values_,
+`.tsv`), welches einen Tabulator (`\t`) als Trennzeichen nutzt.
 
 ```tsv
 Matrikel Nr.\tNachname\tVorname\tAdresse\tHZB
