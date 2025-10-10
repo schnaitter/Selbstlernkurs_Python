@@ -41,7 +41,7 @@ typischer Daten viel seltener genutzt als das Komma.
 id, family name, given name, birthdate
 0, musterfrau, martha, 1.2.2003
 1, müller, kim, 1999-8-7
-2, 王, 祖寇, February 21, 2005
+2, 王, 祖寇, February 21 2005
 ```
 
 ```csv
