@@ -284,6 +284,121 @@ In Unix-artigen Betriebssystemen.
 $ chmod +x datei.py
 ```
 
+## Listen (`list`)
+
+```python
+fruechte = ["Apfel", "Banane", "Orange"]
+zahlen = [1, 2, 3, 4, 5]
+gemischt = ["Text", 42, True, 3.14]
+
+# Zugriff auf Elemente (0-basiert)
+erstes = fruechte[0]        # "Apfel"
+letztes = fruechte[-1]      # "Orange"
+
+# Länge einer Liste
+anzahl = len(fruechte)      # 3
+
+# Elemente hinzufügen
+fruechte.append("Mango")    # Am Ende hinzufügen
+
+# Über Liste iterieren
+for frucht in fruechte:
+    print(frucht)
+
+# Mit Index iterieren
+for i, frucht in enumerate(fruechte):
+    print(f"{i}: {frucht}")
+```
+
+## Wörterbücher (`dict`)
+
+```python
+person = {
+    "name": "Alice",
+    "alter": 25,
+    "stadt": "Berlin"
+}
+
+# Zugriff auf Werte
+name = person["name"]           # "Alice"
+alter = person.get("alter")     # 25
+gehalt = person.get("gehalt", 0) # 0 (Standardwert)
+
+# Werte setzen
+person["beruf"] = "Entwicklerin"
+
+# Über Wörterbuch iterieren
+for schluessel, wert in person.items():
+    print(f"{schluessel}: {wert}")
+
+for schluessel in person.keys():
+    print(schluessel)
+```
+
+## Dateien lesen und schreiben
+
+```python
+# Datei lesen
+with open("datei.txt", "r") as f:
+    inhalt = f.read()           # Gesamten Inhalt lesen
+    
+with open("datei.txt", "r") as f:
+    zeilen = f.readlines()      # Alle Zeilen als Liste
+    
+with open("datei.txt", "r") as f:
+    for zeile in f:             # Zeile für Zeile
+        print(zeile.strip())
+
+# Datei schreiben
+with open("ausgabe.txt", "w") as f:
+    f.write("Hallo Welt\n")
+
+# An Datei anhängen
+with open("log.txt", "a") as f:
+    f.write("Neuer Eintrag\n")
+```
+
+## CSV-Dateien
+
+```python
+import csv
+
+# CSV lesen
+with open("daten.csv", "r") as f:
+    reader = csv.reader(f, delimiter=";")
+    for zeile in reader:
+        print(zeile)  # zeile ist eine Liste
+
+# CSV mit Spaltennamen lesen
+with open("daten.csv", "r") as f:
+    reader = csv.DictReader(f, delimiter=";")
+    for zeile in reader:
+        print(zeile["spaltenname"])  # zeile ist ein Wörterbuch
+
+# CSV schreiben
+with open("ausgabe.csv", "w", newline="") as f:
+    writer = csv.writer(f, delimiter=";")
+    writer.writerow(["Name", "Alter", "Stadt"])
+    writer.writerow(["Alice", "25", "Berlin"])
+```
+
+## Ausnahmebehandlung (`try`/`except`)
+
+```python
+try:
+    zahl = int(input("Zahl eingeben: "))
+    ergebnis = 10 / zahl
+    print(ergebnis)
+except ValueError:
+    print("Das war keine gültige Zahl!")
+except ZeroDivisionError:
+    print("Division durch Null nicht möglich!")
+except Exception as e:
+    print(f"Unerwarteter Fehler: {e}")
+finally:
+    print("Wird immer ausgeführt")
+```
+
 ## Python Code ausführen
 
 ```bash
