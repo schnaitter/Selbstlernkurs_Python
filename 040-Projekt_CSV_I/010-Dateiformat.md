@@ -78,9 +78,11 @@ In diesem Kapitel nutzen wir die syntetisch erstellte CSV-Datei
 wurde. Da das Skript die Buchreihenfolge randomisiert ist es (nahezu) unmöglich,
 die gleiche Test-Datei erneut herzustellen.
 
+Hier sehen Sie die ersten 40 Zeilen der Datei.
+
 ```{include} books_powerlaw_dataset.csv
 :lang: csv
 :enumerated: true
 :linenos: true
-:end-line: 16
+:end-line: 39
 ```
