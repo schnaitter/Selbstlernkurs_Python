@@ -332,9 +332,9 @@ sicherzustellen, dass alles korrekt funktioniert.
     $ python3 -c "import jupyter; print('Jupyter verfügbar')"
     ```
 
-### Jupyter Lab starten
+### JupyterLab starten
 
-Wir benutzen Jupyter Lab als Oberfläche für die Arbeit mit Code im Kurs. Führen
+Wir benutzen JupyterLab als Oberfläche für die Arbeit mit Code im Kurs. Führen
 Sie den nachfolgenden Befehl in einem Terminal aus. Dies startet einen Jupyter
 Server und öffnet Ihren Webbrowser mit einem neuen Tab in dem Sie die
 Jupyter-Lab-Oberfläche sehen.
