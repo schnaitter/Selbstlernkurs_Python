@@ -70,3 +70,17 @@ Matrikel Nr.\tNachname\tVorname\tAdresse\tHZB
 345678\tBb\tEee\tAlexanderplatz 4\t1,3
 
 ```
+
+## Synthetische Testdaten für dieses Kapitel
+
+In diesem Kapitel nutzen wir die syntetisch erstellte CSV-Datei
+`books_powerlaw_dataset.csv`, welche mit dem Skript `generate_csv.py` generiert
+wurde. Da das Skript die Buchreihenfolge randomisiert ist es (nahezu) unmöglich,
+die gleiche Test-Datei erneut herzustellen.
+
+```{include} books_powerlaw_dataset.csv
+:lang: csv
+:enumerated: true
+:linenos: true
+:end-line: 16
+```
