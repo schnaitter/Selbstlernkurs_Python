@@ -51,6 +51,24 @@ Lehrgebiet in Modul 2 (07.05). Sie selbst entscheiden am Ende des Studiums bei
 der Abgabe der Nachweise der Kleinen Aufgaben, in welchem Modul Sie die in
 diesem Kurs erlangten Nachweise geltend machen.
 
+```{hint} 📝 Kleine Aufgabe
+:icon: false
+
+Protokollieren Sie Ihre Nutzung des Kurses. Formulieren Sie, wie Sie an
+Aufgaben herangegangen sind und wo Sie Probleme hatten.
+
+- Welche Informationen haben Ihnen wo gefehlt?
+- Haben Sie die Informationen selbst recherchieren können oder sind Sie
+  "stecken geblieben"?
+- Wo ging es Ihrer Meinung nach zu schnell? Wo zu langsam?
+- Der Kurs übergeht (teilw. absichtlich) bestimmte Details. Sind Ihnen diese
+  Sprünge aufgefallen und war das schlimm?
+
+Arbeiten Sie die ersten Kapitel des Kurses für insg. (mindestens) 3 Stunden durch
+und geben Sie Feedback.
+
+```
+
 ## Setup
 
 - Einloggen in JupyterHub (auswahl DataScience "Profil")
