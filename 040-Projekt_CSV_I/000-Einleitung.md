@@ -6,7 +6,7 @@ numbering:
     title: true
 ---
 
-# Projekt: Zählen einer ISBN in einem Datensatz (CSV)
+# Projekt: Bestseller finden (CSV)
 
 ```{seealso} 🎓 Lernziele
 :icon: false

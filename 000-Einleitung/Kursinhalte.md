@@ -22,11 +22,11 @@ Erarbeitung des Kurses hergestellt werden können und wie die Inhalte durch
 Lernende am besten genutzt werden sollten. Zudem gibt es technische Anleitungen
 für die Arbeit mit den {term}`Jupyter Notebook`s.
 
-## Projekt: Python als Taschenrechner
+## Projekt: Taschenrechner I
 
 Das erste Projekt steigt ein in die Nutzung von Python als Taschenrechner. Am
 Ende des Projekts können Lernende mathematische Funktionen in Python umsetzen
-und in der {term}`REPL` oder in einem Notebook nutzen.
+und in der {term}`REPL`, in einer `.py`-Datei oder in einem Notebook nutzen.
 
 ## Exkurs: Unix
 
@@ -34,11 +34,17 @@ In diesem Kapitel wird auf relevante Eigenschaften von Unix-kompatiblen
 Betriebssystemen eingegangen. Insbesondere gibt es auch eine Einführung in die
 Nutzung einer Unix Shell.
 
-## Projekt: Zählen einer ISBN in einem Datensatz (CSV)
+## Projekt: Bestseller finden (CSV)
 
-In diesem Projekt werden Daten aus einer CSV-Datei eingelesen und es werden die
-Vorkommen einer bestimmten ISBN gezählt. Am Ende können Lernende das Programm
-anpassen, um andere Elemente der CSV-Datei zu zählen.
+In diesem Projekt werden Daten aus einer CSV-Datei eingelesen und als Aufgabe
+finden Sie den Bestseller nach verschiedenen Zählweisen. Um dies zu können lernen
+Sie das öffnen von Datein und (manuelles) Parsen von CSV-Dateien.
+
+## Projekt: Taschenrechner II
+
+Es wird basierend auf dem in Taschenrechner I gelernten ein Skript gebaut, welches
+Berechnungsanweisungen annimmt und dann durchführt. Dieses wird dann in der Aufgabe
+um Funktionalitäten und Nutzungsszenarien erweitert und fehlertolerant gestaltet.
 
 ## Exkurs: Git
 

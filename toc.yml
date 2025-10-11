@@ -27,6 +27,8 @@ project:
       children:
         - file: 040-Projekt_CSV_I/010-Dateiformat.md
         - file: 040-Projekt_CSV_I/020-Dateien_öffnen.ipynb
+        - file: 040-Projekt_CSV_I/030-CSV_einlesen_manuell.ipynb
+        - file: 040-Projekt_CSV_I/040-CSV_einlesen_Modul.ipynb
     - file: 045-Projekt_Taschenrechner_II/010-Taschenrechner.ipynb
       children:
             - file: 045-Projekt_Taschenrechner_II/020-Nutzerinneneingabe.ipynb
