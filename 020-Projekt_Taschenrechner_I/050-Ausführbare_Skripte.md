@@ -126,4 +126,4 @@ Das ausführbare Skript sieht damit so aus:
 ```
 
 Unter Windows funktionieren diese Art der Skripte etwas anders. Wir gehen hier
-von der Nutzung in Jupyter Hub aus.
+von der Nutzung in JupyterHub aus.

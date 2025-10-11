@@ -11,9 +11,9 @@ project:
     - file: 010-Installation_Technik/Einleitung.md
       children:
         - file: 010-Installation_Technik/Warum_Python.ipynb
-        - file: 010-Installation_Technik/Jupyter_Hub.md
+        - file: 010-Installation_Technik/JupyterHub.md
         - file: 010-Installation_Technik/Lokale_Installation.md
-        - file: 010-Installation_Technik/Jupyter_Lab.md
+        - file: 010-Installation_Technik/JupyterLab.md
     - file: 020-Projekt_Taschenrechner_I/000-Einleitung.md
       children:
         - file: 020-Projekt_Taschenrechner_I/010-Python_REPL.ipynb

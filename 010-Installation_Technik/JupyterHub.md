@@ -7,11 +7,11 @@ numbering:
         template: Abb. %s
 ---
 
-# Jupyter Hub der Humboldt-Universität Berlin
+# JupyterHub der Humboldt-Universität Berlin
 
-Der Jupyter Hub der HU ermöglicht Ihnen den Zugang über Ihren HU-Account. Ihre Dateien und Änderungen werden aktuell gespeichert, jedoch können sie jeweils am Ende des Semesters gelöscht werden. Laden Sie daher Dateien, die Sie längerfristig behalten wollen, herunter.
+Der JupyterHub der HU ermöglicht Ihnen den Zugang über Ihren HU-Account. Ihre Dateien und Änderungen werden aktuell gespeichert, jedoch können sie jeweils am Ende des Semesters gelöscht werden. Laden Sie daher Dateien, die Sie längerfristig behalten wollen, herunter.
 
-## Zugang zum Jupyter Hub
+## Zugang zum JupyterHub
 
 ### URL und Anmeldung
 
@@ -19,17 +19,17 @@ Der Jupyter Hub der HU ermöglicht Ihnen den Zugang über Ihren HU-Account. Ihre
 - **Anmeldung:** Mit HU-Account (Benutzername und Passwort)
 - **Zugang:** Sowohl innerhalb des HU-Netzwerks als auch über VPN möglich
 
-```{figure} ../assets/010/Jupyter_Hub_Login.png
+```{figure} ../assets/010/JupyterHub_Login.png
 :name: fig:hub_login
 :centered:
 :width: 80%
 
-Login zum Jupyter Hub der HU Berlin
+Login zum JupyterHub der HU Berlin
 ```
 
 ## Verfügbare Umgebungen (Profile)
 
-Der Jupyter Hub bietet sechs verschiedene Jupyter-Lab-Umgebungen:
+Der JupyterHub bietet sechs verschiedene Jupyter-Lab-Umgebungen:
 
 1. **Python** - Standard Python-Umgebung für allgemeine Programmierung
 2. **Spark** - Für Big Data-Verarbeitung mit Apache Spark
@@ -38,12 +38,12 @@ Der Jupyter Hub bietet sechs verschiedene Jupyter-Lab-Umgebungen:
 5. **Natural Language Processing** - Speziell für NLP-Aufgaben
 6. **CUDA** - Umgebung mit GPU-Unterstützung für rechenintensive Aufgaben
 
-```{figure} ../assets/010/Jupyter_Hub_Profile.png
+```{figure} ../assets/010/JupyterHub_Profile.png
 :name: fig:hub_profiles
 :centered:
 :width: 80%
 
-Profile des Jupyter Hubs. Wir nutzen für diesen Kurs das Profil "Datascience Jupyterlab"
+Profile des JupyterHubs. Wir nutzen für diesen Kurs das Profil "Datascience Jupyterlab"
 ```
 
 ## Login
@@ -54,7 +54,7 @@ Profile des Jupyter Hubs. Wir nutzen für diesen Kurs das Profil "Datascience Ju
 2. Melden Sie sich mit Ihren HU-Zugangsdaten an
 3. Wählen Sie das erste Profil
 
-```{figure} ../assets/010/Jupyter_Hub_Jupyter_Lab.png
+```{figure} ../assets/010/JupyterHub_JupyterLab.png
 :name: fig:hub_lab_startpage
 :centered:
 :width: 80%
@@ -82,7 +82,7 @@ Startansicht der Jupyter-Lab-Oberfläche. In diesem Screenshot sind mehr Ordner 
 
 Daher empfehlen wir:
 
-1. Arbeiten Sie direkt im Jupyter Hub
+1. Arbeiten Sie direkt im JupyterHub
 2. Laden Sie fertige Notebooks und Dateien regelmäßig herunter
 3. Optional: Verwenden Sie Git-Integration für Versionskontrolle
 
@@ -90,7 +90,7 @@ Daher empfehlen wir:
 
 ## Test des Setups
 
-1. Melden Sie sich am Jupyter Hub an
+1. Melden Sie sich am JupyterHub an
 2. Wählen Sie das Python-Profil
 3. Erstellen Sie ein neues Notebook
 4. Führen Sie eine einfache Python-Zelle aus:

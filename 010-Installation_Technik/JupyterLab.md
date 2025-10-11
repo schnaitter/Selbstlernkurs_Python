@@ -7,13 +7,13 @@ numbering:
         template: Abb. %s
 ---
 
-# Die Jupyter-Lab-Oberfläche
+# Die JupyterLab-Oberfläche
 
-## Überblick über Jupyter Lab
+## Überblick über JupyterLab
 
-Jupyter Lab ist die nächste Generation der webbasierten Entwicklungsumgebung für das Jupyter-Projekt. Es bietet eine flexible und erweiterbare Oberfläche für interaktive Datenanalyse und wissenschaftliches Rechnen.
+JupyterLab ist die nächste Generation der webbasierten Entwicklungsumgebung für das Jupyter-Projekt. Es bietet eine flexible und erweiterbare Oberfläche für interaktive Datenanalyse und wissenschaftliches Rechnen.
 
-```{figure} ../assets/010/Jupyter_Lab_Parts.png
+```{figure} ../assets/010/JupyterLab_Parts.png
 :name: fig:lab_parts
 :centered:
 :width: 100%
@@ -57,7 +57,7 @@ Die linke Seitenleiste bietet schnellen Zugriff auf wichtige Tools:
 
 ### 3. Arbeitsbereich (Main Work Area)
 
-Der zentrale Arbeitsbereich ist das Herzstück von Jupyter Lab:
+Der zentrale Arbeitsbereich ist das Herzstück von JupyterLab:
 
 - **Flexible Tab-Anordnung**: Mehrere Dokumente gleichzeitig öffnen
 - **Geteilte Ansichten**: Fenster durch Ziehen von Tabs aufteilen
@@ -99,7 +99,7 @@ Der zentrale Arbeitsbereich ist das Herzstück von Jupyter Lab:
 
 ## Dateiformate und Viewer
 
-Jupyter Lab kann verschiedene Dateiformate direkt anzeigen:
+JupyterLab kann verschiedene Dateiformate direkt anzeigen:
 
 - **Notebooks** (.ipynb): Interaktive Code-Dokumente
 - **Text-Dateien** (.py, .txt, .md): Mit Syntax-Highlighting
@@ -118,7 +118,7 @@ Jupyter Lab kann verschiedene Dateiformate direkt anzeigen:
 
 1. **Experimentieren Sie**: Die Oberfläche ist flexibel - probieren Sie verschiedene Layouts aus
 2. **Shortcuts lernen**: Tastenkombinationen beschleunigen die Arbeit erheblich
-3. **Extensions nutzen**: Erweitern Sie Jupyter Lab um zusätzliche Funktionen
+3. **Extensions nutzen**: Erweitern Sie JupyterLab um zusätzliche Funktionen
 4. **Dokumentation**: Nutzen Sie die eingebaute Hilfe (Help-Menü)
 
 > **Screenshot benötigt:** Help-Menü mit Keyboard Shortcuts und About-Dialog
