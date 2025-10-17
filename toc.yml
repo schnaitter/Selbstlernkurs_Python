@@ -30,13 +30,24 @@ project:
         - file: 040-Projekt_CSV_I/030-CSV_einlesen_manuell.ipynb
         - file: 040-Projekt_CSV_I/040-CSV_einlesen_Modul.ipynb
         - file: 040-Projekt_CSV_I/050-Aufgabe_Bestseller.ipynb
-    - file: 050-Exkurs_Git/Einleitung.md
+    - file: 050-Exkurs_Git/000-Einleitung.md
+      children:
+        - file: 050-Exkurs_Git/010-Was_ist_Versionskontrolle.md
+        - file: 050-Exkurs_Git/020-Installation_Konfiguration.md
+        - file: 050-Exkurs_Git/030-Grundkonzepte.md
+        - file: 050-Exkurs_Git/040-Erste_Schritte.md
+        - file: 050-Exkurs_Git/050-Historie.md
+        - file: 050-Exkurs_Git/060-Remote_Repositories.md
+        - file: 050-Exkurs_Git/070-Branches.md
+        - file: 050-Exkurs_Git/080-Git_im_Kurs.md
+        - file: 050-Exkurs_Git/090-Best_Practices.md
+        - file: 050-Exkurs_Git/100-Übung.md
     - file: 060-Projekt_Taschenrechner_II/010-Taschenrechner.ipynb
       children:
-            - file: 060-Projekt_Taschenrechner_II/020-Nutzerinneneingabe.ipynb
-            - file: 060-Projekt_Taschenrechner_II/030-Schleifen.ipynb
-            - file: 060-Projekt_Taschenrechner_II/040-Implementierung.ipynb
-            - file: 060-Projekt_Taschenrechner_II/050-Aufgabe_Erweiterung.md
+        - file: 060-Projekt_Taschenrechner_II/020-Nutzerinneneingabe.ipynb
+        - file: 060-Projekt_Taschenrechner_II/030-Schleifen.ipynb
+        - file: 060-Projekt_Taschenrechner_II/040-Implementierung.ipynb
+        - file: 060-Projekt_Taschenrechner_II/050-Aufgabe_Erweiterung.md
     - file: 070-Projekt_CSV_II/000-Einleitung.md
     - file: 080-Projekt_MARC-XML/Einleitung.md
     - file: 090-Projekt_Excel/Einleitung.md
