@@ -1,13 +1,14 @@
 ---
 numbering:
-    heading_1: false
+    heading_1: true
     heading_2: true
-    title: false
+    title: true
 ---
 
 # Best Practices und Sicherheit
 
-In diesem Kapitel lernen Sie bewährte Praktiken für die Arbeit mit Git kennen – von der Commit-Frequenz bis zur Sicherheit.
+In diesem Kapitel lernen Sie bewährte Praktiken für die Arbeit mit Git kennen –
+von der Commit-Frequenz bis zur Sicherheit.
 
 ## Commit-Frequenz: Wie oft committen?
 
@@ -16,10 +17,11 @@ In diesem Kapitel lernen Sie bewährte Praktiken für die Arbeit mit Git kennen 
 **Committen Sie oft, aber mit Bedacht.**
 
 Ein guter Richtwert:
+
 - **Mindestens**: Nach jeder funktionierenden Teilaufgabe
 - **Höchstens**: Nicht hunderte Commits für triviale Änderungen
 
-### ✅ Gute Commit-Punkte
+### Gute Commit-Punkte
 
 - Nach Implementierung einer Funktion (auch wenn sie noch nicht perfekt ist)
 - Nach jedem Bugfix
@@ -30,31 +32,32 @@ Ein guter Richtwert:
 **Beispiel**: Sie schreiben einen CSV-Parser:
 
 ```bash
-git commit -m "CSV-Datei einlesen implementiert"
-git commit -m "Spalten filtern hinzugefügt"
-git commit -m "Fehlerbehandlung für ungültige Dateien"
-git commit -m "Tests für Edge-Cases ergänzt"
+$ git commit -m "CSV-Datei einlesen implementiert"
+$ git commit -m "Spalten filtern hinzugefügt"
+$ git commit -m "Fehlerbehandlung für ungültige Dateien"
+$ git commit -m "Tests für Edge-Cases ergänzt"
 ```
 
-### ❌ Zu große Commits vermeiden
+### Zu große Commits vermeiden
 
 ```bash
 # Schlecht:
-git add .
-git commit -m "Alles fertig"
+$ git add .
+$ git commit -m "Alles fertig"
 # (Enthält 500 Zeilen über 10 Dateien mit 5 verschiedenen Features)
 ```
 
-**Problem**: Wenn ein Fehler auftritt, ist schwer nachzuvollziehen, welche Änderung ihn verursacht hat.
+**Problem**: Wenn ein Fehler auftritt, ist schwer nachzuvollziehen, welche
+Änderung ihn verursacht hat.
 
-### ❌ Zu kleine Commits vermeiden
+### Zu kleine Commits vermeiden
 
 ```bash
 # Übertrieben:
-git commit -m "Zeile 1 hinzugefügt"
-git commit -m "Zeile 2 hinzugefügt"
-git commit -m "Leerzeichen entfernt"
-git commit -m "Kommentar angepasst"
+$ git commit -m "Zeile 1 hinzugefügt"
+$ git commit -m "Zeile 2 hinzugefügt"
+$ git commit -m "Leerzeichen entfernt"
+$ git commit -m "Kommentar angepasst"
 ```
 
 **Problem**: Die Historie wird unübersichtlich.
@@ -68,18 +71,20 @@ Ein Commit sollte **eine logische Änderung** darstellen:
 - Eine Datei umstrukturieren
 - Dokumentation erweitern
 
-:::::{admonition} Faustregel
-:class: tip
-Können Sie die Änderung in einem Satz beschreiben? Dann ist es ein guter Commit.
+:::::{tip} Faustregel
 
-- ✅ "Divisionsfunktion mit Fehlerbehandlung hinzugefügt"
-- ✅ "Bug bei leeren Eingaben behoben"
-- ❌ "Verschiedene Änderungen gemacht"
+Können Sie die Änderung in einem Satz beschreiben? Dann ist es ein guter
+Commit.
+
+- "Divisionsfunktion mit Fehlerbehandlung hinzugefügt"
+- "Bug bei leeren Eingaben behoben"
+- "Verschiedene Änderungen gemacht"
+
 :::::
 
 ## Commit-Messages: Dos and Don'ts
 
-### ✅ Gute Commit-Messages
+### Gute Commit-Messages
 
 ```
 Begrüßungsfunktion mit Parameterisierung hinzugefügt
@@ -94,12 +99,13 @@ Tests für Datums-Parsing ergänzt
 ```
 
 **Merkmale:**
+
 - Kurz und prägnant (erste Zeile unter 50 Zeichen)
 - Beschreibt **was** geändert wurde
 - Imperativ ("füge hinzu", nicht "hinzugefügt")
 - Gibt Kontext (z.B. "für Umleitungsdaten")
 
-### ❌ Schlechte Commit-Messages
+### Schlechte Commit-Messages
 
 ```
 Update
@@ -112,6 +118,7 @@ noch mehr Zeug
 ```
 
 **Probleme:**
+
 - Zu vage
 - Keine Information über den Inhalt
 - Nicht professionell
@@ -122,7 +129,7 @@ noch mehr Zeug
 Für komplexere Commits können Sie eine längere Beschreibung hinzufügen:
 
 ```bash
-git commit
+$ git commit
 ```
 
 Im Editor:
@@ -139,6 +146,7 @@ Closes #42
 ```
 
 **Format:**
+
 1. Erste Zeile: Kurze Zusammenfassung (max. 50 Zeichen)
 2. Leerzeile
 3. Ausführliche Beschreibung (optional)
@@ -146,7 +154,7 @@ Closes #42
 
 ## Sicherheit: Was gehört NICHT in Git?
 
-### 🚨 Niemals committen:
+### Niemals committen:
 
 #### 1. Passwörter und API-Keys
 
@@ -167,6 +175,7 @@ API_KEY = os.getenv("API_KEY")
 ```
 
 Und in `.gitignore`:
+
 ```gitignore
 .env
 secrets.json
@@ -192,6 +201,7 @@ id_rsa
 #### 4. Große Dateien
 
 Git ist für Code optimiert, nicht für:
+
 - Große CSV-Dateien (> 10 MB)
 - Videos, Bilder in hoher Auflösung
 - Binärdateien, kompilierte Programme
@@ -259,7 +269,7 @@ config_local.ini
 Prüfen Sie, ob eine Datei ignoriert wird:
 
 ```bash
-git check-ignore -v dateiname.txt
+$ git check-ignore -v dateiname.txt
 ```
 
 ### Bereits committete Dateien entfernen
@@ -268,20 +278,24 @@ Falls Sie versehentlich eine Datei committed haben:
 
 ```bash
 # Aus Git entfernen, aber lokal behalten
-git rm --cached dateiname.txt
+$ git rm --cached dateiname.txt
 
 # Zur .gitignore hinzufügen
-echo "dateiname.txt" >> .gitignore
+$ echo "dateiname.txt" >> .gitignore
 
 # Committen
-git add .gitignore
-git commit -m "Sensible Datei aus Git entfernt"
+$ git add .gitignore
+$ git commit -m "Sensible Datei aus Git entfernt"
 ```
 
-:::::{warning}
-Achtung: Die Datei ist zwar aus dem neuesten Commit entfernt, aber noch in der Historie vorhanden! Für wirklich sensible Daten (Passwörter) müssen Sie die gesamte Historie bereinigen – das ist komplex und fehleranfällig.
+:::::{warning} Achtung
+
+Die Datei ist zwar aus dem neuesten Commit entfernt, aber noch in der Historie
+vorhanden! Für wirklich sensible Daten (Passwörter) müssen Sie die gesamte
+Historie bereinigen – das ist komplex und fehleranfällig.
 
 **Besser**: Von Anfang an keine sensiblen Daten committen!
+
 :::::
 
 ## Repository-Organisation
@@ -308,7 +322,7 @@ mein-projekt/
 
 Jedes Projekt sollte eine README haben:
 
-```markdown
+````markdown
 # Projekt-Name
 
 Kurze Beschreibung, was das Projekt macht.
@@ -328,7 +342,7 @@ python src/main.py
 ## Lizenz
 
 MIT
-```
+````
 
 ## Zusammenarbeit: Kommunikation ist wichtig
 
@@ -352,15 +366,17 @@ MIT
 
 ### Problem 1: "I forgot to commit"
 
-Sie haben den ganzen Tag gearbeitet und wollen jetzt alles auf einmal committen.
+Sie haben den ganzen Tag gearbeitet und wollen jetzt alles auf einmal
+committen.
 
 **Lösung**: Verwenden Sie `git add -p` (interactive staging):
 
 ```bash
-git add -p
+$ git add -p
 ```
 
-Git zeigt Ihnen jede Änderung einzeln und fragt, ob sie hinzugefügt werden soll. So können Sie selektiv committen.
+Git zeigt Ihnen jede Änderung einzeln und fragt, ob sie hinzugefügt werden
+soll. So können Sie selektiv committen.
 
 ### Problem 2: "Wrong commit message"
 
@@ -369,11 +385,16 @@ Sie haben eine fehlerhafte Commit-Message geschrieben.
 **Lösung (nur letzter Commit, noch nicht gepusht):**
 
 ```bash
-git commit --amend -m "Korrigierte Commit-Message"
+$ git commit --amend -m "Korrigierte Commit-Message"
 ```
 
-:::::{warning}
-**Niemals** Commits ändern, die bereits gepusht wurden! Das führt zu Problemen bei anderen Entwickler\*innen.
+:::::{warning} Gefahr
+
+Nur ins Ausnahmefällen und wenn Sie wissen, was Sie tun Commits ändern, die
+bereits gepusht wurden! Das führt zu Problemen bei anderen Entwickler\*innen.
+
+Wenn dann überhaupt nur in einem Branch, in dem vorrangig Sie selbst arbeiten.
+
 :::::
 
 ### Problem 3: "I committed to the wrong branch"
@@ -382,19 +403,19 @@ git commit --amend -m "Korrigierte Commit-Message"
 
 ```bash
 # Aktuellen Commit merken
-git log  # Hash kopieren, z.B. a1b2c3d
+$ git log  # Hash kopieren, z.B. a1b2c3d
 
 # Zum richtigen Branch wechseln
-git checkout richtiger-branch
+$ git checkout richtiger-branch
 
 # Commit hierher kopieren
-git cherry-pick a1b2c3d
+$ git cherry-pick a1b2c3d
 
 # Zurück zum falschen Branch
-git checkout falscher-branch
+$ git checkout falscher-branch
 
 # Letzten Commit rückgängig machen
-git reset --hard HEAD~1
+$ git reset --hard HEAD~1
 ```
 
 ### Problem 4: "I want to undo everything"
@@ -405,10 +426,10 @@ Sie haben experimentiert und möchten alle Änderungen verwerfen.
 
 ```bash
 # Alle nicht-committeten Änderungen verwerfen
-git restore .
+$ git restore .
 
 # Auch aus Staging Area entfernen
-git restore --staged .
+$ git restore --staged .
 ```
 
 ## Cheat Sheet: Die wichtigsten Befehle
@@ -416,53 +437,60 @@ git restore --staged .
 ### Tägliche Arbeit
 
 ```bash
-git status              # Status prüfen
-git add datei.py        # Datei hinzufügen
-git commit -m "Text"    # Committen
-git push                # Hochladen
-git pull                # Herunterladen
+$ git status              # Status prüfen
+$ git add datei.py        # Datei hinzufügen
+$ git commit -m "Text"    # Committen
+$ git push                # Hochladen
+$ git pull                # Herunterladen
 ```
 
 ### Historie
 
 ```bash
-git log --oneline       # Commits anzeigen
-git diff                # Änderungen anzeigen
+$ git log --oneline       # Commits anzeigen
+$ git diff                # Änderungen anzeigen
 ```
 
 ### Branches
 
 ```bash
-git branch              # Branches anzeigen
-git checkout -b name    # Branch erstellen + wechseln
-git merge name          # Branch mergen
+$ git branch              # Branches anzeigen
+$ git checkout -b name    # Branch erstellen + wechseln
+$ git merge name          # Branch mergen
 ```
 
 ### Troubleshooting
 
 ```bash
-git restore datei.py    # Änderungen verwerfen
-git restore --staged .  # Aus Staging entfernen
-git status              # Orientierung finden
+$ git restore datei.py    # Änderungen verwerfen
+$ git restore --staged .  # Aus Staging entfernen
+$ git status              # Orientierung finden
 ```
 
 ## Weiterführende Ressourcen
 
 ### Online-Tutorials
 
-- [Pro Git Buch (kostenlos)](https://git-scm.com/book/de/v2): Umfassendes Handbuch
-- [GitHub Learning Lab](https://github.com/apps/github-learning-lab): Interaktive Tutorials
-- [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials): Gut strukturiert
+- [Pro Git Buch (kostenlos)](https://git-scm.com/book/de/v2): Umfassendes
+  Handbuch
+- [GitHub Learning Lab](https://github.com/apps/github-learning-lab):
+  Interaktive Tutorials
+- [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials): Gut
+  strukturiert
 
 ### Visualisierungen
 
-- [Visualizing Git](https://git-school.github.io/visualizing-git/): Interaktive Visualisierung
-- [Learn Git Branching](https://learngitbranching.js.org/?locale=de_DE): Spielerisches Lernen
+- [Visualizing Git](https://git-school.github.io/visualizing-git/): Interaktive
+  Visualisierung
+- [Learn Git Branching](https://learngitbranching.js.org/?locale=de_DE):
+  Spielerisches Lernen
 
 ### Git-GUIs
 
 Falls Sie lieber grafisch arbeiten:
-- [GitKraken](https://www.gitkraken.com/): Umfangreich, kostenlos für öffentliche Repos
+
+- [GitKraken](https://www.gitkraken.com/): Umfangreich, kostenlos für
+  öffentliche Repos
 - [SourceTree](https://www.sourcetreeapp.com/): Kostenlos
 - VS Code: Eingebaute Git-Integration
 
@@ -489,16 +517,20 @@ Falls Sie lieber grafisch arbeiten:
 - ✅ Kommunikation im Team
 - ❌ Nicht direkt auf `main` arbeiten bei Team-Projekten
 
-:::::{admonition} Ihr Weg zu Git-Kompetenz
-:class: success
+:::::{tip} Ihr Weg zu Git-Kompetenz
+
 Git-Expertise entsteht durch Übung. Die wichtigsten Tipps:
 
-1. **Keine Angst vor Fehlern**: Solange Sie committen, können Sie (fast) nichts kaputt machen
+1. **Keine Angst vor Fehlern**: Solange Sie committen, können Sie (fast) nichts
+   kaputt machen
 2. **git status ist Ihr Freund**: Bei Unsicherheit immer zuerst Status prüfen
-3. **Klein anfangen**: Nutzen Sie zunächst nur die Basics, erweitern Sie schrittweise
+3. **Klein anfangen**: Nutzen Sie zunächst nur die Basics, erweitern Sie
+   schrittweise
 4. **Dokumentieren Sie**: Schreiben Sie auf, was funktioniert hat
 
 Mit der Zeit werden Git-Befehle zur Routine – wie das Speichern einer Datei!
+
 :::::
 
-Im letzten Kapitel des Git-Exkurses finden Sie eine zusammenfassende Übungsaufgabe.
+Im letzten Kapitel des Git-Exkurses finden Sie eine zusammenfassende
+Übungsaufgabe.
