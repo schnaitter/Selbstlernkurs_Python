@@ -30,16 +30,16 @@ project:
         - file: 040-Projekt_CSV_I/030-CSV_einlesen_manuell.ipynb
         - file: 040-Projekt_CSV_I/040-CSV_einlesen_Modul.ipynb
         - file: 040-Projekt_CSV_I/050-Aufgabe_Bestseller.ipynb
-    - file: 045-Projekt_Taschenrechner_II/010-Taschenrechner.ipynb
-      children:
-            - file: 045-Projekt_Taschenrechner_II/020-Nutzerinneneingabe.ipynb
-            - file: 045-Projekt_Taschenrechner_II/030-Schleifen.ipynb
-            - file: 045-Projekt_Taschenrechner_II/040-Implementierung.ipynb
-            - file: 045-Projekt_Taschenrechner_II/050-Aufgabe_Erweiterung.md
     - file: 050-Exkurs_Git/Einleitung.md
-    - file: 060-Projekt_CSV_II/000-Einleitung.md
-    - file: 070-Projekt_MARC-XML/Einleitung.md
-    - file: 080-Projekt_Excel/Einleitung.md
+    - file: 060-Projekt_Taschenrechner_II/010-Taschenrechner.ipynb
+      children:
+            - file: 060-Projekt_Taschenrechner_II/020-Nutzerinneneingabe.ipynb
+            - file: 060-Projekt_Taschenrechner_II/030-Schleifen.ipynb
+            - file: 060-Projekt_Taschenrechner_II/040-Implementierung.ipynb
+            - file: 060-Projekt_Taschenrechner_II/050-Aufgabe_Erweiterung.md
+    - file: 070-Projekt_CSV_II/000-Einleitung.md
+    - file: 080-Projekt_MARC-XML/Einleitung.md
+    - file: 090-Projekt_Excel/Einleitung.md
     - file: 900-Cheatsheet.md
     - title: Epilog
       children:
