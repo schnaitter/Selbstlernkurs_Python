@@ -40,17 +40,17 @@ In diesem Projekt werden Daten aus einer CSV-Datei eingelesen und als Aufgabe
 finden Sie den Bestseller nach verschiedenen Zählweisen. Um dies zu können lernen
 Sie das öffnen von Datein und (manuelles) Parsen von CSV-Dateien.
 
-## Projekt: Taschenrechner II
-
-Es wird basierend auf dem in Taschenrechner I gelernten ein Skript gebaut, welches
-Berechnungsanweisungen annimmt und dann durchführt. Dieses wird dann in der Aufgabe
-um Funktionalitäten und Nutzungsszenarien erweitert und fehlertolerant gestaltet.
-
 ## Exkurs: Git
 
 In diesem Exkurs wird die Versionsverwaltungssoftware Git vorgestellt. Lernende
 können nach Absolvieren des Exkurses an einfachen Projekten, die in Git
 versioniert werden, mitarbeiten.
+
+## Projekt: Taschenrechner II
+
+Es wird basierend auf dem in Taschenrechner I gelernten ein Skript gebaut, welches
+Berechnungsanweisungen annimmt und dann durchführt. Dieses wird dann in der Aufgabe
+um Funktionalitäten und Nutzungsszenarien erweitert und fehlertolerant gestaltet.
 
 ## Projekt: Statistiken eines Datensatzes (CSV)
 
