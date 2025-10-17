@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "Bash(cat:*)",
+      "WebSearch",
+      "Bash(gh issue list:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
