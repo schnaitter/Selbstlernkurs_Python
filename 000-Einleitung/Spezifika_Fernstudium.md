@@ -3,8 +3,6 @@ numbering:
     heading_1: true
     heading_2: true
     title: true
-    figure:
-        template: Abb. %s
 ---
 
 # Spezifika für Studierende des Fernstudiums
