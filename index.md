@@ -21,8 +21,10 @@ Die einzelnen Kapitel des Kurses werden auf der nächsten Seite kurz beschrieben
 
 ## Inhaltsverzeichnis
 
-_Aktuell gibt es leider einen Bug, der die korrekte Generierung des
-Inhaltsverzeichnisses verhindert._
+_Aktuell gibt es leider einen
+[Bug](https://github.com/jupyter-book/mystmd/issues/2000), der die korrekte
+Generierung des Inhaltsverzeichnisses verhindert. Sie können den falschen Punkt
+(`.`) durch ein Forward-Slash (`/`) ersetzen, bis der Fehler behoben wurde._
 
 ```{table-of-contents}
 :depth: 2
