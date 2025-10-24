@@ -21,6 +21,9 @@ Die einzelnen Kapitel des Kurses werden auf der nächsten Seite kurz beschrieben
 
 ## Inhaltsverzeichnis
 
+_Aktuell gibt es leider einen Bug, der die korrekte Generierung des
+Inhaltsverzeichnisses verhindert._
+
 ```{table-of-contents}
 :depth: 2
 ```
