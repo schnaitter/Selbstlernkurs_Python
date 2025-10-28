@@ -194,6 +194,15 @@ while True:
     print(zaehler)
     zaehler += 1
 
+# Häufiges Pattern: Eingaben bis leer einlesen
+numbers = []
+while True:
+    text = input(">> ")
+    if text == "":   # Leere Eingabe beendet die Schleife
+        break
+    numbers.append(int(text))
+# Danach enthält numbers alle eingegebenen Zahlen
+
 # Walrus-Operator := (Assignment Expression)
 # Erlaubt Zuweisung in Bedingungen
 while result := calculate():
