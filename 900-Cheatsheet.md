@@ -124,7 +124,6 @@ a = 17
 b = 5
 print(f"{a} geteilt durch {b} ist {a//b} mit Rest {a%b}.")
 # 17 geteilt durch 5 ist 3 mit Rest 2.
-
 ```
 
 ## Boolesche Werte
@@ -342,7 +341,40 @@ print(nicht_existent)                  # Achtung, wirft `NameError()`
 ```python
 text = input("Wie heißen Sie? ")
 
-zahl = float(input("Zahl > ")   # Achtung, kann `ValueError()` "werfen"
+zahl = float(input("Zahl > "))   # Achtung, kann `ValueError()` "werfen"
+```
+
+### `assert` - Überprüfungen im Code
+
+```python
+# assert überprüft eine Bedingung und wirft AssertionError bei False
+# Ein assert macht eine Annahme über den nachfolgenden Code explizit.
+def addiere(a, b):
+    return a + b
+
+assert addiere(2, 3) == 5, "Fehler: 2 + 3 sollte 5 sein"
+assert addiere(10, 25) == 35, "Fehler: 10 + 25 sollte 35 sein"
+
+# Nützlich für Tests und Debugging
+ergebnis = calculate()
+assert ergebnis is not None, "Berechnung gab None zurück"
+assert ergebnis > 0, f"Ergebnis sollte positiv sein, war aber {ergebnis}"
+```
+
+### `help()` - Dokumentation anzeigen
+
+```python
+# Zeigt Dokumentation zu Funktionen, Modulen, etc.
+help(print)
+help(len)
+help(str.upper)
+
+# Für eigene Funktionen mit docstrings
+def meine_funktion():
+    """Diese Funktion macht etwas Tolles."""
+    pass
+
+help(meine_funktion)  # Zeigt "Diese Funktion macht etwas Tolles."
 ```
 
 ## Dateien lesen und schreiben
