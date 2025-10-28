@@ -8,7 +8,10 @@ numbering:
 # Cheatsheet
 
 ```{danger} Einrückung
-Python-Code muss korrekt eingerückt sein. Es sollten pro Einrückungsebene genau 4 Leerzeichen genutzt werden.
+
+Python-Code muss korrekt eingerückt sein. Es sollten pro Einrückungsebene genau
+4 Leerzeichen genutzt werden.
+
 ```
 
 ## Variablen
@@ -25,6 +28,41 @@ a = b = c = 0
 
 _a = "Unterstrich am Anfang"
 a3 = "Zahlen sind möglich, wenn nicht erstes Zeichen im Namen"
+```
+
+## Literale (Literal Values)
+
+Literale sind Werte im Code, die Sie während dem Schreiben des Codes festlegen.
+
+```python
+# Zahlen-Literale
+42                    # int
+3.14                  # float
+
+# String-Literale
+"Hallo"               # str
+'Welt'                # str
+
+# Boolesche Literale
+True                  # bool
+False                 # bool
+
+# None - repräsentiert "kein Wert" oder "nicht vorhanden"
+# Dies ist eine explizite Definition als "kein Wert" und nicht das Fehlen eines
+# Wertes!
+None                  # NoneType
+
+# Beispiele für None
+def keine_rückgabe():
+    print("Tut etwas")
+    # Kein return Statement, gibt implizit None zurück
+
+ergebnis = keine_rückgabe()  # ergebnis ist None
+
+# None in Bedingungen
+# Tests für `None` sollten immer mit  `is` und nicht mit `==` durchgeführt werden.
+if ergebnis is None:
+    print("Kein Ergebnis vorhanden")
 ```
 
 ## Zahlen
@@ -281,10 +319,10 @@ zahl = float(input("Zahl > ")   # Achtung, kann `ValueError()` "werfen"
 # Datei lesen
 with open("datei.txt", "r") as f:
     inhalt = f.read()           # Gesamten Inhalt lesen
-    
+
 with open("datei.txt", "r") as f:
     zeilen = f.readlines()      # Alle Zeilen als Liste
-    
+
 with open("datei.txt", "r") as f:
     for zeile in f:             # Zeile für Zeile
         print(zeile.strip())
@@ -358,7 +396,7 @@ Parameters:
 -----------
 account_balance (int): The current balance before the transaction is attempted.
         Valid values: 0 <= x <= 15
-            
+
 number_of_media (int): The number of the media to be lent or returned.
         A positive number signifies lending and a negative Number signifies returning.
 
