@@ -104,6 +104,27 @@ text = 'Wie geht\'s?'
 erzählung = "Sie sagt: \"So geht das!\""
 neue_zeile = "Zeile 1\nZeile 2"
 tabulator = "Text\teingerückt\n\tauch eingerückt"
+
+```
+## Besondere Python-String
+
+### f-String = Formatierte String
+```python
+# Variablen für die nachfolgenden Beispiele.
+name = "Alice"
+alter = 25
+kontostand = 14
+
+# Variablen in Strings einfügen
+print(f"Hallo, ich bin {name}!")                    # Hallo, ich bin Alice!
+print(f"Ich bin {name} und {alter} Jahre alt")      # Ich bin Alice und 25 Jahre alt
+
+# Ausdrücke in f-Strings
+a = 17
+b = 5
+print(f"{a} geteilt durch {b} ist {a//b} mit Rest {a%b}.")
+# 17 geteilt durch 5 ist 3 mit Rest 2.
+
 ```
 
 ## Boolesche Werte
