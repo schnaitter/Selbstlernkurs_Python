@@ -194,6 +194,17 @@ while True:
         continue     # Überspringe den Rest des Codes in der Schleife und starte die nächste Iteration
     print(zaehler)
     zaehler += 1
+
+# Walrus-Operator := (Assignment Expression)
+# Erlaubt Zuweisung in Bedingungen
+while result := calculate():
+    print(result)  # Schleife läuft, solange calculate() nicht None/0/False zurückgibt
+
+# Äquivalent zu:
+result = calculate()
+while result:
+    print(result)
+    result = calculate()
 ```
 
 ### `for`
