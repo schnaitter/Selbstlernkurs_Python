@@ -281,9 +281,17 @@ fruechte = ["Apfel", "Banane", "Orange"]
 zahlen = [1, 2, 3, 4, 5]
 gemischt = ["Text", 42, True, 3.14]
 
-# Zugriff auf Elemente (0-basiert)
-erstes = fruechte[0]        # "Apfel"
-letztes = fruechte[-1]      # "Orange"
+# Zugriff auf Elemente (0-basiert - erstes Element hat Index 0)
+erstes = fruechte[0]        # "Apfel" (erstes Element)
+zweites = fruechte[1]       # "Banane" (zweites Element)
+drittes = fruechte[2]       # "Orange" (drittes Element)
+letztes = fruechte[-1]      # "Orange" (letztes Element)
+vorletztes = fruechte[-2]   # "Banane" (vorletztes Element)
+
+# Praktisches Beispiel mit Zahlen-Liste
+numbers = [10, 20, 30, 40]
+op1 = numbers[0]            # 10 (erstes Element)
+op2 = numbers[1]            # 20 (zweites Element)
 
 # Länge einer Liste
 anzahl = len(fruechte)      # 3
