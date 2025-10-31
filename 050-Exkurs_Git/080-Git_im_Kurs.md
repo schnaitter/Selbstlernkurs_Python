@@ -1,8 +1,8 @@
 ---
 numbering:
-    heading_1: false
+    heading_1: true
     heading_2: true
-    title: false
+    title: true
 ---
 
 # Git im Kurs nutzen
@@ -393,8 +393,9 @@ __pycache__/
 .DS_Store
 ```
 
-:::::{admonition} Übung
-:class: warning
+```{exercise} Übung: Lösungs-Repository einrichten
+:label: git-loesungs-repository
+
 Richten Sie Ihr eigenes Lösungs-Repository ein:
 
 1. Erstellen Sie einen neuen Ordner für Ihre Kurs-Lösungen
@@ -405,6 +406,6 @@ Richten Sie Ihr eigenes Lösungs-Repository ein:
 6. Optional: Pushen Sie das Repository zu GitHub
 
 Dokumentieren Sie Ihre Schritte!
-:::::
+```
 
 Im nächsten Kapitel lernen Sie Best Practices und Sicherheitshinweise für die Arbeit mit Git.

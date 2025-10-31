@@ -7,7 +7,8 @@ numbering:
 
 # Aufgabe: Erweiterung des Taschenrechners
 
-::::{important} Erweiterung des Taschenrechners um zwei Funktionalitäten
+```{exercise} Erweiterung des Taschenrechners um zwei Funktionalitäten
+:label: taschenrechner-erweiterung
 
 **Funktionalität 1:**
 
@@ -127,8 +128,7 @@ Mögliche Erweiterungen sind:
     -1
     64
     ```
-
-::::
+```
 
 ```{hint} 📝 Kleine Aufgabe 1
 :icon: false
