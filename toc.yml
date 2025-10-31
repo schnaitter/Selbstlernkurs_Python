@@ -60,9 +60,8 @@ project:
     - file: 080-Projekt_MARC-XML/Einleitung.md
     - file: 090-Projekt_Excel/Einleitung.md
     - file: 900-Cheatsheet.md
-    - title: Epilog
+    - file: 999-Epilog/Epilog.md
       children:
-        - file: 999-Epilog/Glossar.md
-        - file: 999-Epilog/Index.md
+        - file: 999-Epilog/Verzeichnisse.md
         - file: 999-Epilog/Literatur.md
         - file: 999-Epilog/Impressum.md
