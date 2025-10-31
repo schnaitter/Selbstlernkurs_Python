@@ -22,33 +22,35 @@ für die Arbeit mit den {term}`Jupyter Notebook`s.
 
 ## Projekt: Taschenrechner I
 
-Das erste Projekt steigt ein in die Nutzung von Python als Taschenrechner. Am
+Das erste Projekt steigt ein in die Nutzung von {term}`Python` als Taschenrechner. Am
 Ende des Projekts können Lernende mathematische Funktionen in Python umsetzen
 und in der {term}`REPL`, in einer `.py`-Datei oder in einem Notebook nutzen.
 
 ## Exkurs: Unix
 
-In diesem Kapitel wird auf relevante Eigenschaften von Unix-kompatiblen
+In diesem Kapitel wird auf relevante Eigenschaften von {term}`Unix`-kompatiblen
 Betriebssystemen eingegangen. Insbesondere gibt es auch eine Einführung in die
 Nutzung einer Unix Shell.
 
 ## Projekt: Bestseller finden (CSV)
 
-In diesem Projekt werden Daten aus einer CSV-Datei eingelesen und als Aufgabe
-finden Sie den Bestseller nach verschiedenen Zählweisen. Um dies zu können lernen
-Sie das öffnen von Datein und (manuelles) Parsen von CSV-Dateien.
+In diesem Projekt werden Daten aus einer {term}`CSV`-Datei eingelesen und als
+Aufgabe finden Sie den Bestseller nach verschiedenen Zählweisen. Um dies zu
+können lernen Sie das öffnen von Dateien und (manuelles) Parsen von
+CSV-Dateien.
 
 ## Exkurs: Git
 
-In diesem Exkurs wird die Versionsverwaltungssoftware Git vorgestellt. Lernende
-können nach Absolvieren des Exkurses an einfachen Projekten, die in Git
-versioniert werden, mitarbeiten.
+In diesem Exkurs wird die Versionsverwaltungssoftware {term}`Git` vorgestellt.
+Lernende können nach Absolvieren des Exkurses an einfachen Projekten, die in
+Git versioniert werden, mitarbeiten.
 
 ## Projekt: Taschenrechner II
 
-Es wird basierend auf dem in Taschenrechner I gelernten ein Skript gebaut, welches
-Berechnungsanweisungen annimmt und dann durchführt. Dieses wird dann in der Aufgabe
-um Funktionalitäten und Nutzungsszenarien erweitert und fehlertolerant gestaltet.
+Es wird basierend auf dem in Taschenrechner I gelernten ein {term}`Skript`
+gebaut, welches Berechnungsanweisungen annimmt und dann durchführt. Dieses wird
+dann in der Aufgabe um Funktionalitäten und Nutzungsszenarien erweitert und
+fehlertolerant gestaltet.
 
 ## Projekt: Statistiken eines Datensatzes (CSV)
 
@@ -58,13 +60,13 @@ Statistik zur Datei ausgibt.
 
 ## Projekt: MARC-XML lesen, filtern und in BibTeX-Datei überführen
 
-In diesem Projekt wird ein Auszug aus einem Katalog im Format MARC-XML
+In diesem Projekt wird ein Auszug aus einem Katalog im Format {term}`MARC-XML`
 eingelesen, es werden Einträge gefiltert und anschließend werden die
-Ergebnisdaten als BibTeX-Datei bereitgestellt.
+Ergebnisdaten als {term}`BibTeX`-Datei bereitgestellt.
 
 ## Projekt: Statistiken und Visualisierungen auf Basis einer Excel-Datei
 
-Im Abschlussprojekt werden noch nicht aufbereitete Daten in einer Excel-Datei
-bereinigt, für die weitere Verarbeitung aufbereitet und dann statistisch
-beschrieben. Das Projekt schließt mit Visualisierungen der interessantesten
-Ergebnisse.
+Im Abschlussprojekt werden noch nicht aufbereitete Daten in einer
+{term}`Excel`-Datei bereinigt, für die weitere Verarbeitung aufbereitet und
+dann statistisch beschrieben. Das Projekt schließt mit Visualisierungen der
+interessantesten Ergebnisse.
