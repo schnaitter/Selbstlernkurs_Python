@@ -9,9 +9,10 @@ numbering:
 
 ## Installation von Python
 
-Für die lokale Nutzung dieses Kurses benötigen Sie eine Python-Installation. Es
-gibt zwei empfohlene Wege: die Standard-Python-Installation von Python.org oder
-die Anaconda-Distribution.
+Für die lokale Nutzung dieses Kurses benötigen Sie eine
+{term}`Python`-Installation. Es gibt zwei empfohlene Wege: die
+Standard-Python-Installation von [Python.org](https://www.python.org/) oder die
+[Anaconda](https://www.anaconda.com/)-Distribution.
 
 ### Option A: Python.org (Standard-Installation)
 
@@ -99,7 +100,8 @@ geeignet und bringt viele nützliche Pakete mit.
 
 **Vorteile von Anaconda:**
 
-- Integrierte wissenschaftliche Pakete (NumPy, Pandas, Matplotlib, etc.)
+- Integrierte wissenschaftliche Pakete ({term}`NumPy`, {term}`Pandas`,
+  {term}`Matplotlib`, etc.)
 - Anaconda Navigator für grafische Verwaltung
 - Conda Package Manager für einfache Paketverwaltung
 - Jupyter Notebook bereits vorinstalliert
