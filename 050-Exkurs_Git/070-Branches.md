@@ -1,19 +1,23 @@
 ---
 numbering:
-    heading_1: false
+    heading_1: true
     heading_2: true
-    title: false
+    title: true
 ---
 
 # Branches (Zweige)
 
-**Branches** (deutsch: Zweige) gehören zu den mächtigsten Features von Git. Sie erlauben es, parallel an verschiedenen Versionen eines Projekts zu arbeiten.
+**Branches** (deutsch: Zweige) gehören zu den mächtigsten Features von Git. Sie
+erlauben es, parallel an verschiedenen Versionen eines Projekts zu arbeiten.
 
 ## Was ist ein Branch?
 
-Ein **Branch** ist ein unabhängiger Entwicklungszweig. Stellen Sie sich einen Branch wie eine alternative Timeline vor, in der Sie experimentieren können, ohne die Hauptversion zu beeinflussen.
+Ein **Branch** ist ein unabhängiger Entwicklungszweig. Stellen Sie sich einen
+Branch wie eine alternative Timeline vor, in der Sie experimentieren können,
+ohne die Hauptversion zu beeinflussen.
 
 **Metapher**: Ein Baum (Tree) mit mehreren Ästen (Branches):
+
 - Der Hauptstamm ist der `main`-Branch
 - Von diesem Stamm können Äste abzweigen (Feature-Branches)
 - Diese Äste können später wieder zusammengeführt werden (Merge)
@@ -38,7 +42,8 @@ gitGraph
 
 ### Szenario 1: Neue Funktion entwickeln
 
-Sie arbeiten an einem Projekt und möchten eine neue Funktion ausprobieren, sind aber nicht sicher, ob sie funktioniert. Mit Branches können Sie:
+Sie arbeiten an einem Projekt und möchten eine neue Funktion ausprobieren, sind
+aber nicht sicher, ob sie funktioniert. Mit Branches können Sie:
 
 1. Einen neuen Branch erstellen (z.B. `feature-statistik`)
 2. In diesem Branch experimentieren
@@ -48,6 +53,7 @@ Sie arbeiten an einem Projekt und möchten eine neue Funktion ausprobieren, sind
 ### Szenario 2: Zusammenarbeit
 
 Mehrere Personen arbeiten am selben Projekt:
+
 - Person A arbeitet am Branch `feature-export`
 - Person B arbeitet am Branch `bugfix-import`
 - Der `main`-Branch bleibt stabil
@@ -56,6 +62,7 @@ Mehrere Personen arbeiten am selben Projekt:
 ### Szenario 3: Verschiedene Versionen
 
 Sie entwickeln ein Tool und möchten:
+
 - Eine stabile Version (`main`)
 - Eine Entwicklungsversion mit neuen Features (`develop`)
 - Verschiedene Experimente (`experiment-xyz`)
@@ -69,6 +76,7 @@ git branch
 ```
 
 **Ausgabe:**
+
 ```
 * main
   feature-statistik
@@ -89,7 +97,8 @@ git branch -a
 git branch feature-export
 ```
 
-Dieser Befehl erstellt einen neuen Branch namens `feature-export`, wechselt aber noch nicht zu ihm.
+Dieser Befehl erstellt einen neuen Branch namens `feature-export`, wechselt
+aber noch nicht zu ihm.
 
 ## Zu einem Branch wechseln
 
@@ -97,7 +106,8 @@ Dieser Befehl erstellt einen neuen Branch namens `feature-export`, wechselt aber
 git checkout feature-export
 ```
 
-Jetzt arbeiten Sie im Branch `feature-export`. Alle Commits, die Sie jetzt erstellen, werden nur in diesem Branch gespeichert.
+Jetzt arbeiten Sie im Branch `feature-export`. Alle Commits, die Sie jetzt
+erstellen, werden nur in diesem Branch gespeichert.
 
 ### Branch erstellen und direkt wechseln
 
@@ -107,14 +117,17 @@ Häufig möchte man beides auf einmal:
 git checkout -b feature-export
 ```
 
-Das `-b` steht für "branch" und bedeutet: "Erstelle einen neuen Branch und wechsle direkt zu ihm."
+Das `-b` steht für "branch" und bedeutet: "Erstelle einen neuen Branch und
+wechsle direkt zu ihm."
 
 :::::{margin}
 **Neuere Syntax**: In neueren Git-Versionen gibt es auch `git switch`:
+
 ```bash
 git switch feature-export        # Wechseln
 git switch -c feature-export     # Erstellen + wechseln
 ```
+
 :::::
 
 ## In einem Branch arbeiten
@@ -146,6 +159,7 @@ git checkout main
 ```
 
 **Was passiert?**
+
 - Alle Dateien werden auf den Stand von `main` zurückgesetzt
 - `export.py` ist verschwunden (existiert nur in `feature-export`)
 
@@ -156,11 +170,13 @@ git checkout feature-export
 ```
 
 **Was passiert?**
+
 - `export.py` ist wieder da!
 
 ## Branches zusammenführen (Merge)
 
-Wenn Sie mit Ihrer Arbeit im Feature-Branch zufrieden sind, möchten Sie ihn mit `main` zusammenführen.
+Wenn Sie mit Ihrer Arbeit im Feature-Branch zufrieden sind, möchten Sie ihn mit
+`main` zusammenführen.
 
 ### Schritt 1: Zu main wechseln
 
@@ -178,6 +194,7 @@ git merge feature-export
 Git fügt alle Commits aus `feature-export` in `main` ein.
 
 **Beispiel-Ausgabe (Fast-Forward Merge):**
+
 ```
 Updating a1b2c3d..e4f5g6h
 Fast-forward
@@ -186,7 +203,8 @@ Fast-forward
  create mode 100644 export.py
 ```
 
-Ein **Fast-Forward Merge** bedeutet: `main` hatte keine eigenen Änderungen, Git schiebt `main` einfach vorwärts zu den neuen Commits.
+Ein **Fast-Forward Merge** bedeutet: `main` hatte keine eigenen Änderungen, Git
+schiebt `main` einfach vorwärts zu den neuen Commits.
 
 ### Schritt 3: Branch löschen (optional)
 
@@ -196,7 +214,8 @@ Nach erfolgreichem Merge können Sie den Feature-Branch löschen:
 git branch -d feature-export
 ```
 
-Das `-d` steht für "delete". Git fragt sicherheitshalber nach, wenn der Branch noch nicht gemerged wurde.
+Das `-d` steht für "delete". Git fragt sicherheitshalber nach, wenn der Branch
+noch nicht gemerged wurde.
 
 ## Visualisierung: Branch-Workflow
 
@@ -219,18 +238,20 @@ gitGraph
 
 ## Wann sind Branches sinnvoll?
 
-### ✅ Gute Anwendungsfälle
+### Gute Anwendungsfälle
 
 - **Neue Features entwickeln**: Jedes neue Feature bekommt einen eigenen Branch
 - **Bugfixes**: Kritische Bugs in einem separaten Branch beheben
 - **Experimente**: Ausprobieren ohne Angst vor Schäden am Hauptcode
 - **Zusammenarbeit**: Jede\*r arbeitet in eigenem Branch
 
-### ❌ Weniger sinnvoll
+### Weniger sinnvoll
 
-- **Für jeden Commit einen Branch**: Zu viele Branches führen zu Unübersichtlichkeit
+- **Für jeden Commit einen Branch**: Zu viele Branches führen zu
+  Unübersichtlichkeit
 - **Niemals mergen**: Branches sollten irgendwann wieder zusammengeführt werden
-- **Bei sehr kleinen Solo-Projekten**: Wenn Sie alleine an einem kleinen Skript arbeiten, reicht oft der `main`-Branch
+- **Bei sehr kleinen Solo-Projekten**: Wenn Sie alleine an einem kleinen Skript
+  arbeiten, reicht oft der `main`-Branch
 
 ## Branch-Strategien
 
@@ -260,21 +281,25 @@ Für Ihren Einstieg reicht das einfache Modell!
 ## Merge-Konflikte (Überblick)
 
 Ein **Merge-Konflikt** entsteht, wenn:
+
 - Zwei Branches dieselbe Zeile in derselben Datei ändern
 - Git nicht automatisch entscheiden kann, welche Änderung behalten werden soll
 
-:::::{admonition} Konflikte in diesem Kurs
-:class: note
-Die Auflösung von Merge-Konflikten ist ein fortgeschrittenes Thema und wird in diesem Einsteigerkurs bewusst **nicht praktisch behandelt**.
+:::::{note} Konflikte in diesem Kurs
+Die Auflösung von Merge-Konflikten ist ein fortgeschrittenes Thema und wird in
+diesem Einsteigerkurs bewusst **nicht praktisch behandelt**.
 
-**Warum?** Wenn Sie alleine an Ihren Projekten arbeiten, entstehen Konflikte sehr selten. Falls doch:
+**Warum?** Wenn Sie alleine an Ihren Projekten arbeiten, entstehen Konflikte
+sehr selten. Falls doch:
+
 1. Bleiben Sie ruhig – nichts ist kaputt
 2. Git zeigt an, in welchen Dateien Konflikte sind
 3. Öffnen Sie die Datei – Git markiert die Konfliktstellen
 4. Entscheiden Sie, welche Version Sie behalten möchten
 5. Committen Sie die Auflösung
 
-**Tipp**: Viele IDEs (wie VS Code) haben eingebaute Tools zur Konfliktauflösung.
+**Tipp**: Viele IDEs (wie VS Code) haben eingebaute Tools zur
+Konfliktauflösung.
 :::::
 
 ## Praktisches Beispiel
@@ -312,14 +337,14 @@ git branch
 
 Die wichtigsten Branch-Befehle:
 
-| Befehl | Beschreibung |
-|--------|--------------|
-| `git branch` | Branches anzeigen |
-| `git branch <name>` | Neuen Branch erstellen |
-| `git checkout <name>` | Zu Branch wechseln |
-| `git checkout -b <name>` | Branch erstellen und wechseln |
-| `git merge <name>` | Branch in aktuellen Branch mergen |
-| `git branch -d <name>` | Branch löschen |
+| Befehl                   | Beschreibung                      |
+| ------------------------ | --------------------------------- |
+| `git branch`             | Branches anzeigen                 |
+| `git branch <name>`      | Neuen Branch erstellen            |
+| `git checkout <name>`    | Zu Branch wechseln                |
+| `git checkout -b <name>` | Branch erstellen und wechseln     |
+| `git merge <name>`       | Branch in aktuellen Branch mergen |
+| `git branch -d <name>`   | Branch löschen                    |
 
 ### Typischer Feature-Workflow
 
@@ -331,8 +356,10 @@ git merge feature-xyz            # Feature mergen
 git branch -d feature-xyz        # Branch löschen
 ```
 
-:::::{admonition} Übung
-:class: warning
+```{exercise}
+:label: git-branches-experimentieren
+**Mit Branches Experimentieren**
+
 Experimentieren Sie mit Branches:
 
 1. Erstellen Sie einen Branch `experiment-test`
@@ -342,7 +369,9 @@ Experimentieren Sie mit Branches:
 5. Mergen Sie `experiment-test` in `main`
 6. Löschen Sie den Branch `experiment-test`
 
-Verwenden Sie `git log --oneline --graph --all`, um die Branch-Struktur zu visualisieren!
-:::::
+Verwenden Sie `git log --oneline --graph --all`, um die Branch-Struktur zu
+visualisieren!
+```
 
-Im nächsten Kapitel lernen Sie, wie Sie Git konkret **in diesem Kurs** einsetzen können.
+Im nächsten Kapitel lernen Sie, wie Sie Git konkret **in diesem Kurs**
+einsetzen können.

@@ -1,13 +1,14 @@
 ---
 numbering:
-    heading_1: false
+    heading_1: true
     heading_2: true
-    title: false
+    title: true
 ---
 
 # Erste Schritte mit Git
 
-Jetzt wird es praktisch! In diesem Kapitel erstellen Sie Ihr erstes Git-Repository und lernen die wichtigsten Grundbefehle kennen.
+Jetzt wird es praktisch! In diesem Kapitel erstellen Sie Ihr erstes
+Git-Repository und lernen die wichtigsten Grundbefehle kennen.
 
 ## Ein neues Repository erstellen
 
@@ -29,15 +30,19 @@ git init
 ```
 
 **Ausgabe:**
+
 ```
 Initialized empty Git repository in /Users/erika/mein-erstes-repo/.git/
 ```
 
 :::::{margin}
-**Was passiert hier?** Git erstellt einen versteckten `.git`-Ordner, der alle Versionsinformationen enthält. Dieser Ordner macht aus einem normalen Ordner ein Git-Repository.
+**Was passiert hier?** Git erstellt einen versteckten `.git`-Ordner, der alle
+Versionsinformationen enthält. Dieser Ordner macht aus einem normalen Ordner
+ein Git-Repository.
 :::::
 
-Sie können den `.git`-Ordner mit `ls -la` sichtbar machen (das `-a` zeigt versteckte Dateien):
+Sie können den `.git`-Ordner mit `ls -la` sichtbar machen (das `-a` zeigt
+versteckte Dateien):
 
 ```bash
 ls -la
@@ -53,7 +58,8 @@ Erstellen Sie eine einfache Python-Datei:
 echo "print('Hallo Git!')" > hallo.py
 ```
 
-Oder erstellen Sie die Datei mit einem Texteditor Ihrer Wahl und fügen Sie folgenden Inhalt ein:
+Oder erstellen Sie die Datei mit einem Texteditor Ihrer Wahl und fügen Sie
+folgenden Inhalt ein:
 
 ```python
 print('Hallo Git!')
@@ -68,6 +74,7 @@ git status
 ```
 
 **Ausgabe:**
+
 ```
 On branch main
 
@@ -80,7 +87,8 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-**Interpretation**: Git hat die neue Datei `hallo.py` bemerkt, überwacht sie aber noch nicht ("untracked").
+**Interpretation**: Git hat die neue Datei `hallo.py` bemerkt, überwacht sie
+aber noch nicht ("untracked").
 
 ## Git add: Dateien zur Staging Area hinzufügen
 
@@ -97,6 +105,7 @@ git status
 ```
 
 **Ausgabe:**
+
 ```
 On branch main
 
@@ -112,16 +121,19 @@ Die Datei ist jetzt in der **Staging Area** und bereit für den ersten Commit!
 :::::{admonition} Mehrere Dateien hinzufügen
 :class: tip
 Sie können auch mehrere Dateien auf einmal hinzufügen:
+
 ```bash
 git add datei1.py datei2.py datei3.py
 ```
 
 Oder alle geänderten Dateien im aktuellen Ordner:
+
 ```bash
 git add .
 ```
 
-**Vorsicht**: `git add .` fügt *alle* Änderungen hinzu – prüfen Sie vorher mit `git status`, ob das wirklich gewünscht ist!
+**Vorsicht**: `git add .` fügt _alle_ Änderungen hinzu – prüfen Sie vorher mit
+`git status`, ob das wirklich gewünscht ist!
 :::::
 
 ## Git commit: Den ersten Commit erstellen
@@ -133,6 +145,7 @@ git commit -m "Erste Version: Hallo-Welt-Skript hinzugefügt"
 ```
 
 **Ausgabe:**
+
 ```
 [main (root-commit) a1b2c3d] Erste Version: Hallo-Welt-Skript hinzugefügt
  1 file changed, 1 insertion(+)
@@ -140,10 +153,12 @@ git commit -m "Erste Version: Hallo-Welt-Skript hinzugefügt"
 ```
 
 :::::{margin}
-**Commit-Hash**: Die Buchstaben-Zahlen-Kombination `a1b2c3d` ist die eindeutige ID dieses Commits (ein verkürzter SHA-Hash).
+**Commit-Hash**: Die Buchstaben-Zahlen-Kombination `a1b2c3d` ist die eindeutige
+ID dieses Commits (ein verkürzter SHA-Hash).
 :::::
 
-**Was bedeutet das `-m`?** Das `-m` steht für "message" (Nachricht). Die Nachricht sollte kurz beschreiben, was in diesem Commit geändert wurde.
+**Was bedeutet das `-m`?** Das `-m` steht für "message" (Nachricht). Die
+Nachricht sollte kurz beschreiben, was in diesem Commit geändert wurde.
 
 ### Status nach dem Commit
 
@@ -154,16 +169,19 @@ git status
 ```
 
 **Ausgabe:**
+
 ```
 On branch main
 nothing to commit, working tree clean
 ```
 
-**"Working tree clean"** bedeutet: Alle Änderungen sind committed, es gibt keine offenen Änderungen.
+**"Working tree clean"** bedeutet: Alle Änderungen sind committed, es gibt
+keine offenen Änderungen.
 
 ## Weitere Änderungen committen
 
-Lassen Sie uns das Skript erweitern und diese Änderung als zweiten Commit speichern.
+Lassen Sie uns das Skript erweitern und diese Änderung als zweiten Commit
+speichern.
 
 ### Datei ändern
 
@@ -187,6 +205,7 @@ git status
 ```
 
 **Ausgabe:**
+
 ```
 On branch main
 Changes not staged for commit:
@@ -206,6 +225,7 @@ git commit -m "Begrüßungsfunktion hinzugefügt"
 ```
 
 **Ausgabe:**
+
 ```
 [main e4f5g6h] Begrüßungsfunktion hinzugefügt
  1 file changed, 5 insertions(+), 1 deletion(-)
@@ -213,9 +233,10 @@ git commit -m "Begrüßungsfunktion hinzugefügt"
 
 ## Gute Commit-Messages schreiben
 
-Commit-Messages sind wichtig für die Nachvollziehbarkeit. Hier einige Richtlinien:
+Commit-Messages sind wichtig für die Nachvollziehbarkeit. Hier einige
+Richtlinien:
 
-### ✅ Gute Commit-Messages
+### Gute Commit-Messages
 
 ```
 Divisionsfunktion hinzugefügt
@@ -225,12 +246,13 @@ Konfigurationsdatei für Tests erstellt
 ```
 
 **Merkmale guter Messages:**
+
 - **Kurz und prägnant** (idealerweise unter 50 Zeichen)
 - **Beschreiben, WAS geändert wurde** (nicht wie oder warum – das steht im Code)
 - **Im Imperativ** ("füge hinzu", "behebe", nicht "hinzugefügt", "behoben")
 - **Deutsch oder Englisch** – bleiben Sie konsistent!
 
-### ❌ Schlechte Commit-Messages
+### Schlechte Commit-Messages
 
 ```
 Update
@@ -242,12 +264,12 @@ kleine Anpassungen
 ```
 
 **Probleme:**
+
 - Zu vage ("Änderungen" – was genau?)
 - Nicht aussagekräftig ("fertig gemacht" – was ist fertig?)
 - Unprofessionell ("asdf")
 
-:::::{admonition} Tipp: Commit-Message als Satzergänzung
-:class: tip
+:::::{tip} Tipp: Commit-Message als Satzergänzung
 Stellen Sie sich vor, Ihre Message vervollständigt den Satz:
 
 **"Dieser Commit wird..."**
@@ -255,7 +277,7 @@ Stellen Sie sich vor, Ihre Message vervollständigt den Satz:
 - ✅ "...Divisionsfunktion hinzufügen"
 - ✅ "...Bugfix für Nullwerte anwenden"
 - ❌ "...Änderungen gemacht haben"
-:::::
+  :::::
 
 ### Längere Commit-Messages
 
@@ -276,6 +298,7 @@ Divisionsfunktion mit Fehlerbehandlung hinzugefügt
 ```
 
 **Format:**
+
 - Erste Zeile: Kurze Zusammenfassung (unter 50 Zeichen)
 - Leerzeile
 - Ausführlichere Beschreibung (optional)
@@ -332,7 +355,8 @@ git commit -m "Änderungen"
 git commit
 ```
 
-Ohne `-m` öffnet sich ein Editor. Anfänger\*innen schließen diesen oft, ohne eine Message einzugeben.
+Ohne `-m` öffnet sich ein Editor. Anfänger\*innen schließen diesen oft, ohne
+eine Commit-Message einzugeben.
 
 **Lösung**: Entweder Message im Editor eingeben oder `-m "Message"` verwenden
 
@@ -345,22 +369,24 @@ git commit -m "Alles"
 
 Dabei werden auch temporäre Dateien, Caches oder vertrauliche Daten committed.
 
-**Lösung**: Immer erst `git status` prüfen, dann gezielt Dateien mit `git add` auswählen. Im nächsten Kapitel lernen Sie `.gitignore` kennen.
+**Lösung**: Immer erst `git status` prüfen, dann gezielt Dateien mit `git add`
+auswählen. Im nächsten Kapitel lernen Sie `.gitignore` kennen.
 
 ## Zusammenfassung
 
 Die wichtigsten Befehle für die ersten Schritte:
 
-| Befehl | Beschreibung |
-|--------|--------------|
-| `git init` | Repository initialisieren |
-| `git status` | Status anzeigen (sehr wichtig!) |
-| `git add <datei>` | Datei zur Staging Area hinzufügen |
-| `git add .` | Alle Änderungen hinzufügen |
-| `git commit -m "Text"` | Commit mit Message erstellen |
+| Befehl                 | Beschreibung                      |
+| ---------------------- | --------------------------------- |
+| `git init`             | Repository initialisieren         |
+| `git status`           | Status anzeigen (sehr wichtig!)   |
+| `git add <datei>`      | Datei zur Staging Area hinzufügen |
+| `git add .`            | Alle Änderungen hinzufügen        |
+| `git commit -m "Text"` | Commit mit Message erstellen      |
 
-:::::{admonition} Übung
-:class: warning
+```{exercise} Übung: Erste Schritte mit Git
+:label: git-erste-schritte
+
 Erstellen Sie ein kleines Python-Projekt mit mindestens 3 Commits:
 
 1. Erstellen Sie ein neues Repository mit `git init`
@@ -369,6 +395,7 @@ Erstellen Sie ein kleines Python-Projekt mit mindestens 3 Commits:
 4. Fügen Sie eine zweite Datei hinzu und committen Sie sie
 
 Prüfen Sie nach jedem Schritt mit `git status`, was gerade passiert!
-:::::
+```
 
-Im nächsten Kapitel lernen Sie, wie Sie die Versionsgeschichte anzeigen und durch frühere Versionen navigieren können.
+Im nächsten Kapitel lernen Sie, wie Sie die Versionsgeschichte anzeigen und
+durch frühere Versionen navigieren können.

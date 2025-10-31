@@ -1,8 +1,8 @@
 ---
 numbering:
-    heading_1: false
+    heading_1: true
     heading_2: true
-    title: false
+    title: true
 ---
 
 # Abschlussübung: Git-Projekt von Anfang bis Ende
