@@ -5,9 +5,6 @@ numbering:
     title: true
 ---
 
-# Index
+# Epilog
 
-```{show-index}
-
-```
 

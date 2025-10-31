@@ -7,7 +7,11 @@ numbering:
 
 # JupyterHub der Humboldt-Universität Berlin
 
-Der JupyterHub der HU ermöglicht Ihnen den Zugang über Ihren HU-Account. Ihre Dateien und Änderungen werden aktuell gespeichert, jedoch können sie jeweils am Ende des Semesters gelöscht werden. Laden Sie daher Dateien, die Sie längerfristig behalten wollen, herunter.
+Der {term}`JupyterHub` der {abbr}`HU (Humboldt-Universität zu Berlin)`
+ermöglicht Ihnen den Zugang über Ihren HU-Account. Ihre Dateien und Änderungen
+werden aktuell gespeichert, jedoch können sie jeweils am Ende des Semesters
+gelöscht werden. Laden Sie daher Dateien, die Sie längerfristig behalten
+wollen, herunter.
 
 ## Zugang zum JupyterHub
 
@@ -27,7 +31,7 @@ Login zum JupyterHub der HU Berlin
 
 ## Verfügbare Umgebungen (Profile)
 
-Der JupyterHub bietet sechs verschiedene Jupyter-Lab-Umgebungen:
+Der JupyterHub bietet sechs verschiedene {term}`JupyterLab`-Umgebungen:
 
 1. **Python** - Standard Python-Umgebung für allgemeine Programmierung
 2. **Spark** - Für Big Data-Verarbeitung mit Apache Spark
@@ -41,7 +45,8 @@ Der JupyterHub bietet sechs verschiedene Jupyter-Lab-Umgebungen:
 :centered:
 :width: 80%
 
-Profile des JupyterHubs. Wir nutzen für diesen Kurs das Profil "Datascience Jupyterlab"
+Profile des JupyterHubs. Wir nutzen für diesen Kurs das Profil "Datascience
+Jupyterlab"
 ```
 
 ## Login
@@ -57,7 +62,8 @@ Profile des JupyterHubs. Wir nutzen für diesen Kurs das Profil "Datascience Jup
 :centered:
 :width: 80%
 
-Startansicht der Jupyter-Lab-Oberfläche. In diesem Screenshot sind mehr Ordner zu sehen als bei Ihnen beim ersten Start.
+Startansicht der JupyterLab-Oberfläche. In diesem Screenshot sind mehr Ordner
+zu sehen als bei Ihnen beim ersten Start.
 ```
 
 ### 2. Arbeiten mit Jupyter Notebooks
@@ -66,7 +72,8 @@ Startansicht der Jupyter-Lab-Oberfläche. In diesem Screenshot sind mehr Ordner 
 - Verwenden Sie den Datei-Explorer zur Navigation
 - Nutzen Sie die verfügbaren Kernels entsprechend Ihrem gewählten Profil
 
-**TODO:** Screenshot eines geöffneten Jupyter Notebooks einfügen - zeigt eine Zelle mit Code und deren Ausgabe
+**TODO:** Screenshot eines geöffneten Jupyter Notebooks einfügen - zeigt eine
+Zelle mit Code und deren Ausgabe
 
 ## Download der Inhalte
 
@@ -74,7 +81,8 @@ Startansicht der Jupyter-Lab-Oberfläche. In diesem Screenshot sind mehr Ordner 
 
 - **Semesterende:** Daten werden nach jedem Semester gelöscht
 - **Inaktivität:** Daten werden nach einem Jahr ohne Login gelöscht
-- **Backup:** Laden Sie wichtige Daten regelmäßig auf Ihre lokale Festplatte herunter
+- **Backup:** Laden Sie wichtige Daten regelmäßig auf Ihre lokale Festplatte
+  herunter
 
 ```
 
@@ -84,7 +92,8 @@ Daher empfehlen wir:
 2. Laden Sie fertige Notebooks und Dateien regelmäßig herunter
 3. Optional: Verwenden Sie Git-Integration für Versionskontrolle
 
-**TODO:** Screenshot des Download-Prozesses einfügen - zeigt, wie Dateien über den Datei-Explorer heruntergeladen werden (Rechtsklick → Download)
+**TODO:** Screenshot des Download-Prozesses einfügen - zeigt, wie Dateien über
+den Datei-Explorer heruntergeladen werden (Rechtsklick → Download)
 
 ## Test des Setups
 
@@ -102,16 +111,16 @@ Daher empfehlen wir:
 
 ### Offizielle Dokumentation
 
-- [Digitale Lehre HU Berlin - JupyterHub](https://www.digitale-lehre.hu-berlin.de/de/lehr-und-lernlandschaft/jupyterhub)
-- [AI at HU Berlin - JupyterHub in Teaching](https://ki.cms.hu-berlin.de/en/more-about-llm-hpc-jh/jupyterhub/jupyterhub-in-teaching)
+- [Digitale Lehre HU Berlin -
+  JupyterHub](https://www.digitale-lehre.hu-berlin.de/de/lehr-und-lernlandschaft/jupyterhub)
+- [AI at HU Berlin - JupyterHub in
+  Teaching](https://ki.cms.hu-berlin.de/en/more-about-llm-hpc-jh/jupyterhub/jupyterhub-in-teaching)
 
 ### Blog-Beiträge
 
-- [CMS Blog: JupyterHub – Coding lernen mit Jupyter Notebooks](https://blogs.hu-berlin.de/cms/2024/08/28/jupyterhub-coding-lernen-mit-jupyter-notebooks/)
-- [CMS Blog: Infrastruktur und Service](https://blogs.hu-berlin.de/cms/2022/06/30/infrastruktur-und-service-hu-cloud-jupyter-hub-und-kuenstliche-intelligenz-in-der-lehre/)
-
-**TODO:** Überprüfen Sie regelmäßig die offiziellen Blogs für Updates und neue Features.
+- [CMS Blog: JupyterHub – Coding lernen mit Jupyter
+  Notebooks](https://blogs.hu-berlin.de/cms/2024/08/28/jupyterhub-coding-lernen-mit-jupyter-notebooks/)
+- [CMS Blog: Infrastruktur und
+  Service](https://blogs.hu-berlin.de/cms/2022/06/30/infrastruktur-und-service-hu-cloud-jupyter-hub-und-kuenstliche-intelligenz-in-der-lehre/)
 
 _Letzte Aktualisierung: Oktober 2025 - Stand: Pilotbetrieb_
-
-**TODO:** Aktualisieren Sie dieses Dokument, wenn der JupyterHub aus dem Pilotbetrieb in den regulären Betrieb übergeht.
