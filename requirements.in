@@ -1,0 +1,4 @@
+jupyter-book==2.1.0
+jupyterlab
+ipywidgets
+jupyterquiz
