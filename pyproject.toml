@@ -1,0 +1,12 @@
+[project]
+name = "selbstlernkurs-python"
+version = "0.1.0"
+description = "A self-learning Python course for library and information science students at Humboldt-Universität zu Berlin"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter-book>=2.0.0",
+    "jupyterlab",
+    "ipywidgets",
+    "jupyterquiz",
+]
