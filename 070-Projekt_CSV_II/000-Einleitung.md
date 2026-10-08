@@ -2,7 +2,7 @@
 short_title: "Projekt: CSV II"
 numbering:
     heading_1: true
-    heading_2: true
+    heading_2: false
     title: true
 ---
 
