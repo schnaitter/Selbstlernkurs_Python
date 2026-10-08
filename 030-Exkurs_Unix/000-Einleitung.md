@@ -13,11 +13,11 @@ numbering:
 
 In diesem Kapitel erlernen Sie, …
 
-- … was Unix ist und warum es für Python-Entwicklung wichtig ist.
+- … was {term}`Unix` ist und warum es für {term}`Python`-Entwicklung wichtig ist.
 - … wie Sie das Terminal öffnen und grundlegende Befehle nutzen.
 - … wie Sie im Dateisystem navigieren und Pfade verstehen.
 - … wie Sie Dateien und Verzeichnisse verwalten.
-- … wie Sie Python-Skripte ausführbar machen.
+- … wie Sie {term}`Python`-{term}`Skript`e ausführbar machen.
 - … wie Sie effizient mit Pipes, Wildcards und weiteren Unix-Tools arbeiten.
 
 ```
@@ -62,3 +62,25 @@ die Ihre Arbeit im Terminal deutlich effizienter machen.
 Der Exkurs schließt mit [praktischen Übungen](070-Übungen.md) ab, in denen Sie
 alle gelernten Befehle in Szenarien aus der Bibliotheks- und Informationspraxis
 anwenden – vom Erstellen einer Projektstruktur bis zur Verarbeitung von Metadaten.
+
+```{seealso} Vorwissen
+:icon: false
+
+Dieser Exkurs baut inhaltlich nicht auf anderen Kapiteln auf. Wenn Sie Ihre
+eigenen Python-Skripte ausführbar machen möchten, sind die Abschnitte
+[Berechtigungen](050-Berechtigungen.md) und das [Cheatsheet zu ausführbaren
+Skripten](../900-Cheatsheet.md#cheatsheet-skripte) hilfreich; das [Cheatsheet
+zu Dateien](../900-Cheatsheet.md#cheatsheet-dateien) fasst das Lesen und
+Schreiben von Dateien in Python zusammen.
+
+```
+
+```{seealso} 📚 Weiterführende Ressourcen
+:icon: false
+
+- **Offizielle Dokumentation:** [GNU Bash Reference Manual](https://www.gnu.org/software/bash/manual/)
+- **Buch (kostenlos):** William Shotts, [*The Linux Command Line*](https://linuxcommand.org/tlcl.php)
+- **Bibliotheksspezifische OER:** [Library Carpentry: Introduction to the Shell](https://librarycarpentry.org/lc-shell/) und [Software Carpentry: The Unix Shell](https://swcarpentry.github.io/shell-novice/)
+- **Nachschlagewerk:** [explainshell.com](https://explainshell.com/) erklärt Kommandozeilenbefehle interaktiv
+
+```

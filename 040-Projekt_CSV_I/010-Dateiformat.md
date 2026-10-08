@@ -8,7 +8,7 @@ numbering:
 
 # Dateiformat CSV
 
-Das Dateiformat CSV (_comma separated values_, `.csv`) ist ein gängiges Format
+Das Dateiformat {term}`CSV` (_comma separated values_, `.csv`) ist ein gängiges Format
 für den Austausch tabellarischer Daten. Wie der Name sagt nutzt eine
 "klassische" CSV-Datei Kommata für die Trennung von einzelnen Werten (Spalten).
 Oft wird aber auch ein Semikolon genutzt.
@@ -80,7 +80,7 @@ die gleiche Test-Datei erneut herzustellen.
 
 Hier sehen Sie die ersten 40 Zeilen der Datei.
 
-```{include} books_powerlaw_dataset.csv
+```{include} ../assets/data/books_powerlaw_dataset.csv
 :lang: csv
 :enumerated: true
 :linenos: true

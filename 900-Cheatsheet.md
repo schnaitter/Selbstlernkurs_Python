@@ -7,6 +7,10 @@ numbering:
 
 # Cheatsheet
 
+```{caution} Work In Progress
+Diese Inhalte sind noch in Bearbeitung.
+```
+
 ```{danger} Einrückung
 
 Python-Code muss korrekt eingerückt sein. Es sollten pro Einrückungsebene genau
@@ -106,9 +110,16 @@ neue_zeile = "Zeile 1\nZeile 2"
 tabulator = "Text\teingerückt\n\tauch eingerückt"
 
 ```
-## Besondere Python-String
+
+## Besondere Python-Strings
+
+In Python gibt es mehrere String-Varianten, wobei wir in diesem Kurs aktuell
+nur sogenannte f-Strings nutzen. Der Buchstabe vor einem String-Literal
+signalisiert Python, dass der String anders als "normale" Zeichenketten
+verarbeitet werden soll.
 
 ### f-String = Formatierte String
+
 ```python
 # Variablen für die nachfolgenden Beispiele.
 name = "Alice"
@@ -155,6 +166,8 @@ modulo = 17 % 5              # 2
 potenz = 2 ** 3              # 8
 ```
 
+(cheatsheet-bedingungen)=
+
 ## Bedingungen (`if`)
 
 ```python
@@ -172,6 +185,8 @@ else:
 if alter >= 18 and alter < 65:
     print("Arbeitsfähig")
 ```
+
+(cheatsheet-schleifen)=
 
 ## Schleifen
 
@@ -235,6 +250,8 @@ for index, wert in enumerate(fruechte):
     print(f"{index}: {wert}")
 ```
 
+(cheatsheet-funktionen)=
+
 ## Funktionen (`def`)
 
 ```python
@@ -274,6 +291,8 @@ heute = dt.date.today()
 from math import *
 ```
 
+(cheatsheet-listen)=
+
 ## Listen (`list`)
 
 ```python
@@ -307,6 +326,44 @@ for frucht in fruechte:
 for i, frucht in enumerate(fruechte):
     print(f"{i}: {frucht}")
 ```
+
+### List Comprehensions (Listen-Ausdrücke)
+
+Eine **List Comprehension** baut in einer Zeile eine neue Liste auf, indem sie
+über eine Folge läuft und auf jedes Element einen Ausdruck anwendet.
+
+```python
+zahlen = [1, 2, 3, 4, 5]
+
+# Klassisch: leere Liste anlegen und in der Schleife füllen
+quadrate = []
+for z in zahlen:
+    quadrate.append(z ** 2)
+
+# Dasselbe als List Comprehension
+quadrate = [z ** 2 for z in zahlen]          # [1, 4, 9, 16, 25]
+
+# Mit Bedingung filtern
+gerade = [z for z in zahlen if z % 2 == 0]   # [2, 4]
+
+# Ausdruck und Bedingung kombinieren
+gerade_quadrate = [z ** 2 for z in zahlen if z % 2 == 0]  # [4, 16]
+
+# Auf eine Liste von Wörterbüchern anwenden
+personen = [{"name": "Alice"}, {"name": "Bob"}]
+namen = [p["name"] for p in personen]        # ["Alice", "Bob"]
+```
+
+Aufbau: `[ausdruck for element in folge if bedingung]`
+
+- Der `if`-Teil ist optional.
+- Das Ergebnis ist immer eine **neue** Liste; die ursprüngliche Folge bleibt unverändert.
+
+In der [manuellen Analyse](#cheatsheet-manuelle-analyse) werden List
+Comprehensions genutzt, um eine Spalte aus einer Liste von Wörterbüchern
+herauszuziehen, z. B. `[satz["sales"] for satz in daten]`.
+
+(cheatsheet-woerterbuecher)=
 
 ## Wörterbücher (`dict`)
 
@@ -353,6 +410,8 @@ print(f"Ich bin {name} und {alter} Jahre alt")
 print(nicht_existent)                  # Achtung, wirft `NameError()`
 ```
 
+(cheatsheet-eingabe)=
+
 ### `input()`
 
 ```python
@@ -394,6 +453,8 @@ def meine_funktion():
 help(meine_funktion)  # Zeigt "Diese Funktion macht etwas Tolles."
 ```
 
+(cheatsheet-dateien)=
+
 ## Dateien lesen und schreiben
 
 ```python
@@ -417,29 +478,178 @@ with open("log.txt", "a") as f:
     f.write("Neuer Eintrag\n")
 ```
 
+(cheatsheet-csv)=
+
 ## CSV-Dateien
 
 ```python
 import csv
 
 # CSV lesen
-with open("daten.csv", "r") as f:
+with open("daten.csv", "r", encoding="utf-8") as f:
     reader = csv.reader(f, delimiter=";")
     for zeile in reader:
         print(zeile)  # zeile ist eine Liste
 
-# CSV mit Spaltennamen lesen
-with open("daten.csv", "r") as f:
+# CSV mit Spaltennamen lesen (csv.DictReader)
+with open("daten.csv", "r", encoding="utf-8") as f:
     reader = csv.DictReader(f, delimiter=";")
+    print(reader.fieldnames)      # Liste der Spaltennamen
     for zeile in reader:
         print(zeile["spaltenname"])  # zeile ist ein Wörterbuch
 
 # CSV schreiben
-with open("ausgabe.csv", "w", newline="") as f:
+with open("ausgabe.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f, delimiter=";")
     writer.writerow(["Name", "Alter", "Stadt"])
     writer.writerow(["Alice", "25", "Berlin"])
+
+# CSV mit Spaltennamen schreiben (csv.DictWriter)
+with open("ausgabe.csv", "w", newline="", encoding="utf-8") as f:
+    felder = ["Name", "Alter", "Stadt"]
+    writer = csv.DictWriter(f, fieldnames=felder, delimiter=";")
+    writer.writeheader()  # Kopfzeile schreiben
+    writer.writerow({"Name": "Alice", "Alter": 25, "Stadt": "Berlin"})
+
+# Nützliche Parameter
+# delimiter=";"           Feldtrenner
+# quotechar='"'           Zeichen für Felder, die den Trenner enthalten
+# quoting=csv.QUOTE_ALL   Alle Felder in Anführungszeichen setzen
+# encoding="utf-8"        Zeichenkodierung (z. B. auch "latin-1")
 ```
+
+(cheatsheet-manuelle-analyse)=
+
+## Manuelle Analyse (Listen, Dictionaries, `collections`)
+
+Ohne `pandas` lassen sich tabellarische Daten "von Hand" auswerten: Jede Zeile
+wird ein Wörterbuch, die Gesamtheit eine Liste von Wörterbüchern – genau die
+Form, die `csv.DictReader` liefert.
+
+```python
+from collections import Counter, defaultdict
+
+# Liste von Dictionaries (typisch für csv.DictReader)
+zeilen = [
+    {"titel": "Buch A", "jahr": "2020", "verlag": "Muster"},
+    {"titel": "Buch B", "jahr": "2021", "verlag": "Muster"},
+    {"titel": "Buch C", "jahr": "2020", "verlag": "Beispiel"},
+]
+
+# Umfang und Spalten ermitteln
+anzahl_zeilen = len(zeilen)
+spalten = list(zeilen[0].keys())
+
+# Werte auslesen (get() mit Standardwert, falls Spalte fehlt)
+titel = [z.get("titel", "unbekannt") for z in zeilen]
+
+# Zählen mit Counter
+jahr_zaehler = Counter(z["jahr"] for z in zeilen)
+print(jahr_zaehler)                  # Counter({'2020': 2, '2021': 1})
+print(jahr_zaehler["2020"])          # 2
+print(jahr_zaehler.most_common(1))   # [('2020', 2)]
+
+# Gruppieren mit defaultdict
+nach_verlag = defaultdict(list)
+for z in zeilen:
+    nach_verlag[z["verlag"]].append(z["titel"])
+print(dict(nach_verlag))
+
+# Sortieren (ohne die Originaldaten zu verändern)
+nach_jahr = sorted(zeilen, key=lambda z: z["jahr"])
+
+# Numerische Spalten umwandeln und aufsummieren
+jahre = [int(z["jahr"]) for z in zeilen]
+print(sum(jahre) / len(jahre))       # Mittelwert
+```
+
+(cheatsheet-pandas)=
+
+## Pandas (tabellarische Daten)
+
+`pandas` ist eine Bibliothek für die Verarbeitung tabellarischer Daten. Die
+wichtigste Struktur ist der **DataFrame** – vergleichbar mit einem Excel-Blatt
+oder einer Tabelle in einer Datenbank.
+
+```python
+import pandas as pd
+
+# CSV/Excel einlesen
+df = pd.read_csv("daten.csv", delimiter=";", encoding="utf-8")
+df = pd.read_excel("daten.xlsx", sheet_name="Tabelle1")
+
+# Erste/letzte Zeilen ansehen
+df.head()      # erste 5 Zeilen
+df.tail(3)     # letzte 3 Zeilen
+
+# Struktur und Kennzahlen
+df.info()          # Spalten, Datentypen, fehlende Werte
+df.shape           # (Zeilen, Spalten)
+df.columns         # Spaltennamen
+df.dtypes          # Datentypen je Spalte
+
+# Beschreibende Statistik
+df.describe()                      # Statistik numerischer Spalten
+df["jahr"].value_counts()          # Häufigkeiten einer Spalte
+df["jahr"].mean()                  # Mittelwert
+df["jahr"].unique()                # verschiedene Werte
+
+# Auswählen und filtern
+df["titel"]                        # eine Spalte (Series)
+df[["titel", "jahr"]]              # mehrere Spalten
+df[df["jahr"] > 2020]              # Zeilen filtern
+
+# Gruppieren und aggregieren
+df.groupby("verlag")["jahr"].mean()
+df.groupby("verlag").size()        # Anzahl je Gruppe
+
+# Fehlende Werte
+df.isna().sum()
+df = df.dropna()                   # Zeilen mit fehlenden Werten entfernen
+df["jahr"] = df["jahr"].fillna(0)
+
+# Neue Spalte berechnen
+df["jahrzehnt"] = (df["jahr"] // 10) * 10
+
+# Speichern
+df.to_csv("ergebnis.csv", index=False)
+df.to_excel("ergebnis.xlsx", index=False)
+```
+
+(cheatsheet-matplotlib)=
+
+## Matplotlib (Visualisierung)
+
+`matplotlib` erzeugt Diagramme (Balken, Linien, Histogramme). Für tabellarische
+Daten wird häufig die `plot`-Methode von `pandas` genutzt.
+
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+
+df = pd.read_csv("daten.csv", delimiter=";")
+
+# Balkendiagramm aus einer Häufigkeitsverteilung
+df["verlag"].value_counts().plot(kind="bar")
+plt.title("Titelverteilung je Verlag")
+plt.xlabel("Verlag")
+plt.ylabel("Anzahl")
+plt.tight_layout()
+plt.savefig("balken.png")   # vor plt.show() speichern
+plt.show()
+
+# Liniendiagramm
+df.plot(kind="line", x="jahr", y="bestand", marker="o")
+
+# Histogramm einer Zahlenspalte
+df["jahr"].plot(kind="hist", bins=10)
+
+# Direkt über die matplotlib-API (ohne DataFrame)
+plt.bar(["A", "B"], [3, 5])
+plt.show()
+```
+
+(cheatsheet-ausnahmen)=
 
 ## Ausnahmebehandlung (`try`/`except`)
 
@@ -487,6 +697,8 @@ int: The current account balance.
 """
 ```
 
+(cheatsheet-skripte)=
+
 ## Ausführbare Skripte
 
 ### Shebang
@@ -526,4 +738,66 @@ $ python3 code.py
 $ python3 -i code.py
 ...
 >>> interaktive_weiterarbeit_möglich = True
+```
+
+## Git
+
+### Tägliche Arbeit
+
+```bash
+git status              # Status prüfen
+git add datei.py        # Datei zur Staging Area hinzufügen
+git add .               # Alle Änderungen hinzufügen
+git commit -m "Text"    # Commit mit Message erstellen
+git push                # Zum Remote hochladen
+git pull                # Vom Remote herunterladen
+```
+
+### Historie
+
+```bash
+git log                 # Commit-Historie anzeigen
+git log --oneline       # Kompakte Historie
+git log --oneline --graph --all  # Branch-Struktur visualisieren
+git diff                # Änderungen im Working Directory
+git diff --staged       # Änderungen in der Staging Area
+git revert <commit>     # Commit rückgängig machen (neuer Commit)
+```
+
+### Branches
+
+```bash
+git branch              # Branches anzeigen
+git branch <name>       # Branch erstellen
+git checkout <name>     # Zu Branch wechseln
+git checkout -b <name>  # Branch erstellen + wechseln
+git merge <name>        # Branch in aktuellen Branch mergen
+git branch -d <name>    # Branch löschen
+```
+
+### Remote
+
+```bash
+git clone <url>                # Repository herunterladen
+git remote -v                  # Remote-Verbindungen anzeigen
+git remote add origin <url>    # Remote-Verbindung hinzufügen
+git push -u origin main        # Branch erstmalig hochladen
+```
+
+### Konfiguration
+
+```bash
+git config --global user.name "Ihr Name"
+git config --global user.email "ihre.email@example.com"
+git config --list              # Aktuelle Einstellungen anzeigen
+git --version                  # Installierte Git-Version prüfen
+```
+
+### Troubleshooting
+
+```bash
+git restore datei.py    # Änderungen verwerfen
+git restore --staged .  # Aus der Staging Area entfernen
+git status              # Orientierung finden
+git merge --abort       # Merge abbrechen
 ```

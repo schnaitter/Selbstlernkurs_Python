@@ -8,7 +8,7 @@ numbering:
 
 # (Ausführbare) Skripte
 
-Eine Python-Datei wird umgangssprachlich zum Skript, wenn sie ein bis zwei
+Eine {term}`Python`-Datei wird umgangssprachlich zum {term}`Skript`, wenn sie ein bis zwei
 Eigenschaften ausweist:
 
 1. Die Datei "tut" etwas beim Ausführen und beinhaltet bspw. nicht nur
@@ -104,11 +104,11 @@ Dafür müssen zwei Bedingungen erfüllt sein:
    soll.
 
 Eine Datei hat Lese-, Schreib- und Ausführbarkeitsrechte für verschiedene
-Nutzer\*innen-Gruppen. Unter Unix können wir die Datei für alle Nutzer\*innen
+Nutzer\*innen-Gruppen. Unter {term}`Unix` können wir die Datei für alle Nutzer\*innen
 ausführbar machen indem wir den Befehl `chmod +x skript3.py` im Terminal
 ausführen.
 
-In Unix-basierten Betriebssystemen kann die erste Zeile einer Datei eine
+In {term}`Unix`-basierten Betriebssystemen kann die erste Zeile einer Datei eine
 sogenannte Shebang-Zeile sein. Diese beginnt mit `#!` (Hash und Bang) und
 signalisiert dadurch, dass die Datei an das in der Shebang-Zeile definierte
 Programm für die Ausführung übergeben werden soll. Es empfiehlt sich hier,

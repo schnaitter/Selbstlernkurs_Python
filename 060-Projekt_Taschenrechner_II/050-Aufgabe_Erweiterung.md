@@ -3,6 +3,10 @@ numbering:
     heading_1: true
     heading_2: true
     title: true
+kernelspec:
+    name: python3
+    display_name: Python 3
+    language: python
 ---
 
 # Aufgabe: Erweiterung des Taschenrechners
@@ -87,7 +91,7 @@ print(x)
 
 **Funktionalität 2:**
 
-Verbessern Sie die Fehlertoleranz des Skripts. Geben Sie der Nutzer\*in
+Verbessern Sie die Fehlertoleranz des {term}`Skript`s. Geben Sie der Nutzer\*in
 Rückmeldung bei der Nutzung falscher Operatoren und wenn die Eingabe für einen
 Operand nicht als Zahl umgewandelt werden kann. Erlauben Sie dann jeweils
 weitere Versuche, solange keine leere Eingabe durch die Nutzer\*in erfolgt.
@@ -134,4 +138,141 @@ Mögliche Erweiterungen sind:
 :icon: false
 
 Diese Aufgabe kann als Kleine Aufgabe abgegeben werden.
+```
+
+
+## Selbsttest
+
+Prüfen Sie mit den folgenden Fragen, ob Sie die wichtigsten Bausteine aus
+Projekt Taschenrechner II beherrschen.
+
+```{code-cell} python
+:tags: [remove-cell]
+from jupyterquiz import display_quiz
+
+c = {
+    "--jq-multiple-choice-bg": "#202080",
+    "--jq-mc-button-bg": "#fafafa",
+    "--jq-mc-button-border": "#e0e0e0e0",
+    "--jq-mc-button-inset-shadow": "#555555",
+    "--jq-many-choice-bg": "#202080",
+    "--jq-numeric-bg": "#202080",
+    "--jq-numeric-input-bg": "#c0c0c0",
+    "--jq-numeric-input-label": "#101010",
+    "--jq-numeric-input-shadow": "#999999",
+    "--jq-string-bg": "#202080",
+    "--jq-incorrect-color": "#c80202",
+    "--jq-correct-color": "#009113",
+    "--jq-text-color": "#fafafa",
+    "--jq-link-color": "#9abafa"
+}
+```
+
+```{code-cell} python
+:tags: [remove-input]
+q = [
+    {
+        "question": "Welchen Datentyp liefert `input()` immer?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "str (Zeichenkette)",
+                "correct": True
+            },
+            {
+                "code": "int",
+                "correct": False
+            },
+            {
+                "code": "float",
+                "correct": False
+            },
+            {
+                "code": "bool",
+                "correct": False
+            }
+        ]
+    },
+    {
+        "question": "Mit welchem Schlüsselwort wiederholen Sie Code, solange eine Bedingung gilt?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "while",
+                "correct": True
+            },
+            {
+                "code": "if",
+                "correct": False
+            },
+            {
+                "code": "repeat",
+                "correct": False
+            },
+            {
+                "code": "loop",
+                "correct": False
+            }
+        ]
+    },
+    {
+        "question": "Welche Exception löst `int(\"Hallo\")` aus? (Name ohne Klammern)",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "ValueError",
+                "correct": True,
+                "match_case": False,
+                "fuzzy_threshold": 0.9,
+                "feedback": "Richtig: `int()` kann den Text nicht umwandeln und wirft einen `ValueError`."
+            }
+        ]
+    },
+    {
+        "question": "Wie prüfen Sie, ob das Zeichen `\"+\"` in der Liste `erlaubt = [\"+\", \"-\"]` enthalten ist?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "\"+\" in erlaubt",
+                "correct": True
+            },
+            {
+                "code": "erlaubt.contains(\"+\")",
+                "correct": False
+            },
+            {
+                "code": "erlaubt == \"+\"",
+                "correct": False
+            },
+            {
+                "code": "\"+\" in erlaubt.keys()",
+                "correct": False
+            }
+        ]
+    },
+    {
+        "question": "Wie verlassen Sie eine `while`-Schleife vorzeitig?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "mit `break`",
+                "correct": True
+            },
+            {
+                "code": "mit `continue`",
+                "correct": False
+            },
+            {
+                "code": "mit `stop`",
+                "correct": False
+            },
+            {
+                "code": "mit `exit`",
+                "correct": False
+            }
+        ]
+    }
+]
+
+display_quiz(q, colors=c)
 ```

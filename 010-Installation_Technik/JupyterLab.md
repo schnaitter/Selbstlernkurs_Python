@@ -9,14 +9,17 @@ numbering:
 
 ## Überblick über JupyterLab
 
-JupyterLab ist die nächste Generation der webbasierten Entwicklungsumgebung für das Jupyter-Projekt. Es bietet eine flexible und erweiterbare Oberfläche für interaktive Datenanalyse und wissenschaftliches Rechnen.
+{term}`JupyterLab` ist die nächste Generation der webbasierten
+Entwicklungsumgebung für das {term}`Jupyter`-Projekt. Es bietet eine flexible und
+erweiterbare Oberfläche für interaktive Datenanalyse und wissenschaftliches
+"Computing".
 
 ```{figure} ../assets/010/JupyterLab_Parts.png
 :name: fig:lab_parts
 :centered:
 :width: 100%
 
-Bestandteile der Jupyter-Lab-Oberfläche: ①  Menüleiste, ②  Seitenleiste, ③
+Bestandteile der JupyterLab-Oberfläche: ①  Menüleiste, ②  Seitenleiste, ③
 Arbeitsbereich, ④  rechte Seitenleiste. Hier sind im Arbeitsbereich ein Editor
 und ein Terminal übereinander angeordnet. In der rechten Seitenleiste ist der
 Debugger geöffnet.
@@ -39,7 +42,7 @@ Die obere Menüleiste enthält alle wichtigen Funktionen:
 - **Settings**: Einstellungen und Konfiguration
 - **Help**: Hilfe und Dokumentation
 
-> **Screenshot benötigt:** Detailansicht der Menüleiste mit aufgeklapptem "Run"-Menü
+**TODO:** Screenshot Detailansicht der Menüleiste mit aufgeklapptem "Run"-Menü
 
 ### 2. Linke Seitenleiste
 
@@ -51,7 +54,8 @@ Die linke Seitenleiste bietet schnellen Zugriff auf wichtige Tools:
 - **Inhaltsverzeichnis** (📋): Navigation in Notebooks
 - **Erweiterungs-Manager** (🧩): Installation und Verwaltung von Extensions
 
-> **Screenshot benötigt:** Linke Seitenleiste mit geöffnetem Datei-Browser, der typische Python-Projektstruktur zeigt
+**TODO:** Screenshot Linke Seitenleiste mit geöffnetem Datei-Browser, der
+typische Python-Projektstruktur zeigt
 
 ### 3. Arbeitsbereich (Main Work Area)
 
@@ -61,7 +65,8 @@ Der zentrale Arbeitsbereich ist das Herzstück von JupyterLab:
 - **Geteilte Ansichten**: Fenster durch Ziehen von Tabs aufteilen
 - **Live-Bearbeitung**: Mehrere Ansichten desselben Dokuments
 
-> **Screenshot benötigt:** Arbeitsbereich mit drei geteilten Fenstern: Notebook links, Code-Editor rechts oben, Terminal rechts unten
+**TODO:** Screenshot Arbeitsbereich mit drei geteilten Fenstern: Notebook
+links, Code-Editor rechts oben, Terminal rechts unten
 
 ### 4. Rechte Seitenleiste (optional)
 
@@ -77,7 +82,8 @@ Der zentrale Arbeitsbereich ist das Herzstück von JupyterLab:
 3. **Markdown-Zellen**: Dokumentation und Erklärungen
 4. **Ausführung**: Shift+Enter oder Run-Button
 
-> **Screenshot benötigt:** Neues leeres Notebook mit einer Code-Zelle und einer Markdown-Zelle
+**TODO:** Screenshot Neues leeres Notebook mit einer Code-Zelle und einer
+Markdown-Zelle
 
 ### Workspace-Layout anpassen
 
@@ -85,7 +91,8 @@ Der zentrale Arbeitsbereich ist das Herzstück von JupyterLab:
 - **Größe ändern**: Ziehen der Trennlinien zwischen Bereichen
 - **Seitenleisten**: Ein-/Ausblenden über View-Menü
 
-> **Screenshot benötigt:** Vor/Nach-Vergleich: Standard-Layout vs. angepasstes Layout mit mehreren Fenstern
+**TODO:** Screenshot Vor/Nach-Vergleich: Standard-Layout vs. angepasstes Layout
+mit mehreren Fenstern
 
 ### Wichtige Tastenkombinationen
 
@@ -104,19 +111,24 @@ JupyterLab kann verschiedene Dateiformate direkt anzeigen:
 - **Bilder** (.png, .jpg, .svg): Direkter Viewer
 - **Daten** (.csv, .json): Tabellarische Ansicht
 
-> **Screenshot benötigt:** Datei-Browser mit verschiedenen Dateitypen und Preview eines CSV-Files
+**TODO:** Screenshot Datei-Browser mit verschiedenen Dateitypen und Preview
+eines CSV-Files
 
 ## Weiterführende Ressourcen
 
-- **Offizielle Dokumentation**: [JupyterLab Documentation](https://jupyterlab.readthedocs.io/)
-- **Interface Guide**: [User Interface](https://jupyterlab.readthedocs.io/en/stable/user/interface.html)
-- **Getting Started**: [JupyterLab Overview](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html)
+- **Offizielle Dokumentation**: [JupyterLab
+  Documentation](https://jupyterlab.readthedocs.io/)
+- **Interface Guide**: [User
+  Interface](https://jupyterlab.readthedocs.io/en/stable/user/interface.html)
+- **Getting Started**: [JupyterLab
+  Overview](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html)
 
 ## Tipps für Einsteiger
 
-1. **Experimentieren Sie**: Die Oberfläche ist flexibel - probieren Sie verschiedene Layouts aus
+1. **Experimentieren Sie**: Die Oberfläche ist flexibel - probieren Sie
+   verschiedene Layouts aus
 2. **Shortcuts lernen**: Tastenkombinationen beschleunigen die Arbeit erheblich
 3. **Extensions nutzen**: Erweitern Sie JupyterLab um zusätzliche Funktionen
 4. **Dokumentation**: Nutzen Sie die eingebaute Hilfe (Help-Menü)
 
-> **Screenshot benötigt:** Help-Menü mit Keyboard Shortcuts und About-Dialog
+**TODO:** Screenshot Help-Menü mit Keyboard Shortcuts und About-Dialog

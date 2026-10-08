@@ -305,7 +305,7 @@ Nützlich, um Log-Dateien in Echtzeit zu beobachten. Beenden mit
 
 ## Praktisches Beispiel: Projektstruktur erstellen
 
-Erstellen Sie eine typische Python-Projektstruktur:
+Erstellen Sie eine typische {term}`Python`-Projektstruktur:
 
 ```console
 $ mkdir -p python-projekt/{src,tests,docs,data}
@@ -330,8 +330,8 @@ main.py  utils.py
 test_main.py
 ```
 
-:::::{admonition} 💪 Übung
-:icon: false
+````{exercise}
+:label: unix-dateiverwaltung
 
 Erstellen Sie folgende Struktur und üben Sie die Befehle:
 
@@ -345,8 +345,10 @@ Erstellen Sie folgende Struktur und üben Sie die Befehle:
 8. Verschieben Sie `scripts/verarbeitung_backup.py` nach `output/`
 9. Löschen Sie das Verzeichnis `data/` komplett
 10. Überprüfen Sie mit `ls`, was noch da ist
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-dateiverwaltung
+:class: dropdown
 
 ```console
 $ mkdir uebung-unix
@@ -380,9 +382,7 @@ verarbeitung_backup.py
 ./scripts:
 verarbeitung.py
 ```
-
-:::
-:::::
+````
 
 ## Zusammenfassung der Befehle
 

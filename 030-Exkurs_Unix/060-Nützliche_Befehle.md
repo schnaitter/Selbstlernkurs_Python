@@ -11,7 +11,7 @@ numbering:
 :::::{margin}
 ::::{tip} Unix-Philosophie in der Praxis
 
-Die Werkzeuge in diesem Kapitel zeigen die Unix-Philosophie in Aktion: Kleine,
+Die Werkzeuge in diesem Kapitel zeigen die {term}`Unix`-Philosophie in Aktion: Kleine,
 spezialisierte Programme, die zusammenarbeiten.
 
 ::::
@@ -401,7 +401,7 @@ $ sort datei.txt | uniq -c    # Mit Anzahl
 $ cut -d',' -f1,3 data.csv
 ```
 
-Extrahiert Spalten 1 und 3 aus einer CSV-Datei (Trennzeichen: Komma).
+Extrahiert Spalten 1 und 3 aus einer {term}`CSV`-Datei (Trennzeichen: Komma).
 
 ### `tr` – Zeichen ersetzen
 
@@ -416,8 +416,8 @@ $ cat datei.txt | tr -d '\r'
 
 Entfernt Carriage Returns (Windows-Zeilenenden).
 
-:::::{admonition} 💪 Übung
-:icon: false
+````{exercise}
+:label: unix-nuetzliche-befehle
 
 Gegeben ist eine Datei `kurse.txt` mit folgendem Inhalt:
 
@@ -437,8 +437,10 @@ Führen Sie folgende Aufgaben aus (erstellen Sie die Datei zuerst):
 4. Schreiben Sie alle Python-Kurse in eine neue Datei `python-kurse.txt`
 5. Sortieren Sie die Datei alphabetisch und zeigen Sie das Ergebnis
 6. Zählen Sie, wie oft das Wort "Python" vorkommt
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-nuetzliche-befehle
+:class: dropdown
 
 ```console
 $ cat > kurse.txt << 'EOF'
@@ -485,9 +487,7 @@ Alternative für Aufgabe 6:
 $ grep -c "Python" kurse.txt
 3
 ```
-
-:::
-:::::
+````
 
 ## Zusammenfassung
 

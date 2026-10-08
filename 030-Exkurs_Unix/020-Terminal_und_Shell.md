@@ -63,7 +63,7 @@ bash
 :::::{margin}
 ::::{hint} JupyterHub
 
-Im JupyterLab von JupyterHub öffnen Sie ein Terminal über das Menü: **File →
+Im {term}`JupyterLab` von {term}`JupyterHub` öffnen Sie ein Terminal über das Menü: **File →
 New → Terminal**
 
 Das Terminal öffnet sich in einem neuen Tab.
@@ -191,8 +191,8 @@ $ date
 Die Shell vervollständigt automatisch. Gibt es mehrere Möglichkeiten, zeigt
 zweimaliges Drücken von {kbd}`Tab` alle Optionen an.
 
-:::::{admonition} 💪 Übung
-:icon: false
+````{exercise}
+:label: unix-terminal-befehle
 
 Probieren Sie folgende Dinge aus:
 
@@ -202,8 +202,10 @@ Probieren Sie folgende Dinge aus:
 4. Geben Sie `dat` ein und drücken Sie {kbd}`Tab` – was passiert?
 5. Geben Sie `echo Hallo Welt` ein
 6. Tippen Sie `history` um Ihre Befehlshistorie zu sehen
+````
 
-:::{dropdown} ✅ Erwartete Ergebnisse
+````{solution} unix-terminal-befehle
+:class: dropdown
 
 ```console
 $ whoami
@@ -223,6 +225,4 @@ $ history
 ```
 
 Die tatsächliche Ausgabe kann je nach System variieren.
-
-:::
-:::::
+````

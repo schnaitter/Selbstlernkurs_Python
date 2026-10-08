@@ -18,7 +18,7 @@ Taschenrechner-Projekt mit den Unix-Grundlagen.
 ::::
 :::::
 
-In Unix hat jede Datei Berechtigungen (Permissions), die festlegen, wer was mit
+In {term}`Unix` hat jede Datei Berechtigungen (Permissions), die festlegen, wer was mit
 der Datei tun darf. Diese Berechtigungen sind besonders wichtig, wenn Sie
 Python-Skripte direkt ausführbar machen möchten.
 
@@ -172,7 +172,7 @@ Skripte](../020-Projekt_Taschenrechner_I/050-Ausführbare_Skripte.md).
 ::::
 :::::
 
-Um ein Python-Skript direkt ausführbar zu machen (ohne `python3` davor):
+Um ein {term}`Python`-{term}`Skript` direkt ausführbar zu machen (ohne `python3` davor):
 
 ### 1. Shebang-Zeile hinzufügen
 
@@ -290,8 +290,8 @@ Für die Entwicklung ist `python3 skript.py` oft einfacher. Für
 Produktions-Skripte oder Tools, die wie Programme genutzt werden sollen, ist
 `./skript.py` eleganter.
 
-:::::{admonition} 💪 Übung
-:icon: false
+````{exercise}
+:label: unix-berechtigungen
 
 Erstellen Sie ein ausführbares Python-Skript:
 
@@ -310,8 +310,10 @@ Erstellen Sie ein ausführbares Python-Skript:
 5. Überprüfen Sie erneut die Berechtigungen
 6. Führen Sie es aus: `./hallo.py`
 7. Testen Sie auch: `python3 hallo.py`
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-berechtigungen
+:class: dropdown
 
 ```console
 $ cat > hallo.py << 'EOF'
@@ -337,9 +339,7 @@ Hallo, Bob!
 
 Beide Methoden funktionieren, aber nur nach `chmod +x` ist das direkte
 Ausführen mit `./` möglich.
-
-:::
-:::::
+````
 
 ## Zusammenfassung
 

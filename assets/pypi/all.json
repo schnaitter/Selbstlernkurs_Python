@@ -1,0 +1,54 @@
+{
+  "openpyxl": {
+    "releases": {
+      "3.1.5": [
+        {
+          "comment_text": "",
+          "digests": {
+            "md5": "05a1b34e9893bab14dd70c7645c4ddcb",
+            "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+          },
+          "downloads": -1,
+          "filename": "openpyxl-3.1.5-py2.py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "05a1b34e9893bab14dd70c7645c4ddcb",
+          "packagetype": "bdist_wheel",
+          "python_version": "py2.py3",
+          "requires_python": ">=3.8",
+          "size": 250910,
+          "upload_time": "2024-08-06T00:00:00.000000Z",
+          "upload_time_iso_8601": "2024-08-06T00:00:00.000000Z",
+          "url": "./openpyxl-3.1.5-py2.py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        }
+      ]
+    }
+  },
+  "et_xmlfile": {
+    "releases": {
+      "2.0.0": [
+        {
+          "comment_text": "",
+          "digests": {
+            "md5": "2a0e42a250b2d8a56497969eb14a979d",
+            "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+          },
+          "downloads": -1,
+          "filename": "et_xmlfile-2.0.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "2a0e42a250b2d8a56497969eb14a979d",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.8",
+          "size": 18059,
+          "upload_time": "2024-08-06T00:00:00.000000Z",
+          "upload_time_iso_8601": "2024-08-06T00:00:00.000000Z",
+          "url": "./et_xmlfile-2.0.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        }
+      ]
+    }
+  }
+}
