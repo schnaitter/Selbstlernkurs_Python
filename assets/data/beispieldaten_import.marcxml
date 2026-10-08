@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000001</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2021    gw                  ger d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783110470017</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Keller, Miriam</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Datenkuration in wissenschaftlichen Bibliotheken</subfield>
+      <subfield code="b">Praktiken, Werkzeuge und Standards</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Berlin</subfield>
+      <subfield code="b">Wissenschaftsverlag Berlin</subfield>
+      <subfield code="c">2021</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Bibliothekswissenschaft</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Forschungsdaten</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Metadaten</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000002</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2019    enk                 eng d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783123980121</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Okafor, Chidi</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Metadata for Digital Collections</subfield>
+      <subfield code="b">A Practical Introduction</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">London</subfield>
+      <subfield code="b">Thames &amp; Library Press</subfield>
+      <subfield code="c">2019</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Metadata</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Digital libraries</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000003</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2020    fr                  fre d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9782013590013</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">fre</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Dupont, Claire</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Catalogage et données ouvertes</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Paris</subfield>
+      <subfield code="b">Éditions du Patrimoine</subfield>
+      <subfield code="c">2020</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Catalogage</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Open data</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000004</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2022    gw                  ger d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783289012346</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Schneider, Jonas</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Praktische Algorithmen für Bibliotheken</subfield>
+      <subfield code="b">Von der Signatur zur Suchmaschine</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">InfoTech Verlag</subfield>
+      <subfield code="c">2022</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Algorithmen</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Information Retrieval</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000005</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2018    ne                  eng d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9789441001234</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Almeida, Sofia</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Preserving the Digital Record</subfield>
+      <subfield code="b">Strategies for Long-Term Access</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Amsterdam</subfield>
+      <subfield code="b">Museum &amp; Archive Press</subfield>
+      <subfield code="c">2018</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Digital preservation</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Archives</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000006</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2023    au                  ger d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783705009875</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Nowak, Ewa</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Open Access und die Bibliothek der Zukunft</subfield>
+      <subfield code="b">Strategien für wissenschaftliche Einrichtungen</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Wien</subfield>
+      <subfield code="b">Akademischer Verlag Wien</subfield>
+      <subfield code="c">2023</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Open Access</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Wissenschaft</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Bibliothek</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000007</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2021    nyu                 eng d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9781902003405</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Kowalski, Piotr</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Library Linked Data</subfield>
+      <subfield code="b">From Records to Knowledge Graphs</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">New York</subfield>
+      <subfield code="b">Metropolitan Library Press</subfield>
+      <subfield code="c">2021</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Linked data</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Semantic web</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000008</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2017    po                  por d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9789720012302</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">por</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Ferreira, Luís</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Gestão de Coleções na Era Digital</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Lisboa</subfield>
+      <subfield code="b">Editora Biblioteca Nova</subfield>
+      <subfield code="c">2017</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Gestão de coleções</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Bibliotecas digitais</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000009</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2020    ja                  eng d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9784498012301</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Tanaka, Yuki</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Archives and Memory</subfield>
+      <subfield code="b">Collecting the Contemporary</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Tokyo</subfield>
+      <subfield code="b">Sakura Academic Press</subfield>
+      <subfield code="c">2020</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Archives</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Memory</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Collecting</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000010</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2019    sz                  ger d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783038001201</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Bianchi, Marco</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Digitalisierung von Kulturerbe</subfield>
+      <subfield code="b">Workflows und Standards</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Zürich</subfield>
+      <subfield code="b">Kulturgut Verlag</subfield>
+      <subfield code="c">2019</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Digitalisierung</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Kulturerbe</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Metadaten</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000011</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2022    sa                  eng d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9780621004564</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Osei, Ama</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Community Archives</subfield>
+      <subfield code="b">Participation and Power</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Cape Town</subfield>
+      <subfield code="b">Ubuntu Press</subfield>
+      <subfield code="c">2022</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Community archives</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Participation</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000012</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2023    sw                  swe d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9789170012341</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">swe</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Lindqvist, Elsa</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Biblioteket och AI</subfield>
+      <subfield code="b">Möjligheter och utmaningar</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Stockholm</subfield>
+      <subfield code="b">Nordisk Biblioteksförlag</subfield>
+      <subfield code="c">2023</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Künstliche Intelligenz</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Bibliothek</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000013</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2021    it                  ita d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9788800012300</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ita</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Rossi, Giulia</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Il catalogo aperto</subfield>
+      <subfield code="b">Dati collegati in biblioteca</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Roma</subfield>
+      <subfield code="b">Edizioni Biblioteche</subfield>
+      <subfield code="c">2021</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Catalogazione</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Linked data</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000014</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2020    gw                  ger d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783863012304</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Meyer, Katharina</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Digital Humanities in der Praxis</subfield>
+      <subfield code="b">Projekte, Methoden, Werkzeuge</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Göttingen</subfield>
+      <subfield code="b">Universitätsverlag Göttingen</subfield>
+      <subfield code="c">2020</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Digital Humanities</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Methoden</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000015</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2018    gw                  eng d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783110987652</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Haddad, Nadia</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Records, Rights and Access</subfield>
+      <subfield code="b">Copyright in the Digital Library</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Berlin</subfield>
+      <subfield code="b">Wissenschaftsverlag Berlin</subfield>
+      <subfield code="c">2018</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Copyright</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Access</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Digital library</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000016</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2024    gw                  ger d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783987654329</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Petrov, Ivan</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Automatisierung mit Python</subfield>
+      <subfield code="b">Skripte für den Bibliotheksalltag</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Leipzig</subfield>
+      <subfield code="b">Code &amp; Buch</subfield>
+      <subfield code="c">2024</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Python</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Automatisierung</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Bibliothek</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000017</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2022    fi                  eng d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9789520012304</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Virtanen, Aino</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Open Data for Memory Institutions</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Helsinki</subfield>
+      <subfield code="b">Pohjois Publishing</subfield>
+      <subfield code="c">2022</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Open data</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Museums</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="001">000000018</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="008">240101s2023    gw                  ger d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783540012399</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Diallo, Fatou</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Katalogisierung nach RDA</subfield>
+      <subfield code="b">Ein Leitfaden für die Praxis</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">Frankfurt</subfield>
+      <subfield code="b">Berufsverlag Information</subfield>
+      <subfield code="c">2023</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">RDA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Katalogisierung</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Metadaten</subfield>
+    </datafield>
+  </record>
+</collection>
