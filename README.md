@@ -5,6 +5,6 @@ Dieser Selbstlernkurs soll angehende Bibliotheks- und Informationswissenschaftle
 ## Upgrading Python packages
 
 ```console
-$ uv pip compile requirements.in -o requirements.txt --upgrade-package jupyter-book
+$ uv lock --upgrade-package jupyter-book
 ```
 
