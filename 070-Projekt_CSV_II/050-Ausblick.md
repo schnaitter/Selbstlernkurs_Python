@@ -50,7 +50,7 @@ Die manuelle Analyse stößt dort an Grenzen, wo
 - **Projekt: Excel** – dasselbe Analyseziel wie hier, aber mit der
   Komfort-Bibliothek `pandas` und mit Visualisierungen.
   Siehe [Einleitung zu Excel](../090-Projekt_Excel/000-Einleitung.md).
-- **Cheatsheet (900)** – Kurzreferenz für `csv`, Dictionaries und
+- **Cheatsheet** – Kurzreferenz für `csv`, Dictionaries und
   `collections`: [Cheatsheet](../900-Cheatsheet.md).
 
 Die hier geübte Denkweise – erst einlesen und prüfen, dann in Dictionaries

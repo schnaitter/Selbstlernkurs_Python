@@ -33,7 +33,6 @@ print("a" in abc) # True
 print("d" in abc) # False
 ```
 
-:::
 
 :::{hint} "Neutrale" Werte bei mathematischen Berechnungen
 
@@ -132,7 +131,6 @@ Mögliche Erweiterungen sind:
     -1
     64
     ```
-```
 
 ```{hint} 📝 Kleine Aufgabe 1
 :icon: false
