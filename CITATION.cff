@@ -7,9 +7,9 @@ authors:
     given-names: "Hannes"
     orcid: "https://orcid.org/0000-0002-1602-6032"
 version: 0.1.0
-date-released: "2025-05-07"
-repository-code: "https://github.com/schnaiha/Selbstlernkurs_Python"  # Replace with actual repository URL
-abstract: "Selbstlernkurs Python für Bibliotheks- und Informationswissenschaftler*innen; entwickelt für die Lehrgebiete 1.5/7.5 im weiterbildenden Masterstudiengang Bibliotheks- und Informationswissenschaft im Fernstudium an der Humboldt-Universität zu Berlin"
+date-released: "2026-10-08"
+repository-code: "https://github.com/schnaiha/Selbstlernkurs_Python"
+abstract: "Selbstlernkurs Python für Bibliotheks- und Informationswissenschaftler*innen; entwickelt für das Lehrgebiet 1.5 im weiterbildenden Masterstudiengang Bibliotheks- und Informationswissenschaft im Fernstudium an der Humboldt-Universität zu Berlin"
 keywords:
   - python
   - education
