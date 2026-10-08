@@ -25,7 +25,11 @@ project:
   thebe: false
   static_files:
     - assets/pypi
+    - assets/data/bibliothek_unsauber.xlsx
+    - assets/data/bibliothek_sauber.xlsx
     - assets/data/books_powerlaw_dataset.csv
+    - assets/data/beispieldaten.json
+    - assets/data/beispieldaten.marcxml
   binder: https://mybinder.org/v2/gh/schnaitter/Selbstlernkurs_Python/main
   exclude:
     - _build

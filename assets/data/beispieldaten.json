@@ -1,0 +1,284 @@
+{
+  "quelle": "Synthetische Beispieldaten für den Selbstlernkurs Python",
+  "stand": "2026-10-07",
+  "anzahl_titel": 18,
+  "titel": [
+    {
+      "autor": "Keller, Miriam",
+      "titel": "Datenkuration in wissenschaftlichen Bibliotheken",
+      "untertitel": "Praktiken, Werkzeuge und Standards",
+      "ort": "Berlin",
+      "verlag": "Wissenschaftsverlag Berlin",
+      "jahr": 2021,
+      "sprache": "ger",
+      "schlagwoerter": [
+        "Bibliothekswissenschaft",
+        "Forschungsdaten",
+        "Metadaten"
+      ],
+      "id": "000000001",
+      "isbn": "9783110470017"
+    },
+    {
+      "autor": "Okafor, Chidi",
+      "titel": "Metadata for Digital Collections",
+      "untertitel": "A Practical Introduction",
+      "ort": "London",
+      "verlag": "Thames & Library Press",
+      "jahr": 2019,
+      "sprache": "eng",
+      "schlagwoerter": [
+        "Metadata",
+        "Digital libraries"
+      ],
+      "id": "000000002",
+      "isbn": "9783123980121"
+    },
+    {
+      "autor": "Dupont, Claire",
+      "titel": "Catalogage et données ouvertes",
+      "untertitel": "",
+      "ort": "Paris",
+      "verlag": "Éditions du Patrimoine",
+      "jahr": 2020,
+      "sprache": "fre",
+      "schlagwoerter": [
+        "Catalogage",
+        "Open data"
+      ],
+      "id": "000000003",
+      "isbn": "9782013590013"
+    },
+    {
+      "autor": "Schneider, Jonas",
+      "titel": "Praktische Algorithmen für Bibliotheken",
+      "untertitel": "Von der Signatur zur Suchmaschine",
+      "ort": "München",
+      "verlag": "InfoTech Verlag",
+      "jahr": 2022,
+      "sprache": "ger",
+      "schlagwoerter": [
+        "Algorithmen",
+        "Information Retrieval"
+      ],
+      "id": "000000004",
+      "isbn": "9783289012346"
+    },
+    {
+      "autor": "Almeida, Sofia",
+      "titel": "Preserving the Digital Record",
+      "untertitel": "Strategies for Long-Term Access",
+      "ort": "Amsterdam",
+      "verlag": "Museum & Archive Press",
+      "jahr": 2018,
+      "sprache": "eng",
+      "schlagwoerter": [
+        "Digital preservation",
+        "Archives"
+      ],
+      "id": "000000005",
+      "isbn": "9789441001234"
+    },
+    {
+      "autor": "Nowak, Ewa",
+      "titel": "Open Access und die Bibliothek der Zukunft",
+      "untertitel": "Strategien für wissenschaftliche Einrichtungen",
+      "ort": "Wien",
+      "verlag": "Akademischer Verlag Wien",
+      "jahr": 2023,
+      "sprache": "ger",
+      "schlagwoerter": [
+        "Open Access",
+        "Wissenschaft",
+        "Bibliothek"
+      ],
+      "id": "000000006",
+      "isbn": "9783705009875"
+    },
+    {
+      "autor": "Kowalski, Piotr",
+      "titel": "Library Linked Data",
+      "untertitel": "From Records to Knowledge Graphs",
+      "ort": "New York",
+      "verlag": "Metropolitan Library Press",
+      "jahr": 2021,
+      "sprache": "eng",
+      "schlagwoerter": [
+        "Linked data",
+        "Semantic web"
+      ],
+      "id": "000000007",
+      "isbn": "9781902003405"
+    },
+    {
+      "autor": "Ferreira, Luís",
+      "titel": "Gestão de Coleções na Era Digital",
+      "untertitel": "",
+      "ort": "Lisboa",
+      "verlag": "Editora Biblioteca Nova",
+      "jahr": 2017,
+      "sprache": "por",
+      "schlagwoerter": [
+        "Gestão de coleções",
+        "Bibliotecas digitais"
+      ],
+      "id": "000000008",
+      "isbn": "9789720012302"
+    },
+    {
+      "autor": "Tanaka, Yuki",
+      "titel": "Archives and Memory",
+      "untertitel": "Collecting the Contemporary",
+      "ort": "Tokyo",
+      "verlag": "Sakura Academic Press",
+      "jahr": 2020,
+      "sprache": "eng",
+      "schlagwoerter": [
+        "Archives",
+        "Memory",
+        "Collecting"
+      ],
+      "id": "000000009",
+      "isbn": "9784498012301"
+    },
+    {
+      "autor": "Bianchi, Marco",
+      "titel": "Digitalisierung von Kulturerbe",
+      "untertitel": "Workflows und Standards",
+      "ort": "Zürich",
+      "verlag": "Kulturgut Verlag",
+      "jahr": 2019,
+      "sprache": "ger",
+      "schlagwoerter": [
+        "Digitalisierung",
+        "Kulturerbe",
+        "Metadaten"
+      ],
+      "id": "000000010",
+      "isbn": "9783038001201"
+    },
+    {
+      "autor": "Osei, Ama",
+      "titel": "Community Archives",
+      "untertitel": "Participation and Power",
+      "ort": "Cape Town",
+      "verlag": "Ubuntu Press",
+      "jahr": 2022,
+      "sprache": "eng",
+      "schlagwoerter": [
+        "Community archives",
+        "Participation"
+      ],
+      "id": "000000011",
+      "isbn": "9780621004564"
+    },
+    {
+      "autor": "Lindqvist, Elsa",
+      "titel": "Biblioteket och AI",
+      "untertitel": "Möjligheter och utmaningar",
+      "ort": "Stockholm",
+      "verlag": "Nordisk Biblioteksförlag",
+      "jahr": 2023,
+      "sprache": "swe",
+      "schlagwoerter": [
+        "Künstliche Intelligenz",
+        "Bibliothek"
+      ],
+      "id": "000000012",
+      "isbn": "9789170012341"
+    },
+    {
+      "autor": "Rossi, Giulia",
+      "titel": "Il catalogo aperto",
+      "untertitel": "Dati collegati in biblioteca",
+      "ort": "Roma",
+      "verlag": "Edizioni Biblioteche",
+      "jahr": 2021,
+      "sprache": "ita",
+      "schlagwoerter": [
+        "Catalogazione",
+        "Linked data"
+      ],
+      "id": "000000013",
+      "isbn": "9788800012300"
+    },
+    {
+      "autor": "Meyer, Katharina",
+      "titel": "Digital Humanities in der Praxis",
+      "untertitel": "Projekte, Methoden, Werkzeuge",
+      "ort": "Göttingen",
+      "verlag": "Universitätsverlag Göttingen",
+      "jahr": 2020,
+      "sprache": "ger",
+      "schlagwoerter": [
+        "Digital Humanities",
+        "Methoden"
+      ],
+      "id": "000000014",
+      "isbn": "9783863012304"
+    },
+    {
+      "autor": "Haddad, Nadia",
+      "titel": "Records, Rights and Access",
+      "untertitel": "Copyright in the Digital Library",
+      "ort": "Berlin",
+      "verlag": "Wissenschaftsverlag Berlin",
+      "jahr": 2018,
+      "sprache": "eng",
+      "schlagwoerter": [
+        "Copyright",
+        "Access",
+        "Digital library"
+      ],
+      "id": "000000015",
+      "isbn": "9783110987652"
+    },
+    {
+      "autor": "Petrov, Ivan",
+      "titel": "Automatisierung mit Python",
+      "untertitel": "Skripte für den Bibliotheksalltag",
+      "ort": "Leipzig",
+      "verlag": "Code & Buch",
+      "jahr": 2024,
+      "sprache": "ger",
+      "schlagwoerter": [
+        "Python",
+        "Automatisierung",
+        "Bibliothek"
+      ],
+      "id": "000000016",
+      "isbn": "9783987654329"
+    },
+    {
+      "autor": "Virtanen, Aino",
+      "titel": "Open Data for Memory Institutions",
+      "untertitel": "",
+      "ort": "Helsinki",
+      "verlag": "Pohjois Publishing",
+      "jahr": 2022,
+      "sprache": "eng",
+      "schlagwoerter": [
+        "Open data",
+        "Museums"
+      ],
+      "id": "000000017",
+      "isbn": "9789520012304"
+    },
+    {
+      "autor": "Diallo, Fatou",
+      "titel": "Katalogisierung nach RDA",
+      "untertitel": "Ein Leitfaden für die Praxis",
+      "ort": "Frankfurt",
+      "verlag": "Berufsverlag Information",
+      "jahr": 2023,
+      "sprache": "ger",
+      "schlagwoerter": [
+        "RDA",
+        "Katalogisierung",
+        "Metadaten"
+      ],
+      "id": "000000018",
+      "isbn": "9783540012399"
+    }
+  ]
+}

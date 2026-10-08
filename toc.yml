@@ -63,6 +63,27 @@ project:
         - file: 070-Projekt_CSV_II/030-Fehlerbehandlung_Performance.ipynb
         - file: 070-Projekt_CSV_II/040-Aufgabe_Statistik.ipynb
         - file: 070-Projekt_CSV_II/050-Ausblick.md
+    - file: 080-Projekt_MARC-XML/000-Einleitung.md
+      children:
+        - file: 080-Projekt_MARC-XML/010-MARC-XML_Grundlagen.md
+        - file: 080-Projekt_MARC-XML/020-Einlesen_Filtern.ipynb
+        - file: 080-Projekt_MARC-XML/030-JSON_zu_MARC-XML.ipynb
+        - file: 080-Projekt_MARC-XML/040-Export_BibTeX.ipynb
+        - file: 080-Projekt_MARC-XML/050-Aufgabe.md
+    - file: 090-Projekt_Excel/000-Einleitung.md
+      children:
+        - file: 090-Projekt_Excel/010-Excel_einlesen.ipynb
+        - file: 090-Projekt_Excel/020-Datenbereinigen.ipynb
+        - file: 090-Projekt_Excel/030-Statistiken.ipynb
+        - file: 090-Projekt_Excel/040-Visualisierung.ipynb
+        - file: 090-Projekt_Excel/050-Aufgabe.md
+    - file: 095-Exkurs_Git_Vertiefung/000-Einleitung.md
+      children:
+        - file: 095-Exkurs_Git_Vertiefung/010-Remote_Repositories.md
+        - file: 095-Exkurs_Git_Vertiefung/020-Branches.md
+        - file: 095-Exkurs_Git_Vertiefung/030-Merge_Konflikte.md
+        - file: 095-Exkurs_Git_Vertiefung/040-Rueckgaengig_machen.md
+        - file: 095-Exkurs_Git_Vertiefung/050-Best_Practices.md
     - file: 900-Cheatsheet.md
     - file: 999-Epilog/Epilog.md
       children:
