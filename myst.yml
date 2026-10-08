@@ -19,13 +19,14 @@ project:
         - Writing
       id: schnaitter
   github: https://github.com/schnaitter/Selbstlernkurs_Python
-  binder:
-    url: https://mybinder.org
-    repo: schnaitter/Selbstlernkurs_Python
-    ref: main
-    provider: github
-  jupyter:
-    lite: true
+  # Thebe (JupyterLite-„Start compute environment") vorerst deaktiviert, weil
+  # es die JupyterQuiz-Ausgaben im Browser überschreibt. Entspricht dem früheren
+  # Alias `jupyter: {lite: true}`.
+  thebe: false
+  static_files:
+    - assets/pypi
+    - assets/data/books_powerlaw_dataset.csv
+  binder: https://mybinder.org/v2/gh/schnaitter/Selbstlernkurs_Python/main
   exclude:
     - _build
     - README.md

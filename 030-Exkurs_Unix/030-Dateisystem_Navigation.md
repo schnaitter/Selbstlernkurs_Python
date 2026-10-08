@@ -174,7 +174,7 @@ Wechselt zum vorherigen Verzeichnis zurück (wie "Zurück" in einem Browser).
 :::::{margin}
 ::::{seealso} Pfad-Notation
 
-In Python nutzen Sie diese Pfad-Konzepte ebenfalls – z.B. beim Öffnen von
+In {term}`Python` nutzen Sie diese Pfad-Konzepte ebenfalls – z.B. beim Öffnen von
 Dateien:
 
 ```python
@@ -243,8 +243,8 @@ $ pwd
 /home/alice
 ```
 
-:::::{admonition} 💪 Übung
-:icon: false
+````{exercise}
+:label: unix-navigation
 
 Führen Sie folgende Schritte aus:
 
@@ -255,8 +255,10 @@ Führen Sie folgende Schritte aus:
 5. Wechseln Sie mit `cd ..` wieder nach oben
 6. Wechseln Sie mit `cd ~` in Ihr Home-Verzeichnis
 7. Nutzen Sie `ls -la` um alle Dateien (inklusive versteckter) anzuzeigen
+````
 
-:::{dropdown} ✅ Beispiel-Lösung
+````{solution} unix-navigation
+:class: dropdown
 
 ```console
 $ pwd
@@ -285,9 +287,7 @@ drwxr-xr-x  4 alice users 4096 Okt 17 09:00 projekte
 
 Ihre Ausgabe wird anders aussehen, abhängig von Ihrem System und
 Verzeichnisinhalt.
-
-:::
-:::::
+````
 
 ## Tipps und Tricks
 

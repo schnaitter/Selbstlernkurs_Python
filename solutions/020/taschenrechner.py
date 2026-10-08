@@ -24,5 +24,5 @@ def calculate():
     return result
 
 if __name__ == "__main__":
-    while result := calculate():
+    while (result := calculate()) is not None:
         print(result)

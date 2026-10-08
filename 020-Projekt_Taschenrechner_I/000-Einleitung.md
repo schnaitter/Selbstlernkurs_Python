@@ -23,22 +23,47 @@ In diesem Kapitel erlernen Sie, …
 
 ```{note} Projektziel
 
-Ziel des Projekts ist es, einen Taschenrechner zu entwickeln, in den die
-Nutzer\*in Operatoren und Operanden eingeben kann und welcher dann die
-jeweiligen Berechnungsergebnisse ausgibt. Er soll einfache arithmetische
-Operationen unterstützen.
+Ziel des Projekts ist es, die Grundlagen für einen Taschenrechner zu legen:
+Sie lernen, Python für grundlegende Berechnungen zu nutzen, den Programmfluss
+mit Kontrollstrukturen zu steuern und wiederverwendbare Funktionen zu
+schreiben. Der interaktive Taschenrechner, in den die Nutzer\*in Operatoren und
+Operanden eingibt, wird darauf aufbauend im [Projekt: Taschenrechner
+II](../060-Projekt_Taschenrechner_II/000-Einleitung.md) entwickelt.
 
 ```
 
 In diesem Kapitel machen Sie Ihre ersten Schritte mit Python. Sie erlernen den
 Umgang mit der sog. [REPL](./010-Python_REPL.ipynb), nutzen Python für
-grundlegende Berechnungen und schreiben Python-Code in
-[`.py`-Dateien](./030-Python_Code_Dateien.ipynb) und [Juypter Notebooks
+[grundlegende Berechnungen](./020-Grundlegende_Mathematik.ipynb) und steuern
+den Programmfluss mit [Kontrollstrukturen und
+Funktionen](./025-Kontrollstrukturen.ipynb). Sie schreiben Python-Code in
+[`.py`-Dateien](./030-Python_Code_Dateien.ipynb) und [Jupyter Notebooks
 (`.ipynb`)](./040-Jupyter_Notebooks.ipynb) und lernen die damit verbundenen
 unterschiedlichen Ausführungsformen von Python-Code. Dann erlernen Sie die
-Erstellung eines [ausführbaren Skripts](./050-Ausführbare_Skripte.md) in Python
-und bringen dann alles gelernte im
-[Taschenrechner](./060-Taschenrechner.ipynb)-Programm zusammen. Das Kapitel
-schließt mit einer Aufgabe zur [Erweiterung des
-Taschenrechners](./070-Aufgabe_Erweiterung.md) um verschiedene
-Funktionalitäten.
+Erstellung eines [ausführbaren Skripts](./050-Ausführbare_Skripte.md) in Python.
+Auf diesen Grundlagen baut das [Projekt: Taschenrechner
+II](../060-Projekt_Taschenrechner_II/000-Einleitung.md) auf, in dem der
+interaktive Taschenrechner umgesetzt und um verschiedene Funktionalitäten
+erweitert wird.
+
+```{seealso} Vorwissen
+:icon: false
+
+Dieses Kapitel setzt keine Programmierkenntnisse voraus. Es baut lediglich auf
+der [Nutzung des Kurses](../000-Einleitung/Nutzung_des_Kurses.md) auf. Die
+verwendeten Sprachmittel können Sie jederzeit im [Cheatsheet zu
+Bedingungen](../900-Cheatsheet.md#cheatsheet-bedingungen), [Schleifen](../900-Cheatsheet.md#cheatsheet-schleifen),
+[Listen](../900-Cheatsheet.md#cheatsheet-listen) und [Funktionen](../900-Cheatsheet.md#cheatsheet-funktionen)
+nachschlagen.
+
+```
+
+```{seealso} 📚 Weiterführende Ressourcen
+:icon: false
+
+- **Offizielle Dokumentation:** [The Python Tutorial](https://docs.python.org/3/tutorial/)
+- **Buch (kostenlos):** Al Sweigart, [*Automate the Boring Stuff with Python*](https://automatetheboringstuff.com/)
+- **Buch (kostenlos):** Allen B. Downey, [*Think Python*](https://greenteapress.com/wp/think-python-2e/)
+- **Bibliotheksspezifische OER:** [Library Carpentry: Introduction to Python](https://librarycarpentry.org/lc-python-intro/) und [The Programming Historian](https://programminghistorian.org/)
+
+```

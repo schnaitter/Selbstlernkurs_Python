@@ -10,7 +10,7 @@ numbering:
 Um den Kurs zu bearbeiten benötigen Sie eine Python-Installation, einen
 Code-Editor und idealerweise ein (Unix-)Terminal. Sie können dies entweder
 lokal bei sich auf dem Computer installieren oder Sie nutzen eine
-Jupyter-Installation wie [Binder](https://mybinder.org) oder einen lokalen
+Jupyter-Installation wie [Binder](https://mybinder.org) oder einen (lokalen)
 JupyterHub.
 
 Binder erstellt jeweils neue Virtuelle Maschinen in denen die Inhalte des
@@ -23,3 +23,16 @@ Humboldt-Universität zu Berlin](https://jupyterhub.cms.hu-berlin.de) _(nur für
 HU-Mitglieder)_ sowie für die lokale Installation. Dann folgt eine Anleitung
 für die Jupyter-Lab-Oberfläche, welche wir für die Durchführung des Kurses
 nutzen werden.
+
+```{seealso} Vorwissen
+:icon: false
+
+Dieses Kapitel setzt keine Programmierkenntnisse voraus und kann unabhängig von
+den übrigen Kapiteln durchgearbeitet werden. Es ergänzt die
+[Einleitung](../000-Einleitung/Einleitung.md), in der Sie einen Überblick über
+den Kurs erhalten. Welche Themen Sie erwarten, fassen die
+[Kursinhalte](../000-Einleitung/Kursinhalte.md) zusammen; die Besonderheiten
+des Fernstudiums beschreibt [Spezifika für Studierende des
+Fernstudiums](../000-Einleitung/Spezifika_Fernstudium.md).
+
+```

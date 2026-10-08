@@ -1,5 +1,6 @@
 import csv
 import random
+from pathlib import Path
 
 import numpy as np
 
@@ -76,12 +77,15 @@ for year in range(2020, 2026):
 
     dataset += dataset_year
 
-# CSV-Datei schreiben
-with open("books_powerlaw_dataset.csv", "w", newline="", encoding="utf-8") as f:
+# CSV-Datei zentral unter assets/data/ ablegen
+output_path = Path(__file__).resolve().parent.parent / "assets" / "data" / "books_powerlaw_dataset.csv"
+output_path.parent.mkdir(parents=True, exist_ok=True)
+
+with open(output_path, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(
         f, fieldnames=["isbn", "author", "year", "title", "sales_year", "sales"]
     )
     writer.writeheader()
     writer.writerows(dataset)
 
-print(f"\n✓ CSV-Datei gespeichert: books_powerlaw_dataset.csv")
+print(f"\n✓ CSV-Datei gespeichert: {output_path.relative_to(Path(__file__).resolve().parent.parent)}")

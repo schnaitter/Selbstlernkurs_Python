@@ -14,8 +14,8 @@ Bibliotheks- und Informationspraxis.
 
 ## Übung 1: Python-Projektstruktur erstellen
 
-:::::{admonition} 💪 Aufgabe: Bibliotheks-Datenverarbeitungsprojekt
-:icon: false
+````{exercise}
+:label: unix-projektstruktur
 
 Erstellen Sie eine vollständige Projektstruktur für ein Python-Projekt zur
 Verarbeitung von Bibliotheksdaten:
@@ -44,8 +44,10 @@ bibliotheks-tools/
 3. Listen Sie die Struktur mit `ls -R` auf
 4. Fügen Sie in `README.md` eine Zeile ein: "# Bibliotheks-Tools"
 5. Überprüfen Sie mit `cat README.md`
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-projektstruktur
+:class: dropdown
 
 ```console
 $ mkdir -p bibliotheks-tools/{src,data/{input,output},tests,docs}
@@ -77,16 +79,14 @@ $ echo "# Bibliotheks-Tools" > README.md
 $ cat README.md
 # Bibliotheks-Tools
 ```
-
-:::
-:::::
+````
 
 ## Übung 2: Ausführbares Datenverarbeitungs-Skript
 
-:::::{admonition} 💪 Aufgabe: CSV-Verarbeitung ausführbar machen
-:icon: false
+````{exercise}
+:label: unix-skript-ausfuehrbar
 
-Erstellen Sie ein ausführbares Python-Skript zur Verarbeitung von CSV-Daten:
+Erstellen Sie ein ausführbares {term}`Python`-{term}`Skript` zur Verarbeitung von {term}`CSV`-Daten:
 
 **Schritte:**
 
@@ -112,8 +112,10 @@ Erstellen Sie ein ausführbares Python-Skript zur Verarbeitung von CSV-Daten:
 4. Machen Sie es ausführbar
 5. Führen Sie es erneut aus
 6. Erstellen Sie eine Backup-Kopie mit dem Namen `verarbeite_katalog.py.backup`
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-skript-ausfuehrbar
+:class: dropdown
 
 ```console
 $ cat > verarbeite_katalog.py << 'EOF'
@@ -145,14 +147,12 @@ $ cp verarbeite_katalog.py verarbeite_katalog.py.backup
 $ ls
 verarbeite_katalog.py  verarbeite_katalog.py.backup
 ```
-
-:::
-:::::
+````
 
 ## Übung 3: Dateien organisieren und filtern
 
-:::::{admonition} 💪 Aufgabe: Metadaten-Dateien sortieren
-:icon: false
+````{exercise}
+:label: unix-dateien-organisieren
 
 Sie haben verschiedene Metadaten-Dateien und möchten diese organisieren.
 
@@ -175,8 +175,10 @@ $ touch README.md dokumentation.md
 4. Verschieben Sie alle CSV-Dateien in ein Unterverzeichnis `csv/`
 5. Löschen Sie alle Dateien, die "alt" im Namen haben
 6. Zählen Sie, wie viele Dateien übrig sind
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-dateien-organisieren
+:class: dropdown
 
 ```console
 $ ls *.xml
@@ -210,14 +212,12 @@ $ find . -type f
 ./README.md
 ./dokumentation.md
 ```
-
-:::
-:::::
+````
 
 ## Übung 4: Log-Dateien analysieren
 
-:::::{admonition} 💪 Aufgabe: Bibliothekssystem-Logs auswerten
-:icon: false
+````{exercise}
+:label: unix-logs-analysieren
 
 Erstellen Sie eine Beispiel-Log-Datei und analysieren Sie diese:
 
@@ -247,8 +247,10 @@ EOF
 5. Zeigen Sie die letzten 3 Log-Einträge
 6. Finden Sie alle Zeilen, in denen Nutzer\*innen erwähnt werden
 7. Erstellen Sie eine Liste aller Nutzer\*innen (alice, bob)
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-logs-analysieren
+:class: dropdown
 
 ```console
 $ grep "ERROR" system.log
@@ -290,14 +292,12 @@ $ grep -oP "Nutzer \K[a-z]+" system.log | sort | uniq
 alice
 bob
 ```
-
-:::
-:::::
+````
 
 ## Übung 5: Kombinierte Datenverarbeitung
 
-:::::{admonition} 💪 Aufgabe: Bibliotheks-Statistiken
-:icon: false
+````{exercise}
+:label: unix-statistiken
 
 Erstellen Sie eine einfache Ausleih-Statistik-Datei und werten Sie diese aus:
 
@@ -325,8 +325,10 @@ EOF
 5. Erstellen Sie eine sortierte Liste aller Nutzer\*innen (ohne Duplikate)
 6. Zählen Sie, wie oft jede\*r Nutzer\*in geliehen hat
 7. Finden Sie das beliebteste Buch
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-statistiken
+:class: dropdown
 
 ```console
 $ head -n 3 ausleihen.csv
@@ -365,14 +367,12 @@ $ tail -n +2 ausleihen.csv | cut -d',' -f2 | sort | uniq -c | sort -nr | head -1
 
 Interpretation: "Python Basics" wurde 3 Mal ausgeliehen und ist damit das
 beliebteste Buch.
-
-:::
-:::::
+````
 
 ## Übung 6: Aufräumen und Backup
 
-:::::{admonition} 💪 Aufgabe: Projekt-Wartung
-:icon: false
+````{exercise}
+:label: unix-wartung
 
 Typische Wartungsaufgaben für ein Python-Projekt:
 
@@ -398,8 +398,10 @@ $ touch temp_file.txt debug.log
 4. Löschen Sie alle `.pyc`-Dateien und das `__pycache__`-Verzeichnis
 5. Löschen Sie alle Dateien, die mit "temp" oder "debug" beginnen
 6. Erstellen Sie eine Liste aller verbleibenden Dateien in `dateien.txt`
+````
 
-:::{dropdown} ✅ Lösung
+````{solution} unix-wartung
+:class: dropdown
 
 ```console
 $ ls -la
@@ -448,9 +450,7 @@ Alternative: Alle Dateien ohne versteckte und ohne Verzeichnisse:
 ```console
 $ find . -maxdepth 1 -type f ! -name ".*" > dateien.txt
 ```
-
-:::
-:::::
+````
 
 ## Zusammenfassung
 

@@ -8,7 +8,7 @@ numbering:
 
 # Was ist Unix?
 
-Unix ist ein Betriebssystem, das 1969 bei AT&T Bell Labs entwickelt wurde.
+{term}`Unix` ist ein Betriebssystem, das 1969 bei AT&T Bell Labs entwickelt wurde.
 Heute basieren viele moderne Betriebssysteme auf Unix-Prinzipien:
 
 - **Linux** (Ubuntu, Debian, Fedora, etc.)
@@ -24,7 +24,7 @@ for Linux) und Git Bash Unix-ähnliche Umgebungen.
 ::::{seealso} Unix-Philosophie
 
 Die Unix-Philosophie hat die moderne Softwareentwicklung stark geprägt. Viele
-erfolgreiche Tools und Programmiersprachen (inklusive Python) folgen diesen
+erfolgreiche Tools und Programmiersprachen (inklusive {term}`Python`) folgen diesen
 Prinzipien.
 
 ::::
@@ -61,13 +61,13 @@ Befehle, die Sie in diesem Exkurs lernen, funktionieren dort direkt.
 Wenn Sie Python-Programme entwickeln, werden Sie häufig mit Unix-Systemen
 arbeiten:
 
-- **JupyterHub** läuft auf einem Linux-Server
+- {term}`JupyterHub` läuft auf einem Linux-Server
 - Viele **Web-Server und Cloud-Dienste** nutzen Linux
 - **Python-Pakete installieren** und **virtuelle Umgebungen** verwalten erfolgt
   oft über das Terminal
 - **Ausführbare Python-Skripte** basieren auf Unix-Konzepten (Shebang,
   Dateirechte)
-- **Git** und viele Entwicklungstools sind für Unix optimiert
+- {term}`Git` und viele Entwicklungstools sind für Unix optimiert
 
 ## Unix-Zugang unter verschiedenen Betriebssystemen
 
@@ -78,8 +78,8 @@ arbeiten:
 | **Windows**    | WSL (Windows Subsystem for Linux) oder Git Bash installieren             |
 | **JupyterHub** | Terminal über "File → New → Terminal"                                    |
 
-:::::{admonition} 💪 Übung
-:icon: false
+````{exercise}
+:label: unix-uname
 
 Öffnen Sie ein Terminal auf Ihrem System (oder auf JupyterHub) und geben Sie
 folgenden Befehl ein:
@@ -90,8 +90,10 @@ $ uname
 
 Dieser Befehl zeigt den Namen des Betriebssystems an. Auf Linux sehen Sie
 `Linux`, auf macOS `Darwin`.
+````
 
-:::{dropdown} ✅ Erwartete Ausgaben
+````{solution} unix-uname
+:class: dropdown
 
 **Auf Linux/JupyterHub:**
 
@@ -115,6 +117,4 @@ $ uname -a
 
 Dies zeigt detaillierte Systeminformationen (Kernelversion,
 Prozessorarchitektur, etc.).
-
-:::
-:::::
+````

@@ -109,5 +109,16 @@ irgendwo ein oder suchen Sie sich bestimmte Inhalte heraus.
 So oder so sollten Sie keine Scheu davor haben auch nochmal zu früheren
 Inhalten zurückzukehren.
 
-Am Ende des Buchs finden Sie ein [Cheatsheet](../900-Cheatsheet.md) welches Python-Syntax und
--Konzepte nochmals kurz erklärt. Nutzen Sie dieses um sich wieder zu erinnern.
+Am Ende des Buchs finden Sie ein [Cheatsheet](../900-Cheatsheet.md), welches Python-Syntax und
+-Konzepte nochmals kurz erklärt. Nutzen Sie dieses als ständiges
+Nachschlagewerk, um sich wieder zu erinnern – etwa zu
+[CSV-Dateien](../900-Cheatsheet.md#cheatsheet-csv), [Pandas](../900-Cheatsheet.md#cheatsheet-pandas)
+oder [Matplotlib](../900-Cheatsheet.md#cheatsheet-matplotlib).
+
+## Weiterführende Ressourcen
+
+Zum vertieften Selbststudium neben diesem Kurs:
+
+- **Offizielle Dokumentation:** [Python-3-Dokumentation](https://docs.python.org/3/) mit dem [Tutorial](https://docs.python.org/3/tutorial/) und [Python for Beginners](https://www.python.org/about/gettingstarted/)
+- **Bücher (kostenlos):** Al Sweigart, [_Automate the Boring Stuff with Python_](https://automatetheboringstuff.com/) und Allen B. Downey, [_Think Python_](https://greenteapress.com/wp/think-python-2e/)
+- **Bibliotheksspezifische OER:** [Library Carpentry](https://librarycarpentry.org/) und [The Programming Historian](https://programminghistorian.org/)
