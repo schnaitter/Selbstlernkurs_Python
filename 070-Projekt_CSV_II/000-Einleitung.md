@@ -49,7 +49,7 @@ dürfen.
 In diesem Modul nutzen wir dieselbe synthetisch erzeugte Datei wie im
 Vorkapitel [Projekt CSV I](../040-Projekt_CSV_I/000-Einleitung.md):
 
-`assets/data/books_powerlaw_dataset.csv`
+{download}`books_powerlaw_dataset.csv <../assets/data/books_powerlaw_dataset.csv>`
 
 Die Datei enthält Verkaufszahlen von 30 Büchern über sechs Jahre und hat
 folgende Spalten:
