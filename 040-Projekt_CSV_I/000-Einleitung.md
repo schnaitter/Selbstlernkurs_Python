@@ -33,8 +33,8 @@ Aufgabe angerechnet werden.
 ## Fahrplan durch dieses Kapitel
 
 Als durchgängiges Beispiel dient der synthetisch erzeugte Datensatz
-`assets/data/books_powerlaw_dataset.csv`. Er enthält für die Jahre 2020 bis
-2025 Verkaufszahlen zu einer Reihe von Büchern.
+{download}`books_powerlaw_dataset.csv <../assets/data/books_powerlaw_dataset.csv>`.
+Er enthält für die Jahre 2020 bis 2025 Verkaufszahlen zu einer Reihe von Büchern.
 
 **Kapitelinhalt:**
 

@@ -74,9 +74,10 @@ Matrikel Nr.\tNachname\tVorname\tAdresse\tHZB
 ## Synthetische Testdaten für dieses Kapitel
 
 In diesem Kapitel nutzen wir die syntetisch erstellte CSV-Datei
-`books_powerlaw_dataset.csv`, welche mit dem Skript `generate_csv.py` generiert
-wurde. Da das Skript die Buchreihenfolge randomisiert ist es (nahezu) unmöglich,
-die gleiche Test-Datei erneut herzustellen.
+{download}`books_powerlaw_dataset.csv <../assets/data/books_powerlaw_dataset.csv>`,
+welche mit dem Skript `generate_csv.py` generiert wurde. Da das Skript die
+Buchreihenfolge randomisiert ist es (nahezu) unmöglich, die gleiche Test-Datei
+erneut herzustellen.
 
 Hier sehen Sie die ersten 40 Zeilen der Datei.
 
