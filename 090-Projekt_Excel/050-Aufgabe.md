@@ -32,9 +32,10 @@ Die Aufgabe kann als **Kleine Aufgabe** angerechnet werden.
 
 ## Ausgangsdaten
 
-Verwenden Sie die {term}`Excel`-Datei `assets/data/bibliothek_unsauber.xlsx`. Sie stammt aus
-einem fiktiven Bibliothekssystem, enthält aber genau die Probleme, die auch bei
-echten Exporten auftreten. Die Datei erzeugen Sie bei Bedarf neu mit:
+Verwenden Sie die {term}`Excel`-Datei
+{download}`bibliothek_unsauber.xlsx <../assets/data/bibliothek_unsauber.xlsx>`.
+Sie stammt aus einem fiktiven Bibliothekssystem, enthält aber genau die Probleme,
+die auch bei echten Exporten auftreten. Die Datei erzeugen Sie bei Bedarf neu mit:
 
 ```bash
 $ python3 090-Projekt_Excel/generate_excel_data.py

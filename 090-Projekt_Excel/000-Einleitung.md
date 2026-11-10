@@ -56,9 +56,9 @@ Dieses Projekt baut auf den beiden CSV-Projekten auf.
 
 Die Beispieldaten werden mit dem Skript
 [`generate_excel_data.py`](generate_excel_data.py) reproduzierbar erzeugt: eine
-bewusst „unsaubere“ Excel-Datei (`assets/data/bibliothek_unsauber.xlsx`) mit
-fehlenden Werten, Duplikaten, falsch typisierten Spalten und uneinheitlichen
-Kategorien.
+bewusst „unsaubere“ Excel-Datei mit fehlenden Werten, Duplikaten, falsch
+typisierten Spalten und uneinheitlichen Kategorien:
+{download}`bibliothek_unsauber.xlsx <../assets/data/bibliothek_unsauber.xlsx>`.
 
 1. [Excel einlesen](010-Excel_einlesen.ipynb) – `read_excel`, Sheets, erster
    Überblick und das Erkennen von Typ-Problemen.

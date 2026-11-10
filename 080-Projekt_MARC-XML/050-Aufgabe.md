@@ -30,8 +30,8 @@ an: {term}`MARC-XML` einlesen, filtern, auswerten und nach {term}`BibTeX` export
 Grundlage bilden die synthetischen Beispieldaten aus dem Skript
 `generate_marc_data.py`:
 
-- `assets/data/beispieldaten.json` – bibliografische Quelldaten
-- `assets/data/beispieldaten.marcxml` – dieselben Titel als MARC-XML
+- {download}`beispieldaten.json <../assets/data/beispieldaten.json>` – bibliografische Quelldaten
+- {download}`beispieldaten.marcxml <../assets/data/beispieldaten.marcxml>` – dieselben Titel als MARC-XML
 
 Legen Sie Ihre Skripte und Ergebnisdateien im Ordner `080-Projekt_MARC-XML/`
 beziehungsweise in `assets/data/` ab.
