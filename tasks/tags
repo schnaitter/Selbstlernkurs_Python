@@ -1,0 +1,23 @@
+review, Review-Durchgang durch eine Inhaltsdatei des Selbstlernkurses
+root, Dateien im Projektwurzelverzeichnis (index.md, 900-Cheatsheet.md)
+solutions, Referenzlösungen und Beispieldaten im Ordner solutions/
+
+000-Einleitung, Kapitel 000 Einleitung
+010-Installation_Technik, Kapitel 010 Installation und Technik
+020-Projekt_Taschenrechner_I, Kapitel 020 Projekt Taschenrechner I
+030-Exkurs_Unix, Kapitel 030 Exkurs Unix
+040-Projekt_CSV_I, Kapitel 040 Projekt CSV I
+050-Exkurs_Git, Kapitel 050 Exkurs Git
+060-Projekt_Taschenrechner_II, Kapitel 060 Projekt Taschenrechner II
+070-Projekt_CSV_II, Kapitel 070 Projekt CSV II
+080-Projekt_MARC-XML, Kapitel 080 Projekt MARC-XML
+090-Projekt_Excel, Kapitel 090 Projekt Excel
+095-Exkurs_Git_Vertiefung, Kapitel 095 Exkurs Git Vertiefung
+999-Epilog, Kapitel 999 Epilog
+
+sol-020, Lösungen zu Kapitel 020 Projekt Taschenrechner I
+sol-040, Lösungen zu Kapitel 040 Projekt CSV I
+sol-060, Lösungen zu Kapitel 060 Projekt Taschenrechner II
+sol-070, Lösungen zu Kapitel 070 Projekt CSV II
+sol-080, Lösungen zu Kapitel 080 Projekt MARC-XML
+sol-090, Lösungen zu Kapitel 090 Projekt Excel
