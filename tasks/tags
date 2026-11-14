@@ -1,5 +1,6 @@
 review, Review-Durchgang durch eine Inhaltsdatei des Selbstlernkurses
 build, Build-Prozess (Jupyter Book, CI, generierte Dateien)
+dependabot, Dependabot-Konfiguration und Abhängigkeits-Updates
 root, Dateien im Projektwurzelverzeichnis (index.md, 900-Cheatsheet.md)
 solutions, Referenzlösungen und Beispieldaten im Ordner solutions/
 
