@@ -1,4 +1,5 @@
 review, Review-Durchgang durch eine Inhaltsdatei des Selbstlernkurses
+build, Build-Prozess (Jupyter Book, CI, generierte Dateien)
 root, Dateien im Projektwurzelverzeichnis (index.md, 900-Cheatsheet.md)
 solutions, Referenzlösungen und Beispieldaten im Ordner solutions/
 
