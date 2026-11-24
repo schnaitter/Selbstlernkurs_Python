@@ -1,0 +1,28 @@
+# Dependabot: wöchentliche Versions-Updates für Python-Abhängigkeiten (uv.lock)
+# und GitHub Actions. Security-Updates laufen zusätzlich über den Repo-Toggle
+# "Dependabot security updates" und ignorieren Zeitplan und Cooldown.
+#
+# Jeder Dependabot-PR durchläuft automatisch den vollständigen Kurs-Build
+# (.github/workflows/build.yml, `jupyter book build --execute --all`) – das
+# ist das Sicherheitsnetz für Major-Bumps. Major-Updates werden bewusst
+# nicht ignoriert, müssen aber vor dem Merge manuell geprüft werden, weil
+# sie sichtbare Änderungen in den Kursinhalten erzeugen können.
+version: 2
+updates:
+  - package-ecosystem: uv
+    directory: /
+    schedule:
+      interval: weekly
+    # Ein Sammel-PR statt vieler Einzel-PRs: Alle ändern uv.lock und würden
+    # nach dem ersten Merge miteinander kollidieren.
+    groups:
+      python-deps:
+        patterns: ["*"]
+    # Karenzzeit für Versions-Updates: Der Kurs hängt an reproduzierbaren
+    # Notebook-Ausgaben; neue Releases sollen sich erst eine Woche bewähren.
+    cooldown:
+      default-days: 7
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
