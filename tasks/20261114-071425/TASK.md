@@ -1,6 +1,6 @@
 # Build verändert versionierte Datei assets/data/bibliothek_sauber.xlsx
 
-- STATUS: OPEN
+- STATUS: CLOSED
 - PRIORITY: 20
 - TAGS: 090-Projekt_Excel,build
 
@@ -58,11 +58,28 @@ selbst sind byte-identisch. Es gehen also keine Inhalte verloren — die
 4. `git update-index --skip-worktree` — löst das Problem nur lokal und nicht in
    CI, daher keine echte Lösung.
 
+## Umsetzung (2026-11-24)
+
+Lösung 1 (Zeitstempel normalisieren) im Notebook umgesetzt. Wichtig: Die
+Analyse oben übersah eine zweite Rauschquelle – neben `docProps/core.xml`
+stempelt `openpyxl` auch die **Zip-Einträge** mit der aktuellen Uhrzeit
+(`ZipFile.writestr` mit String-Namen). Die letzte Code-Zelle schreibt die
+Datei deshalb nach `to_excel` neu und setzt beide Zeitstempelarten auf
+feste Werte (2026-01-01). Der Markdown-Text erklärt die Stolperfalle als
+Beispiel für reproduzierbare Builds.
+
+Verifikation: Notebook zweimal mit `nbconvert --execute` ausgeführt (3 s
+Abstand) → Datei byte-identisch (SHA-256 gleich). Dateninhalt per
+`pandas.read_excel(...).equals(...)` gegen `HEAD` geprüft: identisch,
+53 Zeilen. `static_files` unverändert; die versionierte Datei wurde einmalig
+mit normalisierten Zeitstempeln neu erzeugt.
+
 ## Checkliste
 
-- [ ] Reproduziert: Build ausführen, `git status` zeigt die Datei als geändert
-- [ ] Lösung gewählt (siehe oben) und im Notebook/Post-Processing umgesetzt
-- [ ] Zwei aufeinanderfolgende Builds erzeugen keinen Diff mehr
-- [ ] Datei ist weiterhin über die Kurs-Website abrufbar (`static_files`)
-- [ ] Kapiteltext in `020-Datenbereinigen.ipynb` prüfen, falls sich der Pfad
+- [x] Reproduziert: Notebook ausführen, Datei zeigt sich als geändert
+- [x] Lösung gewählt (siehe oben) und im Notebook/Post-Processing umgesetzt
+- [x] Zwei aufeinanderfolgende Builds erzeugen keinen Diff mehr
+      (nachgewiesen über zwei Notebook-Ausführungen, s. o.)
+- [x] Datei ist weiterhin über die Kurs-Website abrufbar (`static_files`)
+- [x] Kapiteltext in `020-Datenbereinigen.ipynb` prüfen, falls sich der Pfad
       oder das Speicherverhalten ändert
