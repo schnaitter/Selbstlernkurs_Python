@@ -75,10 +75,32 @@ Sicherheitsnetz für Major-Bumps (pandas, numpy, pillow).
   Kursinhalt sichtbare Änderungen erzeugen können?
 - Wer reviewt die PRs, wenn sie automatisch eintreffen?
 
+## Umsetzung (2026-11-24)
+
+Entscheidungen:
+
+1. **Security-Updates: aktiviert** (Repo-Toggle via API, `enabled: true`).
+2. **`dependabot.yml` angelegt**: `uv` wöchentlich, alle Abhängigkeiten in
+   einer Gruppe `python-deps` (ein Sammel-PR, da alle Einzel-PRs `uv.lock`
+   ändern und nach dem ersten Merge kollidieren würden).
+3. **Major-Updates: nicht ignoriert.** Der Build-Check (`build.yml`,
+   `--execute --all`) läuft auf jedem Dependabot-PR und fängt Brüche;
+   Major-Bumps erfordern zusätzlich manuelle Review vor dem Merge.
+   Dokumentiert als Kommentar in `dependabot.yml`.
+4. **GitHub Actions: wöchentlich**, SHA-Pin von `setup-uv` hat den
+   Versionskommentar in derselben Zeile und wird aktualisiert.
+5. **Cooldown: 7 Tage** für Versions-Updates (reproduzierbare
+   Notebook-Ausgaben); Security-Updates sind davon ausgenommen.
+
+Offen: Probelauf und Build-Check der ersten Dependabot-PRs – dafür muss die
+Config erst auf `main` landen (Dependabot liest sie nur vom Default-Branch).
+Review der eintreffenden PRs: Repository-Eigner.
+
 ## Checkliste
 
-- [ ] Entscheidung zu Security-Updates (Toggle) getroffen
-- [ ] Entscheidung zu `dependabot.yml` und Gruppierung getroffen
-- [ ] Config angelegt und ein Probelauf abgewartet
+- [x] Entscheidung zu Security-Updates (Toggle) getroffen
+- [x] Entscheidung zu `dependabot.yml` und Gruppierung getroffen
+- [ ] Config angelegt und ein Probelauf abgewartet (angelegt ✓, Probelauf
+      steht aus bis zum Merge)
 - [ ] Geprüft, ob Dependabot-PRs den Build-Check erfolgreich durchlaufen
-- [ ] Umgang mit Major-Updates dokumentiert (ignore-Regel oder Review-Pflicht)
+- [x] Umgang mit Major-Updates dokumentiert (ignore-Regel oder Review-Pflicht)
