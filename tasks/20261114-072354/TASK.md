@@ -92,15 +92,25 @@ Entscheidungen:
 5. **Cooldown: 7 Tage** für Versions-Updates (reproduzierbare
    Notebook-Ausgaben); Security-Updates sind davon ausgenommen.
 
-Offen: Probelauf und Build-Check der ersten Dependabot-PRs – dafür muss die
-Config erst auf `main` landen (Dependabot liest sie nur vom Default-Branch).
-Review der eintreffenden PRs: Repository-Eigner.
+Offen: Build-Check der ersten **uv**- und Security-PRs. Review der
+eintreffenden PRs: Repository-Eigner.
+
+## Probelauf (2026-11-25)
+
+Config gemergt als `b269233` (PR #108). Dependabot hat sofort fünf
+Actions-Versions-PRs geöffnet (#109–#113, darunter der SHA-Pin
+`setup-uv` 8.0.0 → 10.4.0) – **alle fünf bestehen den Build-Check**.
+Der uv-Sammel-PR und Security-PRs stehen noch aus; es sind inzwischen
+30 neue Alerts aufgelaufen (v. a. pillow 13.0.0, dazu tornado, soupsieve,
+nbconvert, mistune, certifi, setuptools). Security-Updates sind aktiv und
+sollten dafür PRs öffnen (Limit: 10 offene).
 
 ## Checkliste
 
 - [x] Entscheidung zu Security-Updates (Toggle) getroffen
 - [x] Entscheidung zu `dependabot.yml` und Gruppierung getroffen
-- [ ] Config angelegt und ein Probelauf abgewartet (angelegt ✓, Probelauf
-      steht aus bis zum Merge)
+- [x] Config angelegt und ein Probelauf abgewartet (Actions-PRs #109–#113
+      eingetroffen; uv-/Security-PRs stehen aus)
 - [ ] Geprüft, ob Dependabot-PRs den Build-Check erfolgreich durchlaufen
+      (Actions: ✓ alle fünf; uv und Security: steht aus)
 - [x] Umgang mit Major-Updates dokumentiert (ignore-Regel oder Review-Pflicht)
