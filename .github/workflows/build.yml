@@ -41,7 +41,7 @@ jobs:
         run: uv run jupyter book build --execute --all --html
 
       - name: Upload build output
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: jupyter-book-html
           path: ./_build/html
